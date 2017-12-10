@@ -1,7 +1,7 @@
 import RiHome from './home/RiHome';
 import RiBio from './bio/RiBio';
 import RiWork from './work/RiWork';
-import RiHobby from './hobby/RiHobby';
+import RiHobbies from './hobbies/RiHobbies';
 import RiWhy from './why/RiWhy';
 
 export default [
@@ -32,7 +32,7 @@ export default [
   {
     path: '/hobby',
     name: 'hobby',
-    component: RiHobby,
+    component: RiHobbies,
     data: {
       translationKey: 'hobby'
     }

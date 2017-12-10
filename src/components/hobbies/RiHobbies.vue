@@ -1,14 +1,14 @@
 <template lang="pug">
-
+.ri-hobbies Hobbies
 </template>
 
 <script>
 export default {
-  name: 'RiHobby'
+  name: 'RiHobbies'
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 
 </style>
 

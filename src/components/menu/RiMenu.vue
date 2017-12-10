@@ -10,9 +10,7 @@ import ROUTES from '../routes';
 export default {
   name: 'RiMenu',
   data() {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    };
+    return {};
   },
   computed: {
     routes: () => ROUTES
