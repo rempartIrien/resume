@@ -1,0 +1,92 @@
+{
+  "en": [
+    {
+      "id": "11",
+      "dateString": "10/2017 to today",
+      "title": "CCGPF - MooV",
+      "subtitle": "Tech lead, contractor from Viseo",
+      "content": "",
+      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "git", "webpack", "Maven"]
+    },
+    {
+      "id": "10",
+      "dateString": "10/2017 to 12/2017",
+      "title": "HomeSend - Web Customer Care",
+      "subtitle": "Tech lead, contractor from Viseo",
+      "content": "",
+      "tags": ["Angular", "Jasmine", "Karma", "SCSS", "git", "AngularCLI"]
+    },
+    {
+      "id": "9",
+      "dateString": "07/2016 to 09/2017",
+      "title": "Elis - Portail InfoConso",
+      "subtitle": "Front-end expert, contractor from Viseo",
+      "content": "",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven", "IoT"]
+    },
+    {
+      "id": "8",
+      "dateString": "10/2016 to 07/2017",
+      "title": "Xerox (then Conduent) - Xerox Case Management",
+      "subtitle": "Front-end expert, contractor from Viseo",
+      "content": "",
+      "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "git", "TeamCity", "Gulp"]
+    },
+    {
+      "id": "7",
+      "dateString": "06/2016 to 10/2016",
+      "title": "Three Ireland - Site with Lumata technology",
+      "subtitle": "Front-end developer, contractor from Viseo",
+      "content": "",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven"]
+    },
+    {
+      "id": "6",
+      "dateString": "06/2015 to 04/2016",
+      "title": "Elis - Portail InfoConso",
+      "subtitle": "Front-end leader, contractor from Viseo",
+      "content": "",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven", "IoT"]
+    },
+    {
+      "id": "5",
+      "dateString": "02/2015 to 06/2015",
+      "title": "Coservit - ",
+      "subtitle": "Front-end developer, contractor from Viseo",
+      "content": "",
+      "tags": ["JavaScript", "HTML5", "CSS3", "SVN"]
+    },
+    {
+      "id": "4",
+      "dateString": "10/2014 to 02/2015",
+      "title": "Schneider - PEPs",
+      "subtitle": "Front-end developer, contractor from Viseo",
+      "content": "",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "git"]
+    },
+    {
+      "id": "3",
+      "dateString": "06/2013 to 10/2014",
+      "title": "Viseo - Synaps",
+      "subtitle": "Front-end developer",
+      "content": "",
+      "tags": ["Backbone.js", "stompjs", "Java", "Spring", "git"]
+    },
+    {
+      "id": "2",
+      "dateString": "03/2013 to 06/2013",
+      "title": "Net Test",
+      "subtitle": "PHP developer, contractor from Viseo",
+      "content": "",
+      "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"]
+    },
+    {
+      "id": "1",
+      "dateString": "08/2012 to 11/2012",
+      "title": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy app",
+      "subtitle": "JEE developer",
+      "content": "",
+      "tags": ["Java", "SVN", "Nagios"]
+    }
+  ]
+}

@@ -1,10 +1,25 @@
 <template lang="pug">
-.ri-work(v-t="'title'")
+.ri-work
+  h1(v-t="'title'")
+  ul
+    li(v-for="experience in experiences", :key="experience.id")
+      ri-block(:experience="experience")
 </template>
 
 <script>
+import RiBlock from './RiBlock';
+import experiences from './experiences.json';
+
 export default {
-  name: 'RiWork'
+  name: 'RiWork',
+  components: {
+    RiBlock
+  },
+  computed: {
+    experiences() {
+      return experiences.en;
+    }
+  }
 };
 </script>
 

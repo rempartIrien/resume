@@ -1,6 +1,6 @@
 <template lang="pug">
   ul.ri-menu
-    li(v-for="route in routes")
+    li(v-for="route in routes", :key="route.path")
       router-link(:to="route.path") {{ route.data.translationKey }}
 </template>
 

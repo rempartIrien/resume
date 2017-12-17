@@ -11,7 +11,8 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "lint:fix": "node_modules/.bin/eslint src/** --fix  --ignore-pattern src/assets/**"
   },
   "dependencies": {
     "vue": "^2.5.2",
