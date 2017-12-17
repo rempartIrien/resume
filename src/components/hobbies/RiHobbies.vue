@@ -1,5 +1,5 @@
 <template lang="pug">
-.ri-hobbies Hobbies
+.ri-hobbies(v-t="'title'")
 </template>
 
 <script>
@@ -11,5 +11,13 @@ export default {
 <style lang="stylus" scoped>
 
 </style>
+
+<i18n>
+  {
+    "en": { "title": "Hobbies" },
+    "fr": { "title": "Loisirs" }
+  }
+</i18n>
+
 
 

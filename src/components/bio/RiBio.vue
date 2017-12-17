@@ -1,5 +1,5 @@
 <template lang="pug">
-.ri-bio Bio
+.ri-bio(v-t="'title'")
 </template>
 
 <script>
@@ -11,5 +11,13 @@ export default {
 <style lang="stylus" scoped>
 
 </style>
+
+<i18n>
+  {
+    "en": { "title": "Bio" },
+    "fr": { "title": "Bio" }
+  }
+</i18n>
+
 
 

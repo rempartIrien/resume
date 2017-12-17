@@ -1,5 +1,5 @@
 <template lang="pug">
-.ri-why Why
+.ri-why(v-t="'title'")
 </template>
 
 <script>
@@ -11,5 +11,13 @@ export default {
 <style lang="stylus" scoped>
 
 </style>
+
+<i18n>
+  {
+    "en": { "title": "Why" },
+    "fr": { "title": "Pourquoi" }
+  }
+</i18n>
+
 
 

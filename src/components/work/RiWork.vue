@@ -1,5 +1,5 @@
 <template lang="pug">
-.ri-work Work
+.ri-work(v-t="'title'")
 </template>
 
 <script>
@@ -11,5 +11,13 @@ export default {
 <style lang="stylus" scoped>
 
 </style>
+
+<i18n>
+  {
+    "en": { "title": "Work" },
+    "fr": { "title": "Travail" }
+  }
+</i18n>
+
 
 
