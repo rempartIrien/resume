@@ -2,7 +2,7 @@
 .ri-work
   h1(v-t="'title'")
   ul.ri-block__experiences
-    li(v-for="experience in experiences", :key="experience.id")
+    li.ri-block__experience(v-for="experience in experiences", :key="experience.id")
       ri-block(:experience="experience")
 </template>
 
@@ -24,10 +24,13 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '../../style/variables'
   @import '../../style/extends';
 
-  .ri-block__experiences
-    @extends .ri-u-list--unstyled
+  .ri-block
+    &__experiences
+      @extends .ri-u-list--unstyled
+
 </style>
 
 <i18n>
