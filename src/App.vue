@@ -1,7 +1,6 @@
 <template lang="pug">
   #app
     ri-menu
-    img(src="./assets/logo.png")
     router-view
 </template>
 
@@ -18,9 +17,15 @@ export default {
 
 <style lang="stylus">
   @import './style/variables'
+  @import './style/mixins'
 
   html
+    // Set 1rem to 10px
     font-size 62.5%
+
+  body
+    ri-m-regularText()
+    background-color $ri-backgroundColor
 
   #app
     font-family: 'Avenir', Helvetica, Arial, sans-serif;

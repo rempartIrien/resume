@@ -25,11 +25,11 @@ export default {
 
 <style lang="stylus" scoped>
   @import '../../style/variables'
-  @import '../../style/extends';
+  @import '../../style/mixins';
 
   .ri-block
     &__experiences
-      @extends .ri-u-list--unstyled
+      ri-m-unstyleList()
 
 </style>
 
