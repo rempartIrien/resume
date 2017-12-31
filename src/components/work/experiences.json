@@ -14,7 +14,7 @@
       "dateString": "10/2017 to 12/2017",
       "title": "HomeSend - Web Customer Care",
       "subtitle": "Tech lead, contractor from Viseo",
-      "content": "",
+      "content": "I remake an old interface showing transactions.",
       "tags": ["Angular", "Jasmine", "Karma", "SCSS", "git", "AngularCLI"],
       "inProgress": false
     },
@@ -23,8 +23,8 @@
       "dateString": "07/2016 to 09/2017",
       "title": "Elis - Portail InfoConso",
       "subtitle": "Front-end expert, contractor from Viseo",
-      "content": "",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven", "IoT"],
+      "content": "Back on this project, I had to help the team to create new screens based on what we had previously done on year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possibles solutions had.",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false
     },
     {
@@ -32,16 +32,16 @@
       "dateString": "10/2016 to 07/2017",
       "title": "Xerox (then Conduent) - Xerox Case Management",
       "subtitle": "Front-end expert, contractor from Viseo",
-      "content": "",
+      "content": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The frontend team and I had to offer the same experience as on the WPF client to web users.",
       "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "git", "TeamCity", "Gulp"],
       "inProgress": false
     },
     {
       "id": "7",
       "dateString": "06/2016 to 10/2016",
-      "title": "Three Ireland - Site with Lumata technology",
+      "title": "Three Ireland - Three Plus site with Lumata technology",
       "subtitle": "Front-end developer, contractor from Viseo",
-      "content": "",
+      "content": "Three Ireland wanted to use Lumata technology to target users more efficienly with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobiles apps and choe to have a common codebase using Ionic.",
       "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven"],
       "inProgress": false
     },
@@ -50,17 +50,17 @@
       "dateString": "06/2015 to 04/2016",
       "title": "Elis - Portail InfoConso",
       "subtitle": "Front-end leader, contractor from Viseo",
-      "content": "",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven", "IoT"],
+      "content": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of messages to extract and gather data. The website used a graphical framework we created and provided complex interfaces for administration and reporting.",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false
     },
     {
       "id": "5",
       "dateString": "02/2015 to 06/2015",
-      "title": "Coservit - ",
+      "title": "Coservit - Viadéis",
       "subtitle": "Front-end developer, contractor from Viseo",
-      "content": "",
-      "tags": ["JavaScript", "HTML5", "CSS3", "SVN"],
+      "content": "Coservit Viadéis provides additional modules for Sage CRM. I had to make them suitable to a new Sage CRM version which brought breaking changes. No framework were used, except for jQuery, and everything was injected by JavaScript.",
+      "tags": ["JavaScript", "jQuery", "HTML5", "CSS3", "SVN"],
       "inProgress": false
     },
     {
@@ -68,7 +68,7 @@
       "dateString": "10/2014 to 02/2015",
       "title": "Schneider - PEPs",
       "subtitle": "Front-end developer, contractor from Viseo",
-      "content": "",
+      "content": "PEPs collects and analyzes building energy consumption data.",
       "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "git"],
       "inProgress": false
     },
@@ -77,16 +77,16 @@
       "dateString": "06/2013 to 10/2014",
       "title": "Viseo - Synaps",
       "subtitle": "Front-end developer",
-      "content": "",
-      "tags": ["Backbone.js", "stompjs", "Java", "Spring", "git"],
+      "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemenetd concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
+      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "git"],
       "inProgress": false
     },
     {
       "id": "2",
       "dateString": "03/2013 to 06/2013",
-      "title": "Net Test",
+      "title": "Net Test - Training Request Module",
       "subtitle": "PHP developer, contractor from Viseo",
-      "content": "",
+      "content": "Net Test provides linguistic formations and wanted a module to register training request from clients. I had to cerate and add it in an old existing website.",
       "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
       "inProgress": false
     },
@@ -94,9 +94,9 @@
       "id": "1",
       "dateString": "08/2012 to 11/2012",
       "title": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy app",
-      "subtitle": "JEE developer",
-      "content": "",
-      "tags": ["Java", "SVN", "Nagios"],
+      "subtitle": "Java EE developer",
+      "content": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
+      "tags": ["Java", "Java EE", "SVN", "Nagios"],
       "inProgress": false
     }
   ]

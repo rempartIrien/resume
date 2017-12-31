@@ -6,8 +6,8 @@
       h2.ri-block__title {{experience.title}}
       h3.ri-block__subtitle {{experience.subtitle}}
       p.ri-block__content {{experience.content}}
-      ul.ri-block__tags
-        li(v-for="tag in experience.tags", :key="tag") {{ tag }}
+      ul.ri-block__tags.ri-tagList
+        li.ri-tagList__item(v-for="tag in experience.tags", :key="tag") {{ tag }}
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
 
     &__date,
     &__info
-      padding 3 * $ri-baseMargin
+      padding 5 * $ri-baseMargin
       padding-top 0
 
     &__info
@@ -45,27 +45,41 @@ export default {
     &__subtitle
       ri-m-subtitleText()
 
+    &__content
+      margin 0
+      padding $ri-baseMargin 0
+
     &__title,
     &__subtitle
       ri-m-noPaddingMargin()
 
-    &__tags
-      ri-m-unstyleList()
+  .ri-tagList
+    ri-m-unstyleList()
+    ri-m-regularText($ri-tertiaryColor)
+
+    &__item
+      display inline-block
+
+      &::after
+        content ', '
+
+      &:last-child::after
+        content ''
 
   .ri-date__text
     position relative
 
-   &::after
-    content ''
-    border-radius 50%
-    border $ri-baseMargin solid $ri-tertiaryColor
-    background-color $ri-tertiaryColor
-    display block
-    height $ri-baseMargin
-    width $ri-baseMargin
-    position absolute
-    right -(2 + 3) * $ri-baseMargin
-    top 0
+    &::after
+      content ''
+      border-radius 50%
+      border $ri-baseMargin solid $ri-tertiaryColor
+      background-color $ri-tertiaryColor
+      display block
+      height $ri-baseMargin
+      width $ri-baseMargin
+      position absolute
+      right -(4 + 3) * $ri-baseMargin
+      top 0
 
   &.ri-s-inProgress .ri-date__text::after
     border-radius 0
@@ -77,7 +91,7 @@ export default {
     border-right 1.75 * $ri-baseMargin solid transparent
     border-bottom 3.5 * $ri-baseMargin solid $ri-tertiaryColor
     top -1 * $ri-baseMargin
-    right -(2 + 3.25) * $ri-baseMargin
+    right -(4 + 3.25) * $ri-baseMargin
 
 </style>
 
