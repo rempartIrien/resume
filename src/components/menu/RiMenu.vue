@@ -1,7 +1,7 @@
 <template lang="pug">
   ul.ri-menu
-    li(v-for="route in routes", :key="route.path")
-      router-link(:to="route.path") {{ route.data.translationKey }}
+    li.ri-menu__item(v-for="route in routes", :key="route.path")
+      router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active", v-t="route.data.translationKey")
 </template>
 
 <script>
@@ -18,20 +18,47 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
-h1, h2
-  font-weight normal
+  @import '../../style/variables'
+  @import '../../style/mixins'
 
-ul
-  list-style-type: none
-  padding: 0
+  .ri-menu
+    // See App.vue for padding policy
+    margin 0
 
-li
-  display: inline-block
-  margin: 0 10px
+    &__item
+      display inline-block
+      padding $ri-baseMargin
 
-a
-  color #42b983
+    &__link
+      &,
+      &:visited
+        text-decoration none
+        ri-m-text($ri-secondaryColor, 2rem)
+
+      &:hover,
+      &:active,
+      &.ri-s-active
+        color $ri-primaryColor
+        text-decoration underline
 
 </style>
+
+<i18n>
+  {
+    "en": {
+      "home": "Home",
+      "bio": "Bio",
+      "work": "Work",
+      "hobby": "Hobby",
+      "why": "Why?"
+    },
+    "fr": {
+      "home": "Accueil",
+      "bio": "Bio",
+      "work": "Pro",
+      "hobby": "Loisir",
+      "why": "Pourquoi?"
+    }
+  }
+</i18n>

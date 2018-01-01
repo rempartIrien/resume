@@ -55,16 +55,15 @@ export default {
 
   .ri-tagList
     ri-m-unstyleList()
-    ri-m-regularText($ri-tertiaryColor)
+    ri-m-regularText($ri-secondaryColor)
 
     &__item
       display inline-block
 
-      &::after
-        content ', '
-
-      &:last-child::after
-        content ''
+      &:not(:last-child):after
+        content ','
+        display inline-block
+        padding-right 0.5 * $ri-baseMargin
 
   .ri-date__text
     position relative

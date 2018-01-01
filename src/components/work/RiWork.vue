@@ -1,8 +1,8 @@
 <template lang="pug">
 .ri-work
-  h1(v-t="'title'")
-  p(v-t="'summary'")
-  ul.ri-block__experiences
+  h1.ri-work__title(v-t="'title'")
+  p.ri-work__intro(v-t="'summary'")
+  ul.ri-work__experiences
     li.ri-block__experience(v-for="experience in experiences", :key="experience.id")
       ri-block(:experience="experience")
 </template>
@@ -28,7 +28,16 @@ export default {
   @import '../../style/variables'
   @import '../../style/mixins';
 
-  .ri-block
+  .ri-work
+    ri-m-bodyMaxWidth()
+
+    &__title
+      ri-m-pageTitle()
+
+    &__subtitle
+      ri-m-pagSubtitle()
+
+
     &__experiences
       ri-m-unstyleList()
 

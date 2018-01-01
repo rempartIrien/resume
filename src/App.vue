@@ -1,7 +1,8 @@
 <template lang="pug">
-  #app
-    ri-menu
-    router-view
+  #app.ri-app
+    ri-menu.ri-app__menu
+    .ri-app__container
+      router-view.ri-app__view
 </template>
 
 <script>
@@ -26,12 +27,27 @@ export default {
   body
     ri-m-regularText()
     background-color $ri-backgroundColor
+    height 100vh
 
-  #app
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  .ri-app
+    font-family: Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+    display flex
+    flex-direction column
     margin 0 auto
-    max-width $ri-body-maxWidth
+    height 100%
+
+    &__menu,
+    &__container
+      padding "0 calc(%s - %s)" % ((100vw / 2) ($ri-body-maxWidth / 2))
+
+    &__container
+      flex 1
+      overflow auto
+
+    &__view
+      padding 2 * $ri-baseMargin
+
 </style>
