@@ -5,8 +5,8 @@
       "dateString": "10/2017 to today",
       "title": "CCGPF - MooV",
       "subtitle": "Tech lead, contractor from Viseo",
-      "content": "",
-      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "git", "webpack", "Maven"],
+      "content": "CCGPF is in charge of organizing summer camps for SNCF's employee children and wanted an application able to dispatch and bring them to destination safely.",
+      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "Git", "webpack", "Maven"],
       "inProgress": true
     },
     {
@@ -14,8 +14,8 @@
       "dateString": "10/2017 to 12/2017",
       "title": "HomeSend - Web Customer Care",
       "subtitle": "Tech lead, contractor from Viseo",
-      "content": "I remake an old interface showing transactions.",
-      "tags": ["Angular", "Jasmine", "Karma", "SCSS", "git", "AngularCLI"],
+      "content": "HomeSend provide a transactions system and I help a junior developer to remake an old Flex interface in Angular.",
+      "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
       "inProgress": false
     },
     {
@@ -24,7 +24,7 @@
       "title": "Elis - Portail InfoConso",
       "subtitle": "Front-end expert, contractor from Viseo",
       "content": "Back on this project, I had to help the team to create new screens based on what we had previously done on year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possibles solutions had.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false
     },
     {
@@ -33,7 +33,7 @@
       "title": "Xerox (then Conduent) - Xerox Case Management",
       "subtitle": "Front-end expert, contractor from Viseo",
       "content": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The frontend team and I had to offer the same experience as on the WPF client to web users.",
-      "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "git", "TeamCity", "Gulp"],
+      "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "Git", "TeamCity", "Gulp"],
       "inProgress": false
     },
     {
@@ -42,7 +42,7 @@
       "title": "Three Ireland - Three Plus site with Lumata technology",
       "subtitle": "Front-end developer, contractor from Viseo",
       "content": "Three Ireland wanted to use Lumata technology to target users more efficienly with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobiles apps and choe to have a common codebase using Ionic.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "git", "Jenkins", "Gulp", "Maven"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "Git", "Jenkins", "Gulp", "Maven"],
       "inProgress": false
     },
     {
@@ -51,7 +51,7 @@
       "title": "Elis - Portail InfoConso",
       "subtitle": "Front-end leader, contractor from Viseo",
       "content": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of messages to extract and gather data. The website used a graphical framework we created and provided complex interfaces for administration and reporting.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false
     },
     {
@@ -68,8 +68,8 @@
       "dateString": "10/2014 to 02/2015",
       "title": "Schneider - PEPs",
       "subtitle": "Front-end developer, contractor from Viseo",
-      "content": "PEPs collects and analyzes building energy consumption data.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "git"],
+      "content": "PEPs collects and analyzes building energy consumption data. The team and I had to present these data proprely.",
+      "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "Git"],
       "inProgress": false
     },
     {
@@ -78,7 +78,7 @@
       "title": "Viseo - Synaps",
       "subtitle": "Front-end developer",
       "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemenetd concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
-      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "git"],
+      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git"],
       "inProgress": false
     },
     {
@@ -86,7 +86,7 @@
       "dateString": "03/2013 to 06/2013",
       "title": "Net Test - Training Request Module",
       "subtitle": "PHP developer, contractor from Viseo",
-      "content": "Net Test provides linguistic formations and wanted a module to register training request from clients. I had to cerate and add it in an old existing website.",
+      "content": "Net Test provides linguistic formations and wanted a module to register training request from clients. I had to create and add it to an old existing website.",
       "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
       "inProgress": false
     },
