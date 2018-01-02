@@ -8,19 +8,20 @@ ri-m-unstyleList()
   ri-m-noPaddingMargin()
   list-style none
 
-ri-m-text($color = $ri-textColor, $font-size = 1.6rem)
+ri-m-text($color = $ri-textColor, $font-size = 1.6rem, $font-weight = 400)
   ri-m-noPaddingMargin()
   color $color
   font-size $font-size
+  font-weight $font-weight
 
-ri-m-regularText($color = $ri-textColor, $font-size = 1.6rem)
-  ri-m-text($color, $font-size)
+ri-m-regularText($color = $ri-textColor, $font-size = $ri-fontSize, $font-weight = 400)
+  ri-m-text($color, $font-size, $font-weight)
 
-ri-m-titleText($color = $ri-primaryColor, $font-size = 2rem)
-  ri-m-text($color, $font-size)
+ri-m-titleText($color = $ri-primaryColor, $font-size = $ri-fontSize--title, $font-weight = 500)
+  ri-m-text($color, $font-size, $font-weight)
 
-ri-m-subtitleText($color = $ri-secondaryColor, $font-size = 1.8rem)
-  ri-m-text($color, $font-size)
+ri-m-subtitleText($color = $ri-secondaryColor, $font-size = $ri-fontSize--subtitle, $font-weight = 500)
+  ri-m-text($color, $font-size, $font-weight)
 
 ri-m-pageTitle()
   ri-m-text($ri-primaryColor, 3rem)

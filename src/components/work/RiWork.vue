@@ -37,7 +37,6 @@ export default {
     &__subtitle
       ri-m-pagSubtitle()
 
-
     &__experiences
       ri-m-unstyleList()
 

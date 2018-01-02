@@ -6,7 +6,7 @@
       "title": "CCGPF - MooV",
       "subtitle": "Tech lead, contractor from Viseo",
       "content": "CCGPF is in charge of organizing summer camps for SNCF's employee children and wanted an application able to dispatch and bring them to destination safely.",
-      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "Git", "webpack", "Maven"],
+      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "PostgreSQL", "Liquibase", "Git", "webpack", "Maven"],
       "inProgress": true
     },
     {
@@ -14,7 +14,7 @@
       "dateString": "10/2017 to 12/2017",
       "title": "HomeSend - Web Customer Care",
       "subtitle": "Tech lead, contractor from Viseo",
-      "content": "HomeSend provide a transactions system and I help a junior developer to remake an old Flex interface in Angular.",
+      "content": "HomeSend provides a transactions system and I helped a junior developer to remake an old Flex interface in Angular.",
       "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
       "inProgress": false
     },
@@ -93,7 +93,7 @@
     {
       "id": "1",
       "dateString": "08/2012 to 11/2012",
-      "title": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy app",
+      "title": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy",
       "subtitle": "Java EE developer",
       "content": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
       "tags": ["Java", "Java EE", "SVN", "Nagios"],

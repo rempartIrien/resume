@@ -48,6 +48,6 @@ export default {
       overflow auto
 
     &__view
-      padding 2 * $ri-baseMargin
+      padding 0 2 * $ri-baseMargin
 
 </style>

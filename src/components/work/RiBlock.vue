@@ -1,10 +1,10 @@
 <template lang="pug">
   .ri-block(:class="{ 'ri-s-inProgress': experience.inProgress }")
     .ri-block__date.ri-date
-     .ri-date__text {{experience.dateString}}
+      .ri-date__text {{experience.dateString}}
+      .ri-block__role {{experience.subtitle}}
     .ri-block__info
-      h2.ri-block__title {{experience.title}}
-      h3.ri-block__subtitle {{experience.subtitle}}
+      .ri-block__title {{experience.title}}
       p.ri-block__content {{experience.content}}
       ul.ri-block__tags.ri-tagList
         li.ri-tagList__item(v-for="tag in experience.tags", :key="tag") {{ tag }}
@@ -21,13 +21,16 @@ export default {
   @import '../../style/variables'
   @import '../../style/mixins'
 
+  $ri-arrow-width = 0.4rem
+
   .ri-block
     display flex
     width 100%
 
     &__date
-      ri-m-titleText($ri-tertiaryColor)
-      border-right $ri-baseMargin solid $ri-tertiaryColor
+      ri-m-text($ri-tertiaryColor, $ri-fontSize--subtitle, 500)
+      border-right $ri-arrow-width solid $ri-tertiaryColor
+      line-height $ri-fontSize--title
       text-align right
       width 20%
 
@@ -41,17 +44,17 @@ export default {
 
     &__title
       ri-m-titleText()
+      line-height $ri-fontSize--title
 
-    &__subtitle
-      ri-m-subtitleText()
+    &__role
+      ri-m-regularText()
+      line-height initial
 
-    &__content
-      margin 0
-      padding $ri-baseMargin 0
-
+    .ri-date__text,
     &__title,
-    &__subtitle
+    &__content
       ri-m-noPaddingMargin()
+      padding-bottom $ri-baseMargin
 
   .ri-tagList
     ri-m-unstyleList()
@@ -63,7 +66,7 @@ export default {
       &:not(:last-child):after
         content ','
         display inline-block
-        padding-right 0.5 * $ri-baseMargin
+        padding-right 0.5rem
 
   .ri-date__text
     position relative
@@ -71,14 +74,13 @@ export default {
     &::after
       content ''
       border-radius 50%
-      border $ri-baseMargin solid $ri-tertiaryColor
       background-color $ri-tertiaryColor
       display block
-      height $ri-baseMargin
-      width $ri-baseMargin
+      height 4 * $ri-arrow-width
+      width 4 * $ri-arrow-width
       position absolute
-      right -(4 + 3) * $ri-baseMargin
-      top 0
+      right -4 * $ri-baseMargin + -5.5 * $ri-arrow-width
+      top 0.5 * ($ri-fontSize--title - 4 * $ri-arrow-width)
 
   &.ri-s-inProgress .ri-date__text::after
     border-radius 0
@@ -86,11 +88,11 @@ export default {
     height 0
     border-top 0
     background-color transparent
-    border-left 1.75 * $ri-baseMargin solid transparent
-    border-right 1.75 * $ri-baseMargin solid transparent
-    border-bottom 3.5 * $ri-baseMargin solid $ri-tertiaryColor
-    top -1 * $ri-baseMargin
-    right -(4 + 3.25) * $ri-baseMargin
+    border-left 2.5 * $ri-arrow-width solid transparent
+    border-right 2.5 * $ri-arrow-width solid transparent
+    border-bottom 5 * $ri-arrow-width solid $ri-tertiaryColor
+    top -1 * $ri-arrow-width
+    right -4 * $ri-baseMargin + -6 * $ri-arrow-width
 
 </style>
 
