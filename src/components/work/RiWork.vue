@@ -33,9 +33,12 @@ export default {
 
     &__title
       ri-m-pageTitle()
+      padding $ri-baseMargin 0
 
-    &__subtitle
-      ri-m-pagSubtitle()
+    &__intro
+      ri-m-pageSubtitle()
+      padding 0
+      padding-bottom 4 * $ri-baseMargin
 
     &__experiences
       ri-m-unstyleList()

@@ -1,11 +1,11 @@
 <template lang="pug">
   .ri-block(:class="{ 'ri-s-inProgress': experience.inProgress }")
     .ri-block__date.ri-date
-      .ri-date__text {{experience.dateString}}
-      .ri-block__role {{experience.subtitle}}
+      p.ri-date__text {{ experience.dateString }}
+      p.ri-block__role {{ experience.role }}
     .ri-block__info
-      .ri-block__title {{experience.title}}
-      p.ri-block__content {{experience.content}}
+      h2.ri-block__title {{ experience.title }}
+      p.ri-block__content {{ experience.content }}
       ul.ri-block__tags.ri-tagList
         li.ri-tagList__item(v-for="tag in experience.tags", :key="tag") {{ tag }}
 </template>
