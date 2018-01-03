@@ -49,14 +49,14 @@ export default {
     "en": {
       "home": "Home",
       "bio": "Bio",
-      "work": "Work",
+      "experience": "Experience",
       "hobby": "Hobby",
       "why": "Why?"
     },
     "fr": {
       "home": "Accueil",
       "bio": "Bio",
-      "work": "Pro",
+      "experience": "Pro",
       "hobby": "Loisir",
       "why": "Pourquoi?"
     }

@@ -1,6 +1,6 @@
 import RiHome from './home/RiHome';
 import RiBio from './bio/RiBio';
-import RiWork from './work/RiWork';
+import RiExperience from './experience/RiExperience';
 import RiHobbies from './hobbies/RiHobbies';
 import RiWhy from './why/RiWhy';
 
@@ -22,11 +22,11 @@ export default [
     }
   },
   {
-    path: '/work',
-    name: 'work',
-    component: RiWork,
+    path: '/experience',
+    name: 'experience',
+    component: RiExperience,
     data: {
-      translationKey: 'work'
+      translationKey: 'experience'
     }
   },
   {
