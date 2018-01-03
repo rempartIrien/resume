@@ -30,11 +30,11 @@ export default [
     }
   },
   {
-    path: '/hobby',
-    name: 'hobby',
+    path: '/hobbies',
+    name: 'hobbies',
     component: RiHobbies,
     data: {
-      translationKey: 'hobby'
+      translationKey: 'hobbies'
     }
   },
   {

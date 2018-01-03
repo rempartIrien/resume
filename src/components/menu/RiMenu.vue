@@ -50,15 +50,15 @@ export default {
       "home": "Home",
       "bio": "Bio",
       "experience": "Experience",
-      "hobby": "Hobby",
+      "hobbies": "Hobbies",
       "why": "Why?"
     },
     "fr": {
       "home": "Accueil",
       "bio": "Bio",
-      "experience": "Pro",
-      "hobby": "Loisir",
-      "why": "Pourquoi?"
+      "experience": "Carrière",
+      "hobbies": "Loisirs",
+      "why": "Pourquoi ?"
     }
   }
 </i18n>
