@@ -6,27 +6,12 @@
       .ri-bio__main
         h2.ri-bio__subtitle(v-t="'engineer.title'")
         p.ri-bio__description(v-t="'engineer.description'")
-      aside.ri-bio__aside
-        .ri-school
-          h2.ri-school__name(v-t="'engineer.aside.ensisa.title'")
-          p.ri-school__date(v-t="'engineer.aside.ensisa.date'")
-          p.ri-school__degree(v-t="'engineer.aside.ensisa.degree'")
-        .ri-school
-          h2.ri-school__name(v-t="'engineer.aside.polytechnique.title'")
-          p.ri-school__date(v-t="'engineer.aside.polytechnique.date'")
-          p.ri-school__degree(v-t="'engineer.aside.polytechnique.degree'")
+      ri-education.ri-bio__aside
     .ri-bio__chapter
       .ri-bio__main
         h2.ri-bio__subtitle(v-t="'javascript.title'")
         p.ri-bio__description(v-t="'javascript.description'")
-      aside.ri-bio__aside
-        ul.ri-skills
-          li.ri-skills__item JavaScript, Angular, VueJS, Jasmine
-          li.ri-skills__item HTML, Pug
-          li.ri-skills__item CSS, Stylus, Sass
-          li.ri-skills__item English, French
-          li.ri-skills__item Git
-          li.ri-skills__item Java, Spring
+      ri-skills.ri-bio__aside
     .ri-bio__chapter
       .ri-bio__main
         h2.ri-bio__subtitle(v-t="'ux.title'")
@@ -35,8 +20,15 @@
 </template>
 
 <script>
+  import RiSkills from './RiSkills';
+  import RiEducation from './RiEducation';
+
   export default {
-    name: 'RiBio'
+    name: 'RiBio',
+    components: {
+      RiEducation,
+      RiSkills
+    }
   };
 </script>
 
@@ -77,16 +69,6 @@
     &__description
       ri-m-text()
 
-  .ri-school
-    &__name
-      ri-m-subtitleText($ri-tertiaryColor)
-
-    &__date
-      ri-m-text($ri-tertiaryColor)
-
-    &__degree
-      ri-m-text()
-
 </style>
 
 <i18n>
@@ -96,19 +78,7 @@
       "intro": "Let me tell you more about me and why you can read this today.",
       "engineer": {
         "title": "Engineer",
-        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be engineer to think and make things. Around 20, I wanted to buuld phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!",
-        "aside": {
-          "ensisa": {
-            "title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
-            "date": "2009 to 2012",
-            "degree": "Engineer's degree (French \"Grandes Écoles\") in Compter Science and Networks"
-          },
-          "polytechnique": {
-            "title": "École Polytechnique de Montréal",
-            "date": "2011 to 2012",
-            "degree": "Certificate in Computer Software Engineering"
-          }
-        }
+        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be engineer to think and make things. Around 20, I wanted to buuld phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
       },
       "javascript": {
         "title": "JavaScript",
