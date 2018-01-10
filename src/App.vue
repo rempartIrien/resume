@@ -28,6 +28,7 @@ export default {
     ri-m-regularText()
     background-color $ri-backgroundColor
     height 100vh
+    line-height 1.5
 
   .ri-app
     font-family: Helvetica, Arial, sans-serif;

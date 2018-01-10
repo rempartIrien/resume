@@ -3,17 +3,17 @@
     h1.ri-bio__title(v-t="'title'")
     p.ri-bio__intro(v-t="'intro'")
     .ri-bio__chapter
-      .ri-bio__main
+      ri-education.ri-bio__main
+      .ri-bio__aside
         h2.ri-bio__subtitle(v-t="'engineer.title'")
         p.ri-bio__description(v-t="'engineer.description'")
-      ri-education.ri-bio__aside
     .ri-bio__chapter
-      .ri-bio__main
+      ri-skills.ri-bio__main
+      .ri-bio__aside
         h2.ri-bio__subtitle(v-t="'javascript.title'")
         p.ri-bio__description(v-t="'javascript.description'")
-      ri-skills.ri-bio__aside
     .ri-bio__chapter
-      .ri-bio__main
+      .ri-bio__aside
         h2.ri-bio__subtitle(v-t="'ux.title'")
         p.ri-bio__description(v-t="'ux.description'")
     h1 DOTJS
@@ -36,6 +36,8 @@
   @import '../../style/variables';
   @import '../../style/mixins';
 
+  $ri-borderWidth = 0.25 * $ri-baseMargin
+
   .ri-bio
     ri-m-bodyMaxWidth();
 
@@ -50,21 +52,22 @@
 
     &__chapter
       display flex
-      &:nth-child(even)
-        flex-direction row-reverse
-
-    &__main,
-    &__aside
-      padding 4 * $ri-baseMargin
-
-    &__main
-      flex 3
+      padding-bottom 4 * $ri-baseMargin
 
     &__aside
       flex 2
+      border-left $ri-borderWidth solid $ri-secondaryColor
+      padding-right 4 * $ri-baseMargin
+      padding-left 2 * $ri-baseMargin
+
+    &__main
+      flex 3
+      padding-left 4 * $ri-baseMargin
+      padding-right 6 * $ri-baseMargin
 
     &__subtitle
       ri-m-titleText()
+      padding-bottom $ri-baseMargin
 
     &__description
       ri-m-text()
@@ -78,11 +81,11 @@
       "intro": "Let me tell you more about me and why you can read this today.",
       "engineer": {
         "title": "Engineer",
-        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be engineer to think and make things. Around 20, I wanted to buuld phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
+        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be engineer to think and make things. Around 20, I wanted to build phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
       },
       "javascript": {
         "title": "JavaScript",
-        "description": "I guess that as many students I first learnt Java and only PHP for the web. I discovered JavaScript by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subleties. I loved it."
+        "description": "I guess that like many students I first learnt Java and only PHP for the web. I discovered JavaScript by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subleties. I loved it."
       },
       "ux": {
          "title": "User experience",

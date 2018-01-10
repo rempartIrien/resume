@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h2(v-t="'title'")
+    //- h2(v-t="'title'")
     ul.ri-skills
       li.ri-skills__item.ri-skills__item--80(v-t="'skills.javascript'")
       li.ri-skills__item.ri-skills__item--60(v-t="'skills.angular'")
@@ -13,8 +13,8 @@
       li.ri-skills__item.ri-skills__item--100(v-t="'skills.french'")
       li.ri-skills__item.ri-skills__item--80(v-t="'skills.git'")
       li.ri-skills__item.ri-skills__item--30(v-t="'skills.java'")
-      li.ri-skills__item.ri-skills__item--70(v-t="'skills.agile'")
-      li.ri-skills__item.ri-skills__item--70(v-t="'skills.uml'")
+      li.ri-skills__item.ri-skills__item--60(v-t="'skills.agile'")
+      li.ri-skills__item.ri-skills__item--60(v-t="'skills.uml'")
 </template>
 
 <script>
@@ -32,7 +32,7 @@
   .ri-skills
     ri-m-unstyleList()
     display grid
-    grid-template-columns repeat(2, 1fr)
+    grid-template-columns repeat(3, 1fr)
     grid-column-gap $ri-baseMargin
 
     &__item
@@ -77,7 +77,7 @@
         "angular": "Angular",
         "vuejs": "Vue.js",
         "angularjs": "AngularJS",
-        "test": "Jasmine, Karma, Protractor",
+        "test": "Jasmine",
         "html": "HTML, Pug",
         "css": "CSS, Stylus, Sass",
         "english": "English",
@@ -95,7 +95,7 @@
         "angular": "Angular",
         "vuejs": "Vue.js",
         "angularjs": "AngularJS",
-        "test": "Jasmine, Karma, Protractor",
+        "test": "Jasmine",
         "html": "HTML, Pug",
         "css": "CSS, Stylus, Sass",
         "english": "Angiais",

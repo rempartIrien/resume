@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h2(v-t="'title'")
+    //- h2(v-t="'title'")
     .ri-school
       h2.ri-school__name(v-t="'ensisa.title'")
       p.ri-school__date(v-t="'ensisa.date'")
@@ -24,6 +24,7 @@
   .ri-school
     &__name
       ri-m-subtitleText($ri-tertiaryColor)
+      padding $ri-baseMargin 0
 
     &__date
       ri-m-text($ri-tertiaryColor)
