@@ -13,21 +13,23 @@
         h2.ri-bio__subtitle(v-t="'javascript.title'")
         p.ri-bio__description(v-t="'javascript.description'")
     .ri-bio__chapter
+      ri-conferences.ri-bio__main
       .ri-bio__aside
         h2.ri-bio__subtitle(v-t="'ux.title'")
         p.ri-bio__description(v-t="'ux.description'")
-    h1 DOTJS
 </template>
 
 <script>
   import RiSkills from './RiSkills';
   import RiEducation from './RiEducation';
+  import RiConferences from './RiConferences';
 
   export default {
     name: 'RiBio',
     components: {
       RiEducation,
-      RiSkills
+      RiSkills,
+      RiConferences
     }
   };
 </script>
@@ -62,6 +64,7 @@
 
     &__main
       flex 3
+      padding $ri-baseMargin
       padding-left 4 * $ri-baseMargin
       padding-right 6 * $ri-baseMargin
 
@@ -89,7 +92,7 @@
       },
       "ux": {
          "title": "User experience",
-         "description": "I am a plain frontend developer, I will not pretend to be a fullstack developer. I do not have advanced backend skills; besides, I am interested in another domain: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and to able to advise people about how to reach the best experience."
+         "description": "I am a plain frontend developer, I will not pretend to be a fullstack developer. Even if I am interested in Node.js, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and to able to advise people about how to reach the best experience."
        }
     },
     "fr": {

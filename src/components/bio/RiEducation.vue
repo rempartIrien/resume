@@ -1,6 +1,5 @@
 <template lang="pug">
-  div
-    //- h2(v-t="'title'")
+  .ri-education
     .ri-school
       h2.ri-school__name(v-t="'ensisa.title'")
       p.ri-school__date(v-t="'ensisa.date'")
@@ -22,9 +21,12 @@
   @import '../../style/mixins';
 
   .ri-school
+    & + &
+      margin-top 2 * $ri-baseMargin
+
     &__name
       ri-m-subtitleText($ri-tertiaryColor)
-      padding $ri-baseMargin 0
+      padding 0.5 * $ri-baseMargin 0
 
     &__date
       ri-m-text($ri-tertiaryColor)

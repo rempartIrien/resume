@@ -31,6 +31,7 @@
 
   .ri-skills
     ri-m-unstyleList()
+    padding $ri-baseMargin 0
     display grid
     grid-template-columns repeat(3, 1fr)
     grid-column-gap $ri-baseMargin
