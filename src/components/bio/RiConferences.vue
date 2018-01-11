@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'RiConferences'
-}
+};
 </script>
 
 <style lang="stylus" scoped>
