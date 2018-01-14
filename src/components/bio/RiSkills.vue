@@ -39,6 +39,7 @@
     &__item
       position relative
       display block
+      align-self end
       padding 0.5 * $ri-baseMargin
       padding-top 1 * $ri-baseMargin
       border-bottom $ri-pointWidth solid $ri-tertiaryColor
