@@ -4,11 +4,24 @@ ri-m-noPaddingMargin()
   padding 0
   margin 0
 
+
+ri-m-buttonReset()
+  ri-m-noPaddingMargin()
+  border none
+  background-color transparent
+  cursor pointer
+
+ri-m-button($color, $backgroundColor, $font-size, $font-weight)
+  ri-m-buttonReset()
+  ri-m-text($color, $font-size, $font-weight)
+  background-color $backgroundColor
+  padding $ri-baseMargin
+
 ri-m-unstyleList()
   ri-m-noPaddingMargin()
   list-style none
 
-ri-m-text($color = $ri-textColor, $font-size = 1.6rem, $font-weight = 400)
+ri-m-text($color = $ri-textColor, $font-size = $ri-fontSize, $font-weight = 400)
   ri-m-noPaddingMargin()
   color $color
   font-size $font-size

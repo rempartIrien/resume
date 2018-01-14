@@ -3,8 +3,8 @@
   h1.ri-experience__title(v-t="'title'")
   p.ri-experience__intro(v-t="'summary'")
   ul.ri-experience__experiences
-    li.ri-block__experience(v-for="experience in experiences", :key="experience.id")
-      ri-block(:experience="experience")
+    li(v-for="experience in experiences", :key="experience.id", :class="{ 'ri-s-collapsed': isCollapsed(experience) }")
+      ri-block(:experience="experience", :collapsed="isCollapsed(experience)", @show-all="showAll()")
 </template>
 
 <script>
@@ -15,6 +15,17 @@ export default {
   name: 'RiExperience',
   components: {
     RiBlock
+  },
+  data() {
+    return { collapsedAll: true };
+  },
+  methods: {
+    showAll() {
+      this.collapsedAll = false;
+    },
+    isCollapsed(experience) {
+      return experience.collapsed && this.collapsedAll;
+    }
   },
   computed: {
     experiences() {
@@ -42,6 +53,9 @@ export default {
 
     &__experiences
       ri-m-unstyleList()
+
+      > .ri-s-collapsed + .ri-s-collapsed
+        display none
 
 </style>
 

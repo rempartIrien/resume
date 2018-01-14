@@ -1,8 +1,9 @@
 <template lang="pug">
-  .ri-block(:class="{ 'ri-s-inProgress': experience.inProgress }")
+  .ri-block(:class="{ 'ri-s-inProgress': experience.inProgress, 'ri-s-collasped': collapsed }")
     .ri-block__date.ri-date
       p.ri-date__text {{ experience.dateString }}
       p.ri-block__role {{ experience.role }}
+      button.ri-block__showDetails(type=button, @click="showDetails", v-t="'show_all'")
     .ri-block__info
       h2.ri-block__title {{ experience.title }}
       p.ri-block__content {{ experience.content }}
@@ -13,7 +14,17 @@
 <script>
 export default {
   name: 'RiBlock',
-  props: ['experience']
+  props: ['experience', 'collapsed'],
+  methods: {
+    showDetails() {
+      this.$emit('show-all');
+      this.$nextTick(function showComponent() {
+        this.$el.scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    }
+  }
 };
 </script>
 
@@ -41,6 +52,11 @@ export default {
 
     &__info
       flex 1
+
+    &__showDetails
+      ri-m-button($ri-tertiaryColor,$ri-floralWhite, $ri-fontSize, 400)
+      padding 0.5 * $ri-baseMargin
+      display none
 
     &__title
       ri-m-titleText()
@@ -94,6 +110,34 @@ export default {
     top -1 * $ri-arrow-width
     right -4 * $ri-baseMargin + -6 * $ri-arrow-width
 
+  &.ri-s-collasped
+    .ri-block__info,
+    .ri-block__role,
+    .ri-date__text
+      display none
+
+    .ri-date
+      border-right-style dotted
+      padding-top 2 * $ri-baseMargin
+
+    .ri-block__showDetails
+      display inline-block
+      position relative
+      right -5 * $ri-baseMargin
+      transform translateX(50%)
+
+
 </style>
+
+<i18n>
+  {
+    "en": {
+      "show_all": "Show all experiences"
+    },
+    "fr": {
+      "show_all": "Montrer toutes les expériences"
+    }
+  }
+</i18n>
 
 
