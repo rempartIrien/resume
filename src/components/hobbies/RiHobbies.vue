@@ -40,10 +40,12 @@ export default {
   @import '../../style/mixins';
 
   ri-m-vinyl($centerColor = $ri-tertiaryColor, $vinylColor = #232323)
+    $ri-vinylSize = 11rem
     display inline-block
     border 0.5rem solid $ri-darkGray
-    height 8vw
-    width 8vw
+    height $ri-vinylSize
+    margin $ri-baseMargin 0
+    width $ri-vinylSize
     border-radius 50%
     background-image radial-gradient(circle at center,
       transparent 0,
@@ -79,46 +81,46 @@ export default {
       ri-m-regularText()
 
     &__main
+      flex 3
       padding 0 2 * $ri-baseMargin
       border-left $ri-borderWidth solid $ri-secondaryColor
-      flex 1
 
     &__aside
-      flex 1
-      padding 0 4 * $ri-baseMargin
+      flex 2
+      padding-right 4 * $ri-baseMargin
+      padding-left 2 * $ri-baseMargin
       text-align center
 
   .ri-music
     ri-m-unstyleList()
+    padding-right 4 * $ri-baseMargin
+    padding-left 2 * $ri-baseMargin
+    display flex
+    flex-wrap wrap
+    align-items center
+    justify-content space-around
     border-radius 50%
 
     &__vinyl
       ri-m-vinyl()
 
-      &:nth-of-type(1)
-        transform translate(75%, 30%)
-
       &:nth-of-type(2)
         ri-m-vinyl($ri-primaryColor)
-        transform translate(130%, 40%)
 
       &:nth-of-type(3)
         ri-m-vinyl($ri-secondaryColor)
-        transform translate(-40%, 10%)
 
       &:nth-of-type(4)
-        transform translate(-210%, 100%)
-
-      &:nth-of-type(5)
-        transform translate(50%, -45%)
+        ri-m-vinyl(, $ri-primaryColor)
 
       &:nth-of-type(6)
-        z-index -1
-        transform translate(-20%, 0%) rotate(5deg)
+        ri-m-vinyl($ri-darkGray, $ri-tertiaryColor)
 
   .ri-code
     ri-m-unstyleList()
-    font-size 4 * $ri-fontSize--title
+    padding-right 4 * $ri-baseMargin
+    padding-left 2 * $ri-baseMargin
+    font-size 3 * $ri-fontSize--title
     display flex
     align-items center
 

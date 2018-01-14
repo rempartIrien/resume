@@ -22,10 +22,12 @@ export default {
   @import '../../style/variables';
   @import '../../style/mixins';
 
-  $ri-photoSize = 12vw
+  $ri-photoSize = 36%
 
   .ri-photos
     ri-m-unstyleList()
+    padding-right 4 * $ri-baseMargin
+    padding-left 2 * $ri-baseMargin
 
     &__item
       width $ri-photoSize
