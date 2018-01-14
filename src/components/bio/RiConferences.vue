@@ -3,11 +3,11 @@
     ul.ri-conferences__list
       li.ri-conferences__item
         a(href="http://dotjs.io")
-          img.ri-conferences__logo(src="../../assets/logo-dotjs.png", alt="dotJS logo")
+          img.ri-conferences__logo(src="../../assets/logos/logo-dotjs.png", alt="dotJS logo")
         p.ri-conferences__caption(v-t="'dotjs'")
       li.ri-conferences__item
         a(href="http://dotcss.io")
-          img.ri-conferences__logo(src="../../assets/logo-dotcss.png", alt="dotCSS logo")
+          img.ri-conferences__logo(src="../../assets/logos/logo-dotcss.png", alt="dotCSS logo")
         p.ri-conferences__caption(v-t="'dotcss'")
 </template>
 

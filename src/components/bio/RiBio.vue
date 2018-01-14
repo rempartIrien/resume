@@ -38,19 +38,17 @@
   @import '../../style/variables';
   @import '../../style/mixins';
 
-  $ri-borderWidth = 0.25 * $ri-baseMargin
-
   .ri-bio
-    ri-m-bodyMaxWidth();
+    ri-m-bodyMaxWidth()
 
     &__title
-      ri-m-pageTitle();
-      padding: $ri-baseMargin 0;
+      ri-m-pageTitle()
+      padding $ri-baseMargin 0
 
     &__intro
-      ri-m-pageSubtitle();
-      padding: 0;
-      padding-bottom: 4 * $ri-baseMargin;
+      ri-m-pageSubtitle()
+      padding 0
+      padding-bottom 4 * $ri-baseMargin
 
     &__chapter
       display flex

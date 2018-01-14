@@ -32,7 +32,7 @@ export default {
       border-right $ri-arrow-width solid $ri-tertiaryColor
       line-height $ri-fontSize--title
       text-align right
-      width 20%
+      width 35%
 
     &__date,
     &__info

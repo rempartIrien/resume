@@ -23,6 +23,12 @@ export default {
   html
     // Set 1rem to 10px
     font-size 62.5%
+    box-sizing border-box
+
+    *,
+    *::before,
+    *::after
+      box-sizing inherit
 
   body
     ri-m-regularText()
