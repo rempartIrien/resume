@@ -15,7 +15,7 @@
       "dateString": "10/2017 to 12/2017",
       "title": "HomeSend - Web Customer Care",
       "role": "Tech lead, contractor from Viseo",
-      "content": "HomeSend provides a transactions system and I helped a junior developer to remake an old Flex interface in Angular.",
+      "content": "HomeSend provides a transaction system and I helped a junior developer to remake an old Flex interface in Angular.",
       "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
       "inProgress": false,
       "collapsed": false
@@ -25,7 +25,7 @@
       "dateString": "07/2016 to 09/2017",
       "title": "Elis - Portail InfoConso",
       "role": "Front-end expert, contractor from Viseo",
-      "content": "Back on this project, I had to help the team to create new screens based on what we had previously done on year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possibles solutions had.",
+      "content": "Back on this project, I had to help the team to create new screens based on what we had previously done ono year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possible solutions had.",
       "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false,
       "collapsed": true
@@ -45,7 +45,7 @@
       "dateString": "06/2016 to 10/2016",
       "title": "Three Ireland - Three Plus site with Lumata technology",
       "role": "Front-end developer, contractor from Viseo",
-      "content": "Three Ireland wanted to use Lumata technology to target users more efficienly with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobiles apps and choe to have a common codebase using Ionic.",
+      "content": "Three Ireland wanted to use Lumata technology to target users more efficiently with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobile apps and chose to share a common codebase using AngularJS and Ionic.",
       "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "Git", "Jenkins", "Gulp", "Maven"],
       "inProgress": false,
       "collapsed": true
@@ -55,7 +55,7 @@
       "dateString": "06/2015 to 04/2016",
       "title": "Elis - Portail InfoConso",
       "role": "Front-end leader, contractor from Viseo",
-      "content": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of messages to extract and gather data. The website used a graphical framework we created and provided complex interfaces for administration and reporting.",
+      "content": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of messages to extract and gather data. I created a graphical framework and provided complex administration and reporting interfaces.",
       "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
       "inProgress": false,
       "collapsed": false
@@ -85,7 +85,7 @@
       "dateString": "06/2013 to 10/2014",
       "title": "Viseo - Synaps",
       "role": "Front-end developer",
-      "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemenetd concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
+      "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
       "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git"],
       "inProgress": false,
       "collapsed": false
@@ -95,7 +95,7 @@
       "dateString": "03/2013 to 06/2013",
       "title": "Net Test - Training Request Module",
       "role": "PHP developer, contractor from Viseo",
-      "content": "Net Test provides linguistic formations and wanted a module to register training request from clients. I had to create and add it to an old existing website.",
+      "content": "Net Test provides linguistic formations and wanted a module to register training requests from clients. I had to create and add it to an old existing website.",
       "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
       "inProgress": false,
       "collapsed": true

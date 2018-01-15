@@ -86,11 +86,11 @@
       },
       "javascript": {
         "title": "JavaScript",
-        "description": "I guess that like many students I first learnt Java and only PHP for the web. I discovered JavaScript by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subleties. I loved it."
+        "description": "I guess that like many students I first learnt Java and only PHP for the web. I discovered JavaScript by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subtleties. I loved it."
       },
       "ux": {
          "title": "User experience",
-         "description": "I am a plain frontend developer, I will not pretend to be a fullstack developer. Even if I am interested in Node.js, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and to able to advise people about how to reach the best experience."
+         "description": "I am a plain frontend developer, I will not pretend to be a fullstack developer. Even if I am interested in Node.js, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience."
        }
     },
     "fr": {

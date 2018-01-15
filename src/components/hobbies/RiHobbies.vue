@@ -148,15 +148,15 @@ export default {
       "intro": "Not to waste time, I have some activities to spend it more cleverly.",
       "music": {
         "title": "Music everywhere",
-        "description": "When trying to write these lines, I realized how difficult it is to explain what music means to me. I could tell you why I have always listened to music, why I hate radios or why I listen to a lof of indie rock nowadays but even with all of this I'm sure my words would not be strong enough. That's precisely why I love music: it's a powerful emotion vector. That's because music is art. And there are dozens and dozens of different emotions, which makes music an endless field of possibilities!"
+        "description": "When trying to write these lines, I realized how difficult it is to explain what music means to me. I could tell you why I have always listened to music, why I hate radios or why I listen to a lof of indie rock nowadays but even with all of this I'm sure my words would not be strong enough. That's precisely why I love music: it's a powerful emotion vector. That's because music is art. And there are dozens and dozens of different emotions to feel, which makes music an endless field of possibilities!"
       },
       "travel": {
         "title": "World and people",
-        "description": "Traveling is the best way to discover new things and meet different people. Living a whole year in Montreal was a wonderful experience and it changed me: I became a better man, more open-minded. That's the same for other travels: beyond touristic attractions, there are different customs and it's very interesting to discover them and learning why they exist. And last but not least: there is food!"
+        "description": "Traveling is the best way to discover new things and meet different people. Living a whole year in Montreal was a wonderful experience and it changed me: I became a better man, more open-minded. That's the same for other travels: beyond touristic attractions, there are different customs and it's very interesting to discover them and learn why they exist. And last but not least: there is food!"
       },
       "code": {
         "title": "Endless work",
-        "description": "Coding is a passion of mine and I made some little productions for my personal use. Of course, these résumé is one of them. Sometimes, projects are very simple; however, this is important to keep thinking about how to make things and not just copy and paste without noticing what's inside. The second point is to improve myself and learn new things that I cannot experiment at work. At last, computer sceince is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
+        "description": "Coding is a passion of mine and I have made some little productions for my personal use. Of course, these résumé is one of them. Sometimes, such projects are very simple; however, this is important to keep thinking about how to make things right and not just copy and paste without noticing what's inside. Also, it helps me improve myself and learn new things that I cannot experiment at work. At last, computer sceince is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
       }
     },
     "fr": {
