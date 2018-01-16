@@ -43,7 +43,7 @@ export default {
   {
     "en": {
       "dotjs": "December 1, 2017",
-      "dotcss": "Novermber 30, 2017"
+      "dotcss": "November 30, 2017"
     },
     "fr": {
       "dotjs": "1er décembre 2017",

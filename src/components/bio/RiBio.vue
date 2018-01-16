@@ -90,7 +90,7 @@
       },
       "ux": {
          "title": "User experience",
-         "description": "I am a plain frontend developer, I will not pretend to be a fullstack developer. Even if I am interested in Node.js, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience."
+         "description": "Although I am a frontend developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience."
        }
     },
     "fr": {

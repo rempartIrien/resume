@@ -63,11 +63,11 @@ export default {
   {
     "en": {
       "title": "Short long stories",
-      "summary": "Here are all my experiences. Some are success, others are failures but I always did my best."
+      "summary": "Here are all my experiences. There took place in different places, different situations with different people but for all of them, I always had something to learn and to bring."
     },
     "fr": {
       "title": "Quelques histoires courtes",
-      "summary": "Voici mes différentes expériences. Certaines se sont bien terminées, d'autres beaucoup moins bien ; quoiqu'il en soit, j'ai toujorus fait de mon mieux."
+      "summary": "Voici mes différentes expériences. Elles furent très différentes en raison de leur contextes et chaque équipe de mais j'ai toujours eu quelque chose à en retirer et à apporter."
     }
   }
 </i18n>

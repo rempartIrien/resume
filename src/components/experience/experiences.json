@@ -6,7 +6,7 @@
       "title": "CCGPF - MooV",
       "role": "Tech lead, contractor from Viseo",
       "content": "CCGPF is in charge of organizing summer camps for SNCF's employee children and wanted an application able to dispatch and bring them to destination safely.",
-      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "PostgreSQL", "Liquibase", "Git", "webpack", "Maven"],
+      "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "PostgreSQL", "Liquibase", "Git", "webpack", "Maven", "Scrum"],
       "inProgress": true,
       "collapsed": false
     },
@@ -22,7 +22,7 @@
     },
     {
       "id": "9",
-      "dateString": "07/2016 to 09/2017",
+      "dateString": "07/2017 to 09/2017",
       "title": "Elis - Portail InfoConso",
       "role": "Front-end expert, contractor from Viseo",
       "content": "Back on this project, I had to help the team to create new screens based on what we had previously done ono year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possible solutions had.",
@@ -36,7 +36,7 @@
       "title": "Xerox (then Conduent) - Xerox Case Management",
       "role": "Front-end expert, contractor from Viseo",
       "content": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The frontend team and I had to offer the same experience as on the WPF client to web users.",
-      "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "Git", "TeamCity", "Gulp"],
+      "tags": ["AngularJS", "TypeScript", "Jasmine", "Karma", "Protractor", "SCSS", "Bootstrap", "Git", "TeamCity", "Gulp", "Scrum"],
       "inProgress": false,
       "collapsed": false
     },
@@ -46,7 +46,7 @@
       "title": "Three Ireland - Three Plus site with Lumata technology",
       "role": "Front-end developer, contractor from Viseo",
       "content": "Three Ireland wanted to use Lumata technology to target users more efficiently with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobile apps and chose to share a common codebase using AngularJS and Ionic.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "Git", "Jenkins", "Gulp", "Maven"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Sass", "Java", "Spring", "Git", "Jenkins", "Gulp", "Maven", "Scrum"],
       "inProgress": false,
       "collapsed": true
     },
@@ -56,7 +56,7 @@
       "title": "Elis - Portail InfoConso",
       "role": "Front-end leader, contractor from Viseo",
       "content": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of messages to extract and gather data. I created a graphical framework and provided complex administration and reporting interfaces.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Protractor", "Stylus", "Java", "Spring", "PostgreSQL", "MongoDB","Git", "Jenkins", "Gulp", "Maven", "OpenShift", "IoT", "Scrum"],
       "inProgress": false,
       "collapsed": false
     },
@@ -76,7 +76,7 @@
       "title": "Schneider - PEPs",
       "role": "Front-end developer, contractor from Viseo",
       "content": "PEPs collects and analyzes building energy consumption data. The team and I had to present these data proprely.",
-      "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "Git"],
+      "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "Git", "Scrum"],
       "inProgress": false,
       "collapsed": true
     },
@@ -86,7 +86,7 @@
       "title": "Viseo - Synaps",
       "role": "Front-end developer",
       "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
-      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git"],
+      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git", "Scrum"],
       "inProgress": false,
       "collapsed": false
     },
@@ -106,7 +106,7 @@
       "title": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy",
       "role": "Java EE developer",
       "content": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
-      "tags": ["Java", "Java EE", "SVN", "Nagios"],
+      "tags": ["Java", "Java EE", "SVN", "Nagios", "Scrum"],
       "inProgress": false,
       "collapsed": true
     }

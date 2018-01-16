@@ -5,10 +5,10 @@
       li.ri-skills__item.ri-skills__item--80(v-t="'skills.javascript'")
       li.ri-skills__item.ri-skills__item--60(v-t="'skills.angular'")
       li.ri-skills__item(v-t="'skills.vuejs'")
-      li.ri-skills__item.ri-skills__item--80(v-t="'skills.angularjs'")
+      li.ri-skills__item.ri-skills__item--90(v-t="'skills.angularjs'")
       li.ri-skills__item.ri-skills__item--70(v-t="'skills.test'")
-      li.ri-skills__item.ri-skills__item--80(v-t="'skills.html'")
-      li.ri-skills__item.ri-skills__item--80(v-t="'skills.css'")
+      li.ri-skills__item.ri-skills__item--90(v-t="'skills.html'")
+      li.ri-skills__item.ri-skills__item--90(v-t="'skills.css'")
       li.ri-skills__item.ri-skills__item--70(v-t="'skills.english'")
       li.ri-skills__item.ri-skills__item--100(v-t="'skills.french'")
       li.ri-skills__item.ri-skills__item--80(v-t="'skills.git'")
@@ -64,6 +64,8 @@
         left 70%
       &--80::after
         left 80%
+      &--90::after
+        left 90%
       &--100::after
         left "calc(100% - %s)" % (2 * $ri-pointWidth)
 

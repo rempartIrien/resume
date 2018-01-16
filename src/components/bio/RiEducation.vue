@@ -1,13 +1,13 @@
 <template lang="pug">
   .ri-education
     .ri-school
-      h2.ri-school__name(v-t="'ensisa.title'")
-      p.ri-school__date(v-t="'ensisa.date'")
-      p.ri-school__degree(v-t="'ensisa.degree'")
-    .ri-school
       h2.ri-school__name(v-t="'polytechnique.title'")
       p.ri-school__date(v-t="'polytechnique.date'")
       p.ri-school__degree(v-t="'polytechnique.degree'")
+    .ri-school
+      h2.ri-school__name(v-t="'ensisa.title'")
+      p.ri-school__date(v-t="'ensisa.date'")
+      p.ri-school__degree(v-t="'ensisa.degree'")
 </template>
 
 <script>
