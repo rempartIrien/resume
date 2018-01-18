@@ -156,7 +156,7 @@ export default {
       },
       "code": {
         "title": "Endless work",
-        "description": "Coding is a passion of mine and I have made some little productions for my personal use. Of course, these résumé is one of them. Sometimes, such projects are very simple; however, this is important to keep thinking about how to make things right and not just copy and paste without noticing what's inside. Also, it helps me improve myself and learn new things that I cannot experiment at work. At last, computer sceince is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
+        "description": "Coding is a passion of mine and I have made some little productions for my personal use. Of course, these résumé is one of them. Sometimes, such projects are very simple; however, this is important to keep thinking about how to make things right and not just copy and paste without noticing what's inside. Also, it helps me improve myself and learn new things that I cannot experiment at work. At last, computer science is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
       }
     },
     "fr": {
