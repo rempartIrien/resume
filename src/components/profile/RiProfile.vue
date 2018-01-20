@@ -1,22 +1,22 @@
 <template lang="pug">
-  .ri-bio
-    h1.ri-bio__title(v-t="'title'")
-    p.ri-bio__intro(v-t="'intro'")
-    .ri-bio__chapter
-      ri-education.ri-bio__main
-      .ri-bio__aside
-        h2.ri-bio__subtitle(v-t="'engineer.title'")
-        p.ri-bio__description(v-t="'engineer.description'")
-    .ri-bio__chapter
-      ri-skills.ri-bio__main
-      .ri-bio__aside
-        h2.ri-bio__subtitle(v-t="'javascript.title'")
-        p.ri-bio__description(v-t="'javascript.description'")
-    .ri-bio__chapter
-      ri-conferences.ri-bio__main
-      .ri-bio__aside
-        h2.ri-bio__subtitle(v-t="'ux.title'")
-        p.ri-bio__description(v-t="'ux.description'")
+  .ri-profile
+    h1.ri-profile__title(v-t="'title'")
+    p.ri-profile__intro(v-t="'intro'")
+    .ri-profile__chapter
+      ri-education.ri-profile__main
+      .ri-profile__aside
+        h2.ri-profile__subtitle(v-t="'engineer.title'")
+        p.ri-profile__description(v-t="'engineer.description'")
+    .ri-profile__chapter
+      ri-skills.ri-profile__main
+      .ri-profile__aside
+        h2.ri-profile__subtitle(v-t="'javascript.title'")
+        p.ri-profile__description(v-t="'javascript.description'")
+    .ri-profile__chapter
+      ri-conferences.ri-profile__main
+      .ri-profile__aside
+        h2.ri-profile__subtitle(v-t="'ux.title'")
+        p.ri-profile__description(v-t="'ux.description'")
 </template>
 
 <script>
@@ -25,7 +25,7 @@
   import RiConferences from './RiConferences';
 
   export default {
-    name: 'RiBio',
+    name: 'RiProfile',
     components: {
       RiEducation,
       RiSkills,
@@ -38,7 +38,7 @@
   @import '../../style/variables';
   @import '../../style/mixins';
 
-  .ri-bio
+  .ri-profile
     ri-m-bodyMaxWidth()
 
     &__title

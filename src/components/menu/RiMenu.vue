@@ -48,14 +48,14 @@ export default {
   {
     "en": {
       "home": "Home",
-      "bio": "Bio",
+      "profile": "Profile",
       "experience": "Experience",
       "hobbies": "Hobbies",
       "why": "Why?"
     },
     "fr": {
       "home": "Accueil",
-      "bio": "Bio",
+      "profile": "Profile",
       "experience": "Carrière",
       "hobbies": "Loisirs",
       "why": "Pourquoi ?"

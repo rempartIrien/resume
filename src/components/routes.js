@@ -1,5 +1,5 @@
 import RiHome from './home/RiHome';
-import RiBio from './bio/RiBio';
+import RiProfile from './profile/RiProfile';
 import RiExperience from './experience/RiExperience';
 import RiHobbies from './hobbies/RiHobbies';
 import RiWhy from './why/RiWhy';
@@ -14,11 +14,11 @@ export default [
     }
   },
   {
-    path: '/bio',
-    name: 'bio',
-    component: RiBio,
+    path: '/profile',
+    name: 'profile',
+    component: RiProfile,
     data: {
-      translationKey: 'bio'
+      translationKey: 'profile'
     }
   },
   {
