@@ -34,14 +34,14 @@
     padding $ri-baseMargin 0
     display grid
     grid-template-columns repeat(3, 1fr)
-    grid-column-gap $ri-baseMargin
+    grid-column-gap 2 * $ri-baseMargin
 
     &__item
       position relative
       display block
       align-self end
       padding 0.5 * $ri-baseMargin
-      padding-top 1 * $ri-baseMargin
+      padding-top 1.5 * $ri-baseMargin
       border-bottom $ri-pointWidth solid $ri-tertiaryColor
 
       &::after
