@@ -1,0 +1,36 @@
+{
+  "en": [
+    {
+      "question": "Why did I choose to make an online résumé?",
+      "answer": "I wanted to show a glimpse of what I can do, I think a website is more relevant than a piece of paper to show my work. By the way, the code is on [Github](http://github.com/rempartIrien/resume)."
+    },
+    {
+      "question": "What did I use to make this website?",
+      "answer": "I used Vue.js, Pug and Stylus as technologies and Visual Studio Code as text editor."
+    },
+    {
+      "question": "Which OS do I use?",
+      "answer": "I have used the three OS: Windows since I was a child; Linux with Fedora, Manjaro and Ubuntu at university and sometimes home; macOS more recently since I bought a Macbook Pro to travel light."
+    },
+    {
+      "question": "What phone do I have?",
+      "answer": "I used to believe in Android (HTC Desire Z, Nexus 4 and Nexus 5), then I switched to iOS with an iPhone 6."
+    },
+    {
+      "question": "What artist have I most seen so far?",
+      "answer": "[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), five times."
+    },
+    {
+      "question": "What is my favorite serie? My favorite anime?",
+      "answer": "Scrubs and Steins;Gate."
+    },
+    {
+      "question": "What is my favorite soda?",
+      "answer": "Dr Pepper, of course."
+    },
+    {
+      "question": "Dog or cat?",
+      "answer": "Definitely cat."
+    }
+  ]
+}
