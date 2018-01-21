@@ -1,10 +1,10 @@
 <template lang="pug">
-.ri-why(v-t="'title'")
+.ri-faq(v-t="'title'")
 </template>
 
 <script>
 export default {
-  name: 'RiWhy'
+  name: 'RiFaq'
 };
 </script>
 
@@ -14,7 +14,7 @@ export default {
 
 <i18n>
   {
-    "en": { "title": "Why" },
+    "en": { "title": "Faq" },
     "fr": { "title": "Pourquoi" }
   }
 </i18n>

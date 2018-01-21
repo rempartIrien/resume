@@ -51,14 +51,14 @@ export default {
       "profile": "Profile",
       "experience": "Experience",
       "hobbies": "Hobbies",
-      "why": "Why?"
+      "faq": "Faq?"
     },
     "fr": {
       "home": "Accueil",
       "profile": "Profile",
       "experience": "Carrière",
       "hobbies": "Loisirs",
-      "why": "Pourquoi ?"
+      "faq": "Pourquoi ?"
     }
   }
 </i18n>

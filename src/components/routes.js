@@ -2,7 +2,7 @@ import RiHome from './home/RiHome';
 import RiProfile from './profile/RiProfile';
 import RiExperience from './experience/RiExperience';
 import RiHobbies from './hobbies/RiHobbies';
-import RiWhy from './why/RiWhy';
+import RiFaq from './faq/RiFaq';
 
 export default [
   {
@@ -38,11 +38,11 @@ export default [
     }
   },
   {
-    path: '/why',
-    name: 'why',
-    component: RiWhy,
+    path: '/faq',
+    name: 'faq',
+    component: RiFaq,
     data: {
-      translationKey: 'why'
+      translationKey: 'faq'
     }
   }
 ];
