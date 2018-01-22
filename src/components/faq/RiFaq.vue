@@ -5,7 +5,7 @@
     ul.ri-faq__questions.ri-questionList
       li.ri-questionList__item(v-for="question in questions", :key="question.question")
         h2.ri-faq__question {{ question.question }}
-        vue-markdown.ri-faq__answer {{ question.answer }}
+        vue-markdown.ri-faq__answer(:anchorAttributes="{ target: '_blank' }") {{ question.answer }}
 </template>
 
 <script>
@@ -42,18 +42,24 @@ export default {
       padding-bottom 4 * $ri-baseMargin
 
     &__question
-      ri-m-titleText()
+      ri-m-subtitleText($ri-primaryColor)
       padding-bottom $ri-baseMargin
 
     &__answer
       ri-m-text()
 
-      /deep/ > p
-        // Remove default style in generated HTML by markdown tag
-        margin 0
+      /deep/
+        > p
+          // Remove default style in generated HTML by markdown tag
+          margin 0
+        a
+          ri-m-link()
 
     .ri-questionList
       ri-m-unstyleList()
+
+      &__item
+        padding-bottom 4 * $ri-baseMargin
 
 
 </style>
@@ -62,11 +68,11 @@ export default {
   {
     "en": {
       "title": "Knowledge is power",
-      "intro": ""
+      "intro": "Some answers may lie here..."
     },
     "fr": {
-      "title": "La connaissance c'est le pouvoir",
-      "intro": ""
+      "title": "La connaissance, c'est le pouvoir",
+      "intro": "Quelques réponses pourraient se trouver ici..."
     }
   }
 </i18n>

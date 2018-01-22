@@ -63,7 +63,7 @@ export default {
   {
     "en": {
       "title": "Short long stories",
-      "summary": "Here are all my experiences. There took place in different places, different situations with different people but for all of them, I always had something to learn and to bring."
+      "summary": "Here are all my experiences. They took place in different places, different situations with different people but for all of them, I always had something to learn and to bring."
     },
     "fr": {
       "title": "Quelques histoires courtes",

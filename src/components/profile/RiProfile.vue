@@ -82,7 +82,7 @@
       "intro": "Let me tell you more about me and why you can read this today.",
       "engineer": {
         "title": "Engineer",
-        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be engineer to think and make things. Around 20, I wanted to build phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
+        "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be an engineer to think and make things. Around 20, I wanted to build phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
       },
       "javascript": {
         "title": "JavaScript",

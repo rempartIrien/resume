@@ -9,24 +9,20 @@
       "answer": "I used Vue.js, Pug and Stylus as technologies and Visual Studio Code as text editor."
     },
     {
-      "question": "Which OS do I use?",
-      "answer": "I have used the three OS: Windows since I was a child; Linux with Fedora, Manjaro and Ubuntu at university and sometimes home; macOS more recently since I bought a Macbook Pro to travel light."
-    },
-    {
-      "question": "What phone do I have?",
-      "answer": "I used to believe in Android (HTC Desire Z, Nexus 4 and Nexus 5), then I switched to iOS with an iPhone 6."
+      "question": "What is my favorite sport?",
+      "answer": "I like football (soccer) and tennis, I find them aesthetic."
     },
     {
       "question": "What artist have I most seen so far?",
       "answer": "[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), five times."
     },
     {
-      "question": "What is my favorite serie? My favorite anime?",
-      "answer": "Scrubs and Steins;Gate."
+      "question": "In which Hogwarts House should the Sorting Hat send me?",
+      "answer": "Ravenclaw, I think."
     },
     {
-      "question": "What is my favorite soda?",
-      "answer": "Dr Pepper, of course."
+      "question": "Tabs or spaces?",
+      "answer": "Tabs."
     },
     {
       "question": "Dog or cat?",
