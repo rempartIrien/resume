@@ -43,7 +43,7 @@
 
     &__title
       ri-m-pageTitle()
-      padding $ri-baseMargin 0
+      padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
 
     &__intro
       ri-m-pageSubtitle()

@@ -1,7 +1,8 @@
 <template lang="pug">
-  ul.ri-menu
-    li.ri-menu__item(v-for="route in routes", :key="route.path")
-      router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active", v-t="route.data.translationKey")
+  div.ri-menu
+    ul.ri-menu__list
+      li.ri-menu__item(v-for="route in routes", :key="route.path")
+        router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active", v-t="route.data.translationKey")
 </template>
 
 <script>
@@ -24,11 +25,16 @@ export default {
 
   .ri-menu
     // See App.vue for padding policy
-    margin 0
+    box-shadow 0px 1px 10px rgba($ri-textColor, 0.5)
+
+    &__list
+      ri-m-unstyleList()
+      margin 0
+      padding $ri-baseMargin
 
     &__item
       display inline-block
-      padding $ri-baseMargin
+      padding 0 $ri-baseMargin
 
     &__link
       &,
