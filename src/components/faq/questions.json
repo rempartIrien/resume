@@ -9,8 +9,20 @@
       "answer": "I used Vue.js, Pug and Stylus as technologies and Visual Studio Code as text editor."
     },
     {
+      "question": "What have I been to Montreal?",
+      "answer": "After I finished my first year in ENSISA, I thought that there must be something else, something more: I just wanted to experiment something new. So, I looked for an alternative to ENSISA scholarship and found the CREPUQ program (now named BCI) which let me apply to École Polytechnique de Montréal. Montreal was a wonderul experience, with new methods of working, new pace, new people."
+    },
+    {
+      "question": "Why do I want to do more UX and UI?",
+      "answer": "I lhink there are two reasons. First, people will not understand and use an application if its interface is unusable or ugly; however, developers code for people so I think it is important to make our best for them too. Second, I love beauty."
+    },
+    {
+      "question": "What was my best work experience?",
+      "answer": "Undoubtly, it was Elis. For the first time in my life, I was in charge of all frontend project: I started the project, I created its architecture (component-based), I chose tools, I set the build chain and I developed a graphical framework with AngularJS directives. It was the first time I could do more than code and I love it."
+    },
+    {
       "question": "What is my favorite sport?",
-      "answer": "I like football (soccer) and tennis, I find them aesthetic."
+      "answer": "I like football (soccer) and tennis, I find them esthetic."
     },
     {
       "question": "What artist have I most seen so far?",
