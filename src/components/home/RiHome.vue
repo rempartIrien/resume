@@ -2,13 +2,32 @@
   .ri-home
     h1.ri-home__title(v-t="'title'")
     h2.ri-home__subtitle(v-t="'subtitle'")
-    img.ri-home__photo(src="../../assets/photos/photo-home.jpg", :alt="$t('photo')")
-    .ri-home__text(v-t="'text'")
-    .ri-home__github.ri-github
-      a(href="https://github.com/rempartIrien/resume", target="_blank")
-        img.ri-github__logo(src="../../assets/logos/logo-github.png", :alt="$t('github.logo')")
-      vue-markdown.ri-github__text(:anchorAttributes="{ target: '_blank' }") {{ $t('github.text') }}
-</template>}}
+    .ri-home__container
+      img.ri-home__photo(src="../../assets/photos/photo-home.jpg", :alt="$t('photo')")
+      .ri-home__content
+        p.ri-home__text(v-t="'text'")
+        ul.ri-home__contactDetails.ri-contactDetails
+          li.ri-contactDetails__item
+            span.ri-icon.ri-icon--location
+            span(v-t="'location'")
+          li.ri-contactDetails__item
+            span.ri-icon.ri-icon--phone
+            span +33 6 95 22 16 26
+          li.ri-contactDetails__item
+            span.ri-icon.ri-icon--envelop
+            a.ri-home__email(href="mailto:pierre.martin@live.com") pierre.martin@live.com
+        .ri-home__pdfResume My resume will be available in PDF format soon!
+        ul.ri-home__links
+          li
+            a(href="https://github.com/rempartIrien", target="_blank")
+              img.ri-home__linkImage(src="../../assets/logos/logo-github.png", :alt="$t('github')", target="_blank")
+          li
+            a(href="https://twitter.com/RempartIrien", target="_blank")
+              img.ri-home__linkImage.ri-home__linkImage--large(src="../../assets/logos/logo-twitter.svg", :alt="$t('twitter')", target="_blank")
+          li
+            a(href="https://www.linkedin.com/in/pierremartin2", target="_blank")
+              img.ri-home__linkImage(src="../../assets/logos/logo-linkedin.png", :alt="$t('twitter')", target="_blank")
+</template>
 
 <script>
 import VueMarkdown from 'vue-markdown';
@@ -22,8 +41,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../style/variables';
-  @import '../../style/mixins';
+  @import '../../style/variables'
+  @import '../../style/mixins'
+
+  $ri-home-imageSize = 6.4rem
 
   .ri-home
     ri-m-bodyMaxWidth()
@@ -33,32 +54,65 @@ export default {
       padding $ri-baseMargin 0
 
     &__subtitle
-      ri-m-subtitleText()
+      ri-m-titleText($ri-secondaryColor)
       padding-bottom 2 * $ri-baseMargin
 
+    &__container
+      overflow hidden
+      display flex
+
+    &__photo,
+    &__content
+      padding 3 * $ri-baseMargin
+
     &__photo
-      width 100%
+      height: 75vh;
+      padding-right 4 * $ri-baseMargin
+
+    &__content
+      flex 1
+      border-left $ri-borderWidth solid $ri-secondaryColor
+      padding-left 2 * $ri-baseMargin
 
     &__text
-      ri-m-text()
-      padding $ri-baseMargin 0
+      ri-m-subtitleText($ri-textColor)
+      padding-bottom $ri-baseMargin
 
+    &__links,
+    &__contactDetails
+      ri-m-unstyleList()
+      padding 2 * $ri-baseMargin
 
-  .ri-github
-    display flex
-    align-items center
-    padding $ri-baseMargin 0
+    &__pdfResume
+      padding $ri-baseMargin
 
-    &__text
-      ri-m-text()
+    &__links
+      display flex
+      align-items center
+      justify-content space-around
 
-      /deep/
-        > p
-          // Remove default style in generated HTML by markdown tag
-          margin 0
-          padding-left $ri-baseMargin
-        a
-          ri-m-link()
+    &__linkImage
+      width auto
+      height $ri-home-imageSize
+
+      &--large
+        height 1.5 * $ri-home-imageSize
+
+    &__email
+      ri-m-link()
+
+  .ri-contactDetails
+
+    &__item
+      padding 0 $ri-baseMargin
+
+      & + &
+        padding-top $ri-baseMargin
+
+    .ri-icon
+      padding 0 $ri-baseMargin
+      color $ri-secondaryColor
+
 </style>
 
 <i18n>
@@ -67,19 +121,17 @@ export default {
       "title": "Pierre Martin-Henry",
       "subtitle": "Frontend software engineer interested in UX",
       "text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
-      "github": {
-        "logo": "GitHub logo",
-        "text": "This résumé code is on [Github](https://github.com/rempartIrien/resume), if you want to take a look at it."
-      }
+      "github": "GitHub logo",
+      "twitter": "Twitter logo",
+      "location": "Grenoble"
     },
     "fr": {
       "title": "Pierre Martin-Henry",
       "subtitle": "Ingénieur logiciel frontend intéressé par l'UX",
       "text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour que vous appreniez à mieux me connaître. Profitez du voyage !",
-      "github": {
-        "logo": "logo GitHub",
-        "text": "Le code de ce CV est disponible [Github](https://github.com/rempartIrien/resume), si jamais vous voulez y jeter un oeil."
-      }
+      "github": "logo GitHub",
+      "twitter": "logo Twitter",
+      "location": "Grenoble"
     }
   }
 </i18n>

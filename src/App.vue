@@ -19,6 +19,7 @@ export default {
 <style lang="stylus">
   @import './style/variables'
   @import './style/mixins'
+  @import './style/icons'
 
   html
     // Set 1rem to 10px

@@ -22,8 +22,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../style/variables';
-  @import '../../style/mixins';
+  @import '../../style/variables'
+  @import '../../style/mixins'
 
   .ri-conferences
     &__intro
