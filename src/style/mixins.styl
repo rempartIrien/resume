@@ -43,9 +43,15 @@ ri-m-pageSubtitle()
   ri-m-text($ri-textColor, $ri-fontSize)
 
 ri-m-link()
-  color $ri-secondaryColor
-  &:hover
+  &,
+  &:visited
+    color $ri-secondaryColor
+    text-decoration none
+
+  &:hover,
+  &:active
     color $ri-primaryColor
+    text-decoration underline
 
 ri-m-bodyMaxWidth()
   max-width $ri-body-maxWidth

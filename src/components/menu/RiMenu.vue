@@ -24,13 +24,23 @@ export default {
   @import '../../style/mixins'
 
   .ri-menu
-    // See App.vue for padding policy
-    box-shadow 0px 1px 10px rgba($ri-textColor, 0.5)
+    position relative
+
+    &::after
+      content ''
+      height $ri-borderWidth
+      background-color $ri-secondaryColor
+      position absolute
+      bottom 0
+      left 50%
+      transform translateX(-50%)
+      width 100%
+      max-width $ri-body-maxWidth
 
     &__list
       ri-m-unstyleList()
       margin 0
-      padding $ri-baseMargin
+      padding 2 * $ri-baseMargin
 
     &__item
       display inline-block
@@ -46,6 +56,9 @@ export default {
       &:active,
       &.ri-s-active
         color $ri-primaryColor
+
+      &:hover,
+      &:active
         text-decoration underline
 
 </style>

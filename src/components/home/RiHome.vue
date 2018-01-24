@@ -66,7 +66,8 @@ export default {
       padding 3 * $ri-baseMargin
 
     &__photo
-      height: 75vh;
+      height: 70vh;
+      width: 58.3vh;
       padding-right 4 * $ri-baseMargin
 
     &__content
