@@ -50,22 +50,22 @@ export default {
   {
     "en": {
       "dotjs": {
-        "2017": "December 1, 2017",
-        "2018": "November 9, 2018"
+        "2017": "December 1, 2017 - attended",
+        "2018": "November 9, 2018 - ticket bought"
       },
       "dotcss": {
-        "2017": "November 30, 2017",
-        "2018": "November 8, 2018"
+        "2017": "November 30, 2017 - attended",
+        "2018": "November 8, 2018 - ticket bought"
       }
     },
     "fr": {
       "dotjs": {
-        "2017": "1er décembre 2017",
-        "2018": "9 novembre 2018"
+        "2017": "1er décembre 2017 - vue",
+        "2018": "9 novembre 2018 - place achetée"
       },
       "dotcss": {
-        "2017": "30 novembre 2017",
-        "2018": "8 novembre 2018"
+        "2017": "30 novembre 2017 - vue",
+        "2018": "8 novembre 2018 - place achetée"
       }
     }
   }
