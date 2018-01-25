@@ -36,6 +36,8 @@ export default {
     background-color $ri-backgroundColor
     height 100vh
     line-height 1.5
+    // Thanks IE and Edge!
+    overflow: hidden;
 
   .ri-app
     font-family: Helvetica, Arial, sans-serif;

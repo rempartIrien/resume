@@ -58,22 +58,33 @@ export default {
       padding-bottom 2 * $ri-baseMargin
 
     &__container
-      overflow hidden
+      ri-m-part()
       display flex
+      overflow hidden
+      flex-direction column-reverse
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        flex-direction row
 
     &__photo,
     &__content
-      padding 3 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        padding 3 * $ri-baseMargin
 
     &__photo
-      height: 70vh;
-      width: 58.3vh;
-      padding-right 4 * $ri-baseMargin
+      object-fit contain
+      width 100%
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        margin auto
+        width 50%
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        padding-right 2 * $ri-baseMargin 4 * $ri-baseMargin
+        width 40%
 
     &__content
       flex 1
-      border-left $ri-borderWidth solid $ri-secondaryColor
-      padding-left 2 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        padding-left 2 * $ri-baseMargin
+        border-left $ri-borderWidth solid $ri-secondaryColor
 
     &__text
       ri-m-subtitleText($ri-textColor)
