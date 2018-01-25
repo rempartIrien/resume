@@ -89,6 +89,9 @@ export default {
     &__text
       ri-m-subtitleText($ri-textColor)
       padding-bottom $ri-baseMargin
+      text-align justify
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        text-align left
 
     &__links,
     &__contactDetails
