@@ -55,3 +55,19 @@ ri-m-link()
 
 ri-m-bodyMaxWidth()
   max-width $ri-body-maxWidth
+
+ri-m-part()
+  padding-bottom 2 * $ri-baseMargin
+  @media screen and (min-width: $ri-breakpoint-minMedium)
+    padding-bottom 4 * $ri-baseMargin
+    display flex
+
+ri-m-legend()
+  margin-top 2 * $ri-baseMargin
+  text-align justify
+  padding-bottom 2 * $ri-baseMargin
+  @media screen and (min-width: $ri-breakpoint-minMedium)
+    text-align left
+    border-left $ri-borderWidth solid $ri-secondaryColor
+    padding 0 2 * $ri-baseMargin
+    margin-top 0

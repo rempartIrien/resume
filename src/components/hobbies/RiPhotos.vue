@@ -26,8 +26,9 @@ export default {
 
   .ri-photos
     ri-m-unstyleList()
-    padding-right 4 * $ri-baseMargin
-    padding-left 2 * $ri-baseMargin
+    padding 0 2 * $ri-baseMargin
+    @media screen and (min-width: $ri-breakpoint-minMedium)
+      padding-right 4 * $ri-baseMargin
 
     &__item
       width $ri-photoSize

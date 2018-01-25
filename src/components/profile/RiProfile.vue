@@ -51,20 +51,23 @@
       padding-bottom 4 * $ri-baseMargin
 
     &__chapter
-      display flex
-      padding-bottom 4 * $ri-baseMargin
+      ri-m-part()
 
     &__aside
+      ri-m-legend()
       flex 2
-      border-left $ri-borderWidth solid $ri-secondaryColor
-      padding-right 4 * $ri-baseMargin
-      padding-left 2 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        border-left $ri-borderWidth solid $ri-secondaryColor
+        padding-right 4 * $ri-baseMargin
+        padding-left 2 * $ri-baseMargin
 
     &__main
       flex 3
+      align-self center
       padding $ri-baseMargin
-      padding-left 4 * $ri-baseMargin
-      padding-right 6 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        padding-left 4 * $ri-baseMargin
+        padding-right 6 * $ri-baseMargin
 
     &__subtitle
       ri-m-titleText()

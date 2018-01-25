@@ -40,12 +40,12 @@ export default {
   @import '../../style/mixins'
 
   ri-m-vinyl($centerColor = $ri-tertiaryColor, $vinylColor = #232323)
-    $ri-vinylSize = 11rem
+    $vinylSize = 9rem
     display inline-block
     border 0.5rem solid $ri-darkGray
-    height $ri-vinylSize
+    height $vinylSize
+    width $vinylSize
     margin $ri-baseMargin 0
-    width $ri-vinylSize
     border-radius 50%
     background-image radial-gradient(circle at center,
       transparent 0,
@@ -56,6 +56,10 @@ export default {
       $vinylColor 25%,
       $vinylColor 100%
     )
+    @media screen and (min-width: $ri-breakpoint-minLarge)
+      $vinylSize = 11rem
+      height $vinylSize
+      width $vinylSize
 
   .ri-hobbies
     ri-m-bodyMaxWidth()
@@ -70,8 +74,7 @@ export default {
       padding-bottom 4 * $ri-baseMargin
 
     &__part
-      display flex
-      padding-bottom 4 * $ri-baseMargin
+      ri-m-part()
 
     &__subtitle
       ri-m-titleText()
@@ -82,24 +85,23 @@ export default {
 
     &__main
       flex 3
-      padding 0 2 * $ri-baseMargin
-      border-left $ri-borderWidth solid $ri-secondaryColor
+      ri-m-legend()
 
     &__aside
       flex 2
-      padding-right 4 * $ri-baseMargin
-      padding-left 2 * $ri-baseMargin
+      align-self center
       text-align center
 
   .ri-music
     ri-m-unstyleList()
-    padding-right 4 * $ri-baseMargin
-    padding-left 2 * $ri-baseMargin
+    padding 0 2 * $ri-baseMargin
     display flex
     flex-wrap wrap
     align-items center
     justify-content space-around
     border-radius 50%
+    @media screen and (min-width: $ri-breakpoint-minMedium)
+      padding-right 4 * $ri-baseMargin
 
     &__vinyl
       ri-m-vinyl()
@@ -116,13 +118,30 @@ export default {
       &:nth-of-type(6)
         ri-m-vinyl($ri-darkGray, $ri-tertiaryColor)
 
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(5),
+      &:nth-of-type(6)
+        display none
+
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        &:nth-of-type(2),
+        &:nth-of-type(3)
+          display inline-block
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        &:nth-of-type(5),
+        &:nth-of-type(6)
+          display inline-block
+
   .ri-code
     ri-m-unstyleList()
-    padding-right 4 * $ri-baseMargin
-    padding-left 2 * $ri-baseMargin
-    font-size 3 * $ri-fontSize--title
+    padding 0 2 * $ri-baseMargin
+    font-size 2 * $ri-fontSize--title
     display flex
     align-items center
+    @media screen and (min-width: $ri-breakpoint-minSmall)
+      font-size 3 * $ri-fontSize--title
+      padding-right 4 * $ri-baseMargin
 
     &__character
       display inline-block

@@ -2,13 +2,13 @@
   .ri-conferences
     ul.ri-conferences__list
       li.ri-conferences__item
-        a(href="http://dotjs.io")
+        a.ri-conferences__logoContainer(href="http://dotjs.io")
           img.ri-conferences__logo(src="../../assets/logos/logo-dotjs.png", alt="dotJS logo")
         ul.ri-conferences__caption
           li(v-t="'dotjs.2017'")
           li(v-t="'dotjs.2018'")
       li.ri-conferences__item
-        a(href="http://dotcss.io")
+        a.ri-conferences__logoContainer(href="http://dotcss.io")
           img.ri-conferences__logo(src="../../assets/logos/logo-dotcss.png", alt="dotCSS logo")
         ul.ri-conferences__caption
           li(v-t="'dotcss.2017'")
@@ -34,15 +34,26 @@ export default {
       ri-m-unstyleList()
 
     &__list
-      display flex
-      padding 4 * $ri-baseMargin 0
+      text-align center
+      @media screen and (min-width: $ri-breakpoint-minLarge)
+        padding 4 * $ri-baseMargin 0
+        display flex
 
     &__item
       flex 1
+      display inline-block
       text-align center
+      & + &
+        padding 2 * $ri-baseMargin
+        padding-bottom 0
+        @media screen and (min-width: $ri-breakpoint-minLarge)
+          padding 0
 
     &__logo
-      height 6 * $ri-baseMargin
+      height 4 * $ri-baseMargin
+
+      @media screen and (min-width: $ri-breakpoint-minLarge)
+        height 6 * $ri-baseMargin
 
 </style>
 

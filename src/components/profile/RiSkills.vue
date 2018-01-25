@@ -33,8 +33,10 @@
     ri-m-unstyleList()
     padding $ri-baseMargin 0
     display grid
-    grid-template-columns repeat(3, 1fr)
     grid-column-gap 2 * $ri-baseMargin
+    grid-template-columns repeat(2, 1fr)
+    @media screen and (min-width: $ri-breakpoint-minLarge)
+      grid-template-columns repeat(3, 1fr)
 
     &__item
       position relative
