@@ -93,7 +93,7 @@
       },
       "ux": {
          "title": "User experience",
-         "description": "Although I am a frontend developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have recently begun to attend conferences to go look further into web and UX subjects."
+         "description": "Although I am a frontend developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have recently begun to attend conferences to go further into web and UX subjects."
        }
     },
     "fr": {
