@@ -41,6 +41,9 @@ ri-m-pageTitle()
 
 ri-m-pageSubtitle()
   ri-m-text($ri-textColor, $ri-fontSize)
+  text-align justify
+  @media screen and (min-width: $ri-breakpoint-minMedium)
+    text-align left
 
 ri-m-link()
   &,

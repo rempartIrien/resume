@@ -35,31 +35,47 @@ export default {
   $ri-arrow-width = 0.4rem
 
   .ri-block
-    display flex
     width 100%
+    padding-bottom 2 * $ri-baseMargin
+    @media screen and (min-width: $ri-breakpoint-minSmall)
+      padding-bottom 0
+      display flex
 
     &__date
       ri-m-text($ri-tertiaryColor, $ri-fontSize--subtitle, 500)
-      border-right $ri-arrow-width solid $ri-tertiaryColor
       line-height $ri-fontSize--title
-      text-align right
-      width 35%
+      text-align center
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        text-align right
+        width 35%
+        border-right $ri-arrow-width solid $ri-tertiaryColor
 
     &__date,
     &__info
-      padding 5 * $ri-baseMargin
-      padding-top 0
+      padding $ri-baseMargin 0
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        padding 2 * $ri-baseMargin
+        padding-top 0
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        padding 5 * $ri-baseMargin
+        padding-top 0
 
     &__info
       flex 1
+      text-align justify
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        text-align left
 
     &__showDetails
-      ri-m-button($ri-tertiaryColor,$ri-floralWhite, $ri-fontSize, 400)
+      ri-m-button($ri-floralWhite, $ri-tertiaryColor, $ri-fontSize, 400)
       padding 0.5 * $ri-baseMargin
       display none
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        ri-m-button($ri-tertiaryColor, $ri-floralWhite, $ri-fontSize, 400)
 
     &__title
       ri-m-titleText()
+      text-align left
       line-height $ri-fontSize--title
 
     &__role
@@ -88,27 +104,33 @@ export default {
     position relative
 
     &::after
-      content ''
       border-radius 50%
       background-color $ri-tertiaryColor
       display block
       height 4 * $ri-arrow-width
       width 4 * $ri-arrow-width
       position absolute
-      right -4 * $ri-baseMargin + -5.5 * $ri-arrow-width
       top 0.5 * ($ri-fontSize--title - 4 * $ri-arrow-width)
+      right -1 * $ri-baseMargin + -5.5 * $ri-arrow-width
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        content ''
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        right -4 * $ri-baseMargin + -5.5 * $ri-arrow-width
 
   &.ri-s-inProgress .ri-date__text::after
-    border-radius 0
-    width 0
-    height 0
-    border-top 0
-    background-color transparent
-    border-left 2.5 * $ri-arrow-width solid transparent
-    border-right 2.5 * $ri-arrow-width solid transparent
-    border-bottom 5 * $ri-arrow-width solid $ri-tertiaryColor
-    top -1 * $ri-arrow-width
-    right -4 * $ri-baseMargin + -6 * $ri-arrow-width
+    @media screen and (min-width: $ri-breakpoint-minSmall)
+      border-radius 0
+      width 0
+      height 0
+      border-top 0
+      background-color transparent
+      border-left 2.5 * $ri-arrow-width solid transparent
+      border-right 2.5 * $ri-arrow-width solid transparent
+      border-bottom 5 * $ri-arrow-width solid $ri-tertiaryColor
+      top -1 * $ri-arrow-width
+      right -1 * $ri-baseMargin + -6 * $ri-arrow-width
+    @media screen and (min-width: $ri-breakpoint-minMedium)
+      right -4 * $ri-baseMargin + -6 * $ri-arrow-width
 
   &.ri-s-collasped
     .ri-block__info,
@@ -117,14 +139,20 @@ export default {
       display none
 
     .ri-date
-      border-right-style dotted
-      padding-top 2 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        border-right-style dotted
+        padding-top 2 * $ri-baseMargin
 
     .ri-block__showDetails
       display inline-block
+      width 100%
       position relative
-      right -5 * $ri-baseMargin
-      transform translateX(50%)
+      @media screen and (min-width: $ri-breakpoint-minSmall)
+        transform translateX(50%)
+        width auto
+        right -2 * $ri-baseMargin
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        right -5 * $ri-baseMargin
 
 
 </style>
