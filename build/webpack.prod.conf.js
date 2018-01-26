@@ -119,6 +119,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       },
       {
+        from: path.resolve(__dirname, '../favicon.png'),
+        to: config.build.assetsRoot
+      },
+      {
         from: path.resolve(__dirname, '../robots.txt'),
         to: config.build.assetsRoot
       }

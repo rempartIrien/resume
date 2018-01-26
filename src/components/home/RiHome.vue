@@ -51,9 +51,10 @@ export default {
 
     &__title
       ri-m-titleText(, 3.5rem)
+      padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
       @media screen and (min-width: $ri-breakpoint-minMedium)
         ri-m-titleText(, 4rem)
-      padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
+        padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
 
     &__subtitle
       ri-m-titleText($ri-secondaryColor)
