@@ -47,6 +47,9 @@ export default {
 
     &__answer
       ri-m-text()
+      text-align justify
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        text-align left
 
       /deep/
         > p

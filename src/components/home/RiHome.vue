@@ -50,7 +50,9 @@ export default {
     ri-m-bodyMaxWidth()
 
     &__title
-      ri-m-titleText(, 4rem)
+      ri-m-titleText(, 3.5rem)
+      @media screen and (min-width: $ri-breakpoint-minMedium)
+        ri-m-titleText(, 4rem)
       padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
 
     &__subtitle
