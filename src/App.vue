@@ -56,6 +56,7 @@ export default {
     &__container
       flex 1
       overflow auto
+      -webkit-overflow-scrolling touch
 
     &__view
       padding 0 2 * $ri-baseMargin
