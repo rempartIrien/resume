@@ -76,12 +76,16 @@ export default {
     &__photo
       object-fit contain
       width 100%
+      align-self center
       @media screen and (min-width: $ri-breakpoint-minSmall)
-        margin auto
+        margin 0 auto
         width 50%
       @media screen and (min-width: $ri-breakpoint-minMedium)
-        padding-right 2 * $ri-baseMargin 4 * $ri-baseMargin
+        padding-right 4 * $ri-baseMargin
+        margin 0
         width 40%
+        // On webkit, the photo takes a huge hieght wihtout this...
+        max-height 70vh
 
     &__content
       flex 1
