@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ri-icomoon';
-  src:  url('fonts/ri-icomoon.eot?ur64cf');
-  src:  url('fonts/ri-icomoon.eot?ur64cf#iefix') format('embedded-opentype'),
-    url('fonts/ri-icomoon.ttf?ur64cf') format('truetype'),
-    url('fonts/ri-icomoon.woff?ur64cf') format('woff'),
-    url('fonts/ri-icomoon.svg?ur64cf#ri-icomoon') format('svg');
+  src:  url('fonts/ri-icomoon.eot?dp3vk2');
+  src:  url('fonts/ri-icomoon.eot?dp3vk2#iefix') format('embedded-opentype'),
+    url('fonts/ri-icomoon.ttf?dp3vk2') format('truetype'),
+    url('fonts/ri-icomoon.woff?dp3vk2') format('woff'),
+    url('fonts/ri-icomoon.svg?dp3vk2#ri-icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,4 +32,7 @@
 }
 .ri-icon-location:before {
   content: "\e947";
+}
+.ri-icon-menu:before {
+  content: "\e9bd";
 }
