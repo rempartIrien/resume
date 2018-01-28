@@ -86,7 +86,7 @@
       "title": "Viseo - Synaps",
       "role": "Front-end developer",
       "content": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
-      "tags": ["Backbone.js", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git", "Scrum"],
+      "tags": ["Backbone.js", "Marionette.js", "Less", "stompjs", "KineticJS", "Java", "Spring", "Neo4j", "Git", "Scrum"],
       "inProgress": false,
       "collapsed": false
     },
