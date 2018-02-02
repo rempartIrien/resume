@@ -1,7 +1,6 @@
 # resume
 
-> This application should provide my résumé. I want to make it as an exercise with Vue.js.
-> Currently, e2e tests are out of order since I don't wish to install Java on my machine. Searching for alternatives...
+> This application provides my résumé. I wanted to make it as an exercise with Vue.js.
 
 ## Build Setup
 
@@ -18,13 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
-npm run unit
-
-# run e2e tests (produces error currently)
-npm run e2e
-
-# run all tests
+# run tests -- no test at the moment
 npm test
 ```
 

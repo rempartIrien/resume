@@ -27,6 +27,7 @@ export default {
     }
   },
   mounted() {
+    // Hide menu after every route change.
     this.$router.beforeEach((to, from, next) => {
       this.isMenuVisible = false;
       next();

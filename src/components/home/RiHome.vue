@@ -16,7 +16,7 @@
           li.ri-contactDetails__item
             span.ri-icon.ri-icon--envelop
             a.ri-home__email(href="mailto:pierre.martin@live.com") pierre.martin@live.com
-        .ri-home__pdfResume My resume will be available in PDF format soon!
+        vue-markdown.ri-home__pdfResume(:anchorAttributes="{ target: '_blank' }") {{ $t('pdf') }}
         ul.ri-home__links
           li
             a(href="https://github.com/rempartIrien", target="_blank")
@@ -41,100 +41,138 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../style/variables'
-  @import '../../style/mixins'
+@import '../../style/variables';
+@import '../../style/mixins';
 
-  $ri-home-imageSize = 6.4rem
+$ri-home-imageSize = 6.4rem;
 
-  .ri-home
-    ri-m-bodyMaxWidth()
+.ri-home {
+  ri-m-bodyMaxWidth();
 
-    &__title
-      ri-m-titleText(, 3.5rem)
-      padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        ri-m-titleText(, 4rem)
-        padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
+  &__title {
+    ri-m-titleText(, 3.5rem);
+    padding: 2 * $ri-baseMargin 0 $ri-baseMargin 0;
 
-    &__subtitle
-      ri-m-titleText($ri-secondaryColor)
-      padding-bottom 2 * $ri-baseMargin
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      ri-m-titleText(, 4rem);
+      padding: 2 * $ri-baseMargin 0 $ri-baseMargin 0;
+    }
+  }
 
-    &__container
-      ri-m-part()
-      display flex
-      overflow hidden
-      flex-direction column-reverse
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        flex-direction row
+  &__subtitle {
+    ri-m-titleText($ri-secondaryColor);
+    padding-bottom: 2 * $ri-baseMargin;
+  }
 
-    &__photo,
-    &__content
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        padding 3 * $ri-baseMargin
+  &__container {
+    ri-m-part();
+    display: flex;
+    overflow: hidden;
+    flex-direction: column-reverse;
 
-    &__photo
-      object-fit contain
-      width 100%
-      align-self center
-      @media screen and (min-width: $ri-breakpoint-minSmall)
-        margin 0 auto
-        width 50%
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        padding-right 4 * $ri-baseMargin
-        margin 0
-        width 40%
-        // On webkit, the photo takes a huge hieght wihtout this...
-        max-height 70vh
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      flex-direction: row;
+    }
+  }
 
-    &__content
-      flex 1
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        padding-left 2 * $ri-baseMargin
-        border-left $ri-borderWidth solid $ri-secondaryColor
+  &__photo, &__content {
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      padding: 3 * $ri-baseMargin;
+    }
+  }
 
-    &__text
-      ri-m-subtitleText($ri-textColor)
-      padding-bottom $ri-baseMargin
-      text-align justify
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        text-align left
+  &__photo {
+    object-fit: contain;
+    width: 100%;
+    align-self: center;
 
-    &__links,
-    &__contactDetails
-      ri-m-unstyleList()
-      padding 2 * $ri-baseMargin
+    @media screen and (min-width: $ri-breakpoint-minSmall) {
+      margin: 0 auto;
+      width: 50%;
+    }
 
-    &__pdfResume
-      padding $ri-baseMargin
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      padding-right: 4 * $ri-baseMargin;
+      margin: 0;
+      width: 40%;
+      // On webkit, the photo takes a huge hieght wihtout this...
+      max-height: 70vh;
+    }
+  }
 
-    &__links
-      display flex
-      align-items center
-      justify-content space-around
+  &__content {
+    flex: 1;
 
-    &__linkImage
-      width auto
-      height $ri-home-imageSize
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      padding-left: 2 * $ri-baseMargin;
+      border-left: $ri-borderWidth solid $ri-secondaryColor;
+    }
+  }
 
-      &--large
-        height 1.5 * $ri-home-imageSize
+  &__text {
+    ri-m-subtitleText($ri-textColor);
+    padding-bottom: $ri-baseMargin;
+    text-align: justify;
 
-    &__email
-      ri-m-link()
+    @media screen and (min-width: $ri-breakpoint-minMedium) {
+      text-align: left;
+    }
+  }
 
-  .ri-contactDetails
+  &__links, &__contactDetails {
+    ri-m-unstyleList();
+    padding: 2 * $ri-baseMargin;
+  }
 
-    &__item
-      padding 0 $ri-baseMargin
+  &__pdfResume {
+    padding: $ri-baseMargin;
 
-      & + &
-        padding-top $ri-baseMargin
+    /deep/ {
+      > p {
+        // Remove default style in generated HTML by markdown tag
+        margin: 0;
+      }
 
-    .ri-icon
-      padding 0 $ri-baseMargin
-      color $ri-secondaryColor
+      a {
+        ri-m-link();
+      }
+    }
+  }
 
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__linkImage {
+    width: auto;
+    height: $ri-home-imageSize;
+
+    &--large {
+      height: 1.5 * $ri-home-imageSize;
+    }
+  }
+
+  &__email {
+    ri-m-link();
+  }
+}
+
+.ri-contactDetails {
+  &__item {
+    padding: 0 $ri-baseMargin;
+
+    & + & {
+      padding-top: $ri-baseMargin;
+    }
+  }
+
+  .ri-icon {
+    padding: 0 $ri-baseMargin;
+    color: $ri-secondaryColor;
+  }
+}
 </style>
 
 <i18n>
@@ -145,7 +183,8 @@ export default {
       "text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
       "github": "GitHub logo",
       "twitter": "Twitter logo",
-      "location": "Grenoble"
+      "location": "Grenoble",
+      "pdf": "[Here](./resume.pdf) is my French resume in PDF format."
     },
     "fr": {
       "title": "Pierre Martin-Henry",
@@ -153,7 +192,8 @@ export default {
       "text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour que vous appreniez à mieux me connaître. Profitez du voyage !",
       "github": "logo GitHub",
       "twitter": "logo Twitter",
-      "location": "Grenoble"
+      "location": "Grenoble",
+      "pdf": "[Voici](./resume.pdf) mon CV au format PDF."
     }
   }
 </i18n>
