@@ -21,6 +21,10 @@
       "answer": "Undoubtedly, it was Elis. For the first time in my life, I was in charge of all the frontend project: I started the project, I created its architecture (component-based), I chose tools, I set the build chain and I developed a graphical framework with AngularJS directives. It was the first time I could do more than code and I loved it."
     },
     {
+      "question": "TypeScript or JavaScript?",
+      "answer": "Although I coded this website with JavaScript, nowadays I set TypeScript up when beginning new projets. It helps a lot to write consistent and error-proof code."
+    },
+    {
       "question": "What is my favorite sport?",
       "answer": "I like football (soccer) and tennis."
     },
