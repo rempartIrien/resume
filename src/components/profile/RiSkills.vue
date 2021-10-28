@@ -2,19 +2,19 @@
   div
     //- h2(v-t="'title'")
     ul.ri-skills
-      li.ri-skills__item.ri-skills__item--80(v-t="'skills.javascript'")
-      li.ri-skills__item.ri-skills__item--60(v-t="'skills.angular'")
-      li.ri-skills__item(v-t="'skills.vuejs'")
-      li.ri-skills__item.ri-skills__item--90(v-t="'skills.angularjs'")
+      li.ri-skills__item.ri-skills__item--90(v-t="'skills.javascript'")
+      li.ri-skills__item.ri-skills__item--80(v-t="'skills.angular'")
+      li.ri-skills__item.ri-skills__item--70(v-t="'skills.vuejs'")
+      li.ri-skills__item.ri-skills__item--60(v-t="'skills.react'")
       li.ri-skills__item.ri-skills__item--70(v-t="'skills.test'")
       li.ri-skills__item.ri-skills__item--90(v-t="'skills.html'")
       li.ri-skills__item.ri-skills__item--90(v-t="'skills.css'")
-      li.ri-skills__item.ri-skills__item--70(v-t="'skills.english'")
+      li.ri-skills__item.ri-skills__item--80(v-t="'skills.english'")
       li.ri-skills__item.ri-skills__item--100(v-t="'skills.french'")
       li.ri-skills__item.ri-skills__item--80(v-t="'skills.git'")
-      li.ri-skills__item.ri-skills__item--30(v-t="'skills.java'")
-      li.ri-skills__item.ri-skills__item--60(v-t="'skills.agile'")
-      li.ri-skills__item.ri-skills__item--60(v-t="'skills.uml'")
+      li.ri-skills__item.ri-skills__item--60(v-t="'skills.java'")
+      li.ri-skills__item.ri-skills__item--70(v-t="'skills.agile'")
+      li.ri-skills__item.ri-skills__item--70(v-t="'skills.uml'")
 </template>
 
 <script>
@@ -82,10 +82,10 @@
         "javascript": "JavaScript, TypeScript",
         "angular": "Angular",
         "vuejs": "Vue.js",
-        "angularjs": "AngularJS",
-        "test": "Jasmine",
+        "react": "React",
+        "test": "Jasmine, Jest",
         "html": "HTML, Pug",
-        "css": "CSS, Stylus, Sass",
+        "css": "CSS, Stylus, Sass, SCSS",
         "english": "English",
         "french": "French",
         "git": "Git",
@@ -100,10 +100,10 @@
         "javascript": "JavaScript, TypeScript",
         "angular": "Angular",
         "vuejs": "Vue.js",
-        "angularjs": "AngularJS",
-        "test": "Jasmine",
+        "react": "React",
+        "test": "Jasmine, Jest",
         "html": "HTML, Pug",
-        "css": "CSS, Stylus, Sass",
+        "css": "CSS, Stylus, Sass, SCSS",
         "english": "Angiais",
         "french": "Français",
         "git": "Git",

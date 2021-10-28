@@ -2,11 +2,11 @@
   "en": [
     {
       "question": "Why did I choose to make an online résumé?",
-      "answer": "I wanted to show a glimpse of what I can do, I think a website is more relevant than a piece of paper to show my work. By the way, the code is on [Github](https://github.com/rempartIrien/resume)."
+      "answer": "Back in 2018, I wanted to show a glimpse of what I could do: I thought a website was more relevant than a piece of paper to show my work and I still do. Although its technologies are not up-to-date, I decided to use it one more time in 2021. By the way, the code is on [Github](https://github.com/rempartIrien/resume)."
     },
     {
       "question": "What did I use to make this website?",
-      "answer": "I used Vue.js, Pug and Stylus as technologies and Visual Studio Code as text editor."
+      "answer": "I used Vue.js, Pug and Stylus as technologies and Visual Studio Code as text editor. Today, I would use React, TypeScript and styled-components (to try to convince me this alternative is good enough)."
     },
     {
       "question": "Why have I been to Montreal?",

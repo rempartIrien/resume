@@ -183,7 +183,7 @@ $ri-home-imageSize = 6.4rem;
       "text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
       "github": "GitHub logo",
       "twitter": "Twitter logo",
-      "location": "Grenoble",
+      "location": "Gignac-La-Nerthe, France",
       "pdf": "[Here](./resume.pdf) is my French resume in PDF format."
     },
     "fr": {
@@ -192,7 +192,7 @@ $ri-home-imageSize = 6.4rem;
       "text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour que vous appreniez à mieux me connaître. Profitez du voyage !",
       "github": "logo GitHub",
       "twitter": "logo Twitter",
-      "location": "Grenoble",
+      "location": "Gignac-La-Nerthe, France",
       "pdf": "[Voici](./resume.pdf) mon CV au format PDF."
     }
   }

@@ -1,12 +1,12 @@
 {
   "en": [
     {
-      "id": "11",
+      "id": "12",
       "dateString": "05/2018 to today",
-      "title": "Homiwoo - Homiwoo",
+      "title": "Homiwoo - Homiwoo platform",
       "role": "Fullstack developer, tech lead on front end",
-      "content": "Homiwoo delivers real estate data to its client through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and ElasticSearch part sometimes.",
-      "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Scala", "Elastic Search", "Git", "Webpack", "AngularCLI", "Docker", "Scrum"],
+      "content": "Homiwoo delivers real estate data to its clients through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and Elasticsearch parts sometimes.",
+      "tags": ["Angular", "AngularJS", "Jasmine", "Karma", "Cypress", "Puppeteer", "Node.js", "SCSS", "Scala", "Elasticsearch", "TypeScript", "Prettier", "ESLint", "Git", "Webpack", "AngularCLI", "Docker", "Scrum"],
       "inProgress": true,
       "collapsed": false
     },
@@ -18,7 +18,7 @@
       "content": "CCGPF is in charge of organizing summer camps for SNCF's employee children and wanted an application able to dispatch and bring them to destination safely.",
       "tags": ["Angular", "Jasmine", "Karma", "Protractor", "SCSS", "Java", "Spring", "PostgreSQL", "Liquibase", "Git", "Webpack", "Maven", "Scrum"],
       "inProgress": false,
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "10",
