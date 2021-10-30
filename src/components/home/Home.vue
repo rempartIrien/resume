@@ -139,7 +139,7 @@
     &__phone,
     &__email
       display flex
-      align-items center
+      align-items flex-start
 
       &::before
         display inline-block
@@ -172,8 +172,6 @@
 
   .ri-contactDetails
     &__item
-      padding: 0 $ri-baseMargin;
-
       & + &
         padding-top: $ri-baseMargin;
 </style>

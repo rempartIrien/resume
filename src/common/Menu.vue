@@ -61,10 +61,11 @@ div.ri-menu
       max-width $ri-body-maxWidth
 
     &__title
-      padding $ri-baseMargin
+      padding $ri-baseMargin 2 * $ri-baseMargin
       position relative
       z-index 1
       @media screen and (min-width: $ri-breakpoint-minSmall)
+        padding $ri-baseMargin
         display none
 
     &__toggle
@@ -87,7 +88,8 @@ div.ri-menu
       ri-m-unstyleList()
       position absolute
       margin 0
-      padding 2 * $ri-baseMargin 4rem
+      padding 2 * $ri-baseMargin
+      padding-top $ri-baseMargin
       width 100%
       height 100vh
       bottom 0
@@ -103,7 +105,6 @@ div.ri-menu
       &.ri-s-visible
         transform translateY(100%)
         @media screen and (min-width: $ri-breakpoint-minSmall)
-          padding 2 * $ri-baseMargin
           transform translateY(0)
 
     &__title,
@@ -112,7 +113,7 @@ div.ri-menu
 
     &__item
       display block
-      padding $ri-baseMargin
+      padding $ri-baseMargin 0
       @media screen and (min-width: $ri-breakpoint-minSmall)
         display inline-block
         padding 0 $ri-baseMargin
