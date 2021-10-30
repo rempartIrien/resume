@@ -1,25 +1,26 @@
 <template lang="pug">
-  #app.ri-app
-    ri-menu.ri-app__menu
-    .ri-app__container
-      router-view.ri-app__view
+.ri-app
+  Menu.ri-app__menu
+  .ri-app__container
+    router-view.ri-app__view
 </template>
 
-<script>
-import RiMenu from './components/menu/RiMenu';
+<script lang="ts">
+  import { defineComponent } from 'vue';
 
-export default {
-  name: 'app',
-  components: {
-    RiMenu
-  }
-};
+  import Menu from './common/Menu.vue';
+
+  export default defineComponent({
+    name: 'App',
+    components: {
+      Menu
+    }
+  });
 </script>
 
 <style lang="stylus">
   @import './style/variables'
   @import './style/mixins'
-  @import './style/icons'
 
   html
     // Set 1rem to 10px
@@ -39,6 +40,10 @@ export default {
     // Thanks IE and Edge!
     overflow: hidden;
 
+  #app,
+  .ri-app
+    height 100%
+
   .ri-app
     font-family: Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -47,7 +52,6 @@ export default {
     display flex
     flex-direction column
     margin 0 auto
-    height 100%
 
     &__menu,
     &__container
@@ -60,5 +64,4 @@ export default {
 
     &__view
       padding 0 2 * $ri-baseMargin
-
 </style>

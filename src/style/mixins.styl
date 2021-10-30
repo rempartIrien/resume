@@ -74,3 +74,17 @@ ri-m-legend()
     border-left $ri-borderWidth solid $ri-secondaryColor
     padding 0 2 * $ri-baseMargin
     margin-top 0
+
+// See https://medium.com/@no.steiner/change-svg-icons-color-with-css-only-ba6a4912e6ba
+ri-m-icon($path, $height, $width, $color)
+  height $height
+  width $width
+  background-color $color
+  mask-image url($path)
+  background-size cover
+  -webkit-mask-size contain
+  mask-size contain
+  -webkit-mask-position center
+  mask-position center
+  -webkit-mask-repeat no-repeat
+  mask-repeat no-repeat

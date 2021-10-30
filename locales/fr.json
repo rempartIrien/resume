@@ -1,0 +1,105 @@
+{
+  "menu": {
+    "menu": "Menu",
+    "home": "Accueil",
+    "profile": "Profil",
+    "experience": "Carrière",
+    "hobbies": "Loisirs",
+    "faq": "FAQ"
+  },
+  "home": {
+    "title": "Pierre Martin-Henry",
+    "subtitle": "Ingénieur logiciel frontend intéressé par l'UX",
+    "text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour que vous appreniez à mieux me connaître. Profitez du voyage !",
+    "github": "logo GitHub",
+    "twitter": "logo Twitter",
+    "location": "Gignac-La-Nerthe, France",
+    "pdf": "[Voici](./resume.pdf) mon CV au format PDF.",
+    "photo": "Photo de votre serviteur"
+  },
+  "profile": {
+    "title": "Toujours en cours",
+    "intro": "Laissez-moi vous en dire plus sur moi et ce qui m'a conduit à l'homme que je suis.",
+    "engineer": {
+      "title": "Ingénieur",
+      "description": ""
+    },
+    "javascript": {
+      "title": "JavaScript",
+      "description": ""
+    },
+    "ux": {
+      "title": "Expérience utilisateur",
+      "description": ""
+    },
+    "education": {
+      "title": "Formation",
+      "ensisa": {
+        "title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
+        "date": "2009 à 2012",
+        "degree": "Diplôme d'ingénieur en Informartique et Réseaux"
+      },
+      "polytechnique": {
+        "title": "École Polytechnique de Montréal",
+        "date": "2011 à 2012",
+        "degree": "Certificat en Génie Informatique"
+      }
+    },
+    "skills": {
+      "javascript": "JavaScript, TypeScript",
+      "angular": "Angular",
+      "vuejs": "Vue.js",
+      "react": "React",
+      "test": "Jasmine, Jest",
+      "html": "HTML, Pug",
+      "css": "CSS, Stylus, Sass, SCSS",
+      "english": "Angiais",
+      "french": "Français",
+      "git": "Git",
+      "java": "Java, Spring",
+      "agile": "Méthodologies agiles",
+      "uml": "UML"
+    },
+    "conferences": {
+      "dotjs": {
+        "2017": "1er décembre 2017 - vue",
+        "2018": "9 novembre 2018 - vue"
+      },
+      "dotcss": {
+        "2017": "30 novembre 2017 - vue",
+        "2018": "8 novembre 2018 - vue"
+      }
+    }
+  },
+  "experience": {
+    "title": "Quelques histoires courtes",
+    "summary": "Voici mes différentes expériences. Elles furent très différentes en raison de leur contextes et chaque équipe de mais j'ai toujours eu quelque chose à en retirer et à apporter.",
+    "show_all": "Montrer toutes les expériences"
+  },
+  "hobbies": {
+    "title": "Loisirs",
+    "music": {
+      "title": "",
+      "description": ""
+    },
+    "travel": {
+      "title": "",
+      "description": "",
+      "fr": {
+        "gundam": "Photo du Gundam",
+        "matsumoto": "Photo du château de Matsumoto",
+        "miyajima": "Photo du sanctuaire de Miyajima",
+        "montreal": "Photo de Montréal",
+        "toronto": "Photo de Toronto"
+      }
+    },
+    "code": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "faq": {
+    "title": "La connaissance, c'est le pouvoir",
+    "intro": "Quelques réponses pourraient se trouver ici..."
+  }
+}
