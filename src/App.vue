@@ -6,11 +6,29 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { defineComponent, onMounted, onUnmounted } from 'vue';
 
   import Menu from './common/Menu.vue';
 
   export default defineComponent({
+    setup() {
+      // With mobile devices, browsers hide and show toolbars, but these
+      // toolsbars are taken into account in the 100vh computation.
+      // So we need to dynamically recompute the csreen size.
+      // See https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9
+      const appHeight = () => {
+        const doc = document.documentElement;
+        doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+      };
+
+      onMounted(() => {
+        window.addEventListener('resize', appHeight);
+        appHeight();
+      });
+      onUnmounted(() => {
+        window.removeEventListener('resize', appHeight);
+      });
+    },
     name: 'App',
     components: {
       Menu
@@ -21,6 +39,9 @@
 <style lang="stylus">
   @import './style/variables'
   @import './style/mixins'
+
+  :root
+   --app-height 100vh
 
   html
     // Set 1rem to 10px
@@ -35,7 +56,7 @@
   body
     ri-m-regularText()
     background-color $ri-backgroundColor
-    height 100vh
+    height var(--app-height)
     line-height 1.5
     // Thanks IE and Edge!
     overflow: hidden;
