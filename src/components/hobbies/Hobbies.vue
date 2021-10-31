@@ -49,7 +49,7 @@
   ri-m-vinyl($centerColor = $ri-tertiaryColor, $vinylColor = #232323)
     $vinylSize = 9rem
     display inline-block
-    border 0.5rem solid $ri-darkGray
+    border 0.5rem solid $ri-textColor
     height $vinylSize
     width $vinylSize
     margin $ri-baseMargin 0
@@ -123,7 +123,7 @@
         ri-m-vinyl(, $ri-primaryColor)
 
       &:nth-of-type(6)
-        ri-m-vinyl($ri-darkGray, $ri-tertiaryColor)
+        ri-m-vinyl($ri-textColor, $ri-tertiaryColor)
 
       &:nth-of-type(2),
       &:nth-of-type(3),

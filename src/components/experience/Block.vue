@@ -77,11 +77,11 @@
         text-align left
 
     &__showDetails
-      ri-m-button($ri-floralWhite, $ri-tertiaryColor, $ri-fontSize, 400)
+      ri-m-button($ri-backgroundColor, $ri-tertiaryColor, $ri-fontSize, 400)
       padding 0.5 * $ri-baseMargin
       display none
       @media screen and (min-width: $ri-breakpoint-minSmall)
-        ri-m-button($ri-tertiaryColor, $ri-floralWhite, $ri-fontSize, 400)
+        ri-m-button($ri-tertiaryColor, $ri-backgroundColor, $ri-fontSize, 400)
 
     &__title
       ri-m-titleText()
