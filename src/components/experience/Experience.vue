@@ -4,11 +4,11 @@
   p.ri-experience__intro {{ t('experience.summary') }}
   ul.ri-experience__experiences
     li(v-for="experience in experiences", :key="experience.id", :class="{ 'ri-s-collapsed': isCollapsed(experience) }")
-      Block(:experience="experience", :collapsed="isCollapsed(experience)", @showAll="showAll()")
+      Block(:experience="experience", :collapsed="isCollapsed(experience)", @showAll="() => showAll()")
 </template>
 
 <script lang="ts">
-  import { ComputedRef, computed, defineComponent } from 'vue';
+  import { ComputedRef, Ref, computed, defineComponent, ref } from 'vue';
   import { useI18n } from 'vue-i18n';
 
   import { Locale } from '../../i18n';
@@ -23,21 +23,20 @@
     },
     setup() {
       const { t, locale } = useI18n();
+      const collapsedAll: Ref<boolean> = ref(true);
+
       const experiences: ComputedRef<Experience[]> = computed(() =>
         getExperienceList(locale.value as Locale)
       );
-      return { t, experiences };
-    },
-    data() {
-      return { collapsedAll: true };
-    },
-    methods: {
-      showAll() {
-        this.collapsedAll = false;
-      },
-      isCollapsed(experience: Experience): boolean {
-        return experience.collapsed && this.collapsedAll;
-      }
+
+      const showAll: () => void = () => (collapsedAll.value = false);
+      const isCollapsed: (experience: Experience) => boolean = (
+        experience: Experience
+      ) => {
+        return experience.collapsed && collapsedAll.value;
+      };
+
+      return { t, experiences, collapsedAll, showAll, isCollapsed };
     }
   });
 </script>

@@ -1,5 +1,5 @@
 <template lang="pug">
-.ri-block(:class="{ 'ri-s-inProgress': experience.inProgress, 'ri-s-collasped': collapsed }")
+.ri-block(ref="root", :class="{ 'ri-s-inProgress': experience.inProgress, 'ri-s-collasped': collapsed }")
   .ri-block__date.ri-date
     p.ri-date__text {{ experience.dateString }}
     p.ri-block__role {{ experience.role }}
@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts">
-  import { PropType, defineComponent } from 'vue';
+  import { PropType, Ref, defineComponent, nextTick, ref } from 'vue';
 
   import { Experience } from './experience.data';
 
@@ -25,15 +25,18 @@
       collapsed: { type: Boolean as PropType<boolean>, required: true }
     },
     emits: [SHOW_ALL_EVENT],
-    methods: {
-      showDetails() {
-        this.$emit(SHOW_ALL_EVENT);
-        void this.$nextTick(() => {
-          (this.$el as HTMLElement).scrollIntoView({
+    setup(props, { emit }) {
+      const root: Ref<HTMLElement | undefined> = ref();
+
+      const showDetails: () => void = () => {
+        emit(SHOW_ALL_EVENT);
+        void nextTick(() => {
+          root.value?.scrollIntoView({
             behavior: 'smooth'
           });
         });
-      }
+      };
+      return { showDetails, root };
     }
   });
 </script>

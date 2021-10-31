@@ -4,7 +4,7 @@ div(v-html="compiledMarkdown")
 
 <script lang="ts">
   import { Converter } from 'showdown';
-  import { defineComponent } from 'vue';
+  import { ComputedRef, computed, defineComponent } from 'vue';
 
   function addCustomCssClasses(html: string): string {
     return (
@@ -27,11 +27,13 @@ div(v-html="compiledMarkdown")
         required: true
       }
     },
-    computed: {
-      compiledMarkdown(): string {
-        const html: string = new Converter().makeHtml(this.input);
+    setup(props) {
+      const compiledMarkdown: ComputedRef<string> = computed(() => {
+        const html: string = new Converter().makeHtml(props.input);
         return addCustomCssClasses(html);
-      }
+      });
+
+      return { compiledMarkdown };
     }
   });
 </script>

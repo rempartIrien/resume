@@ -13,41 +13,43 @@ div.ri-menu
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import {
+    ComputedRef,
+    Ref,
+    computed,
+    defineComponent,
+    onMounted,
+    ref
+  } from 'vue';
   import { useI18n } from 'vue-i18n';
+  import { RouteRecordRaw, Router, useRouter } from 'vue-router';
 
   import { Locale } from '../i18n';
-  import { routes } from '../routes';
+  import { routes as ROUTES } from '../routes';
 
   export default defineComponent({
     name: 'Menu',
     setup() {
+      const router: Router = useRouter();
       const { t, locale } = useI18n();
       const setLocale: (locale: Locale) => void = (newLocale: Locale) => {
         locale.value = newLocale;
       };
+      const routes: ComputedRef<RouteRecordRaw[]> = computed(() => ROUTES);
+      const isMenuVisible: Ref<boolean> = ref(false);
 
-      return { t, setLocale };
-    },
-    data() {
-      return {
-        isMenuVisible: false
-      };
-    },
-    computed: {
-      routes: () => routes
-    },
-    mounted() {
-      // Hide menu after every route change.
-      this.$router.beforeEach((to, from, next) => {
-        this.isMenuVisible = false;
-        next();
+      const toggleMenu: () => void = () =>
+        (isMenuVisible.value = !isMenuVisible.value);
+
+      onMounted(() => {
+        // Hide menu after every route change.
+        router.beforeEach((to, from, next) => {
+          isMenuVisible.value = false;
+          next();
+        });
       });
-    },
-    methods: {
-      toggleMenu(): void {
-        this.isMenuVisible = !this.isMenuVisible;
-      }
+
+      return { t, setLocale, routes, isMenuVisible, toggleMenu };
     }
   });
 </script>
