@@ -1,15 +1,17 @@
+import { RouteRecordRaw } from 'vue-router';
+
 import Experience from './components/experience/Experience.vue';
 import Faq from './components/faq/Faq.vue';
 import Hobbies from './components/hobbies/Hobbies.vue';
 import Home from './components/home/Home.vue';
 import Profile from './components/profile/Profile.vue';
 
-export default [
+export const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'home',
     component: Home,
-    data: {
+    meta: {
       translationKey: 'menu.home'
     }
   },
@@ -17,7 +19,7 @@ export default [
     path: '/profile',
     name: 'profile',
     component: Profile,
-    data: {
+    meta: {
       translationKey: 'menu.profile'
     }
   },
@@ -25,7 +27,7 @@ export default [
     path: '/experience',
     name: 'experience',
     component: Experience,
-    data: {
+    meta: {
       translationKey: 'menu.experience'
     }
   },
@@ -33,7 +35,7 @@ export default [
     path: '/hobbies',
     name: 'hobbies',
     component: Hobbies,
-    data: {
+    meta: {
       translationKey: 'menu.hobbies'
     }
   },
@@ -41,8 +43,15 @@ export default [
     path: '/faq',
     name: 'faq',
     component: Faq,
-    data: {
+    meta: {
       translationKey: 'menu.faq'
     }
   }
 ];
+
+const catchAllRoute: RouteRecordRaw = {
+  path: '/:pathMatch(.*)*',
+  redirect: '/'
+};
+
+export default routes.concat(catchAllRoute);

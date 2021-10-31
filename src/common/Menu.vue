@@ -4,7 +4,7 @@ div.ri-menu
     button.ri-menu__toggle(type="button", @click="() => toggleMenu()") {{ t('menu.menu') }}
   ul.ri-menu__list(:class="{ 'ri-s-visible': isMenuVisible }")
     li.ri-menu__item(v-for="route in routes", :key="route.path")
-      router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active") {{ t(route.data.translationKey) }}
+      router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active") {{ t(route.meta.translationKey) }}
   ul.ri-menu__localeList
     li.ri-menu__localeItem
       button.ri-menu__locale(@click="() => setLocale('en')", title="Switch to English") 🇬🇧
@@ -17,7 +17,7 @@ div.ri-menu
   import { useI18n } from 'vue-i18n';
 
   import { Locale } from '../i18n';
-  import ROUTES from '../routes';
+  import { routes } from '../routes';
 
   export default defineComponent({
     name: 'Menu',
@@ -35,7 +35,7 @@ div.ri-menu
       };
     },
     computed: {
-      routes: () => ROUTES
+      routes: () => routes
     },
     mounted() {
       // Hide menu after every route change.
