@@ -46,10 +46,10 @@
   @import '../../style/variables'
   @import '../../style/mixins'
 
-  ri-m-vinyl($centerColor = $ri-tertiaryColor, $vinylColor = #232323)
+  ri-m-vinyl($centerColor = var(--color-tertiary), $vinylColor = #232323)
     $vinylSize = 9rem
     display inline-block
-    border 0.5rem solid $ri-textColor
+    border 0.5rem solid var(--color-text)
     height $vinylSize
     width $vinylSize
     margin $ri-baseMargin 0
@@ -114,16 +114,16 @@
       ri-m-vinyl()
 
       &:nth-of-type(2)
-        ri-m-vinyl($ri-primaryColor)
+        ri-m-vinyl(var(--color-primary))
 
       &:nth-of-type(3)
-        ri-m-vinyl($ri-secondaryColor)
+        ri-m-vinyl(var(--color-secondary))
 
       &:nth-of-type(4)
-        ri-m-vinyl(, $ri-primaryColor)
+        ri-m-vinyl(, var(--color-primary))
 
       &:nth-of-type(6)
-        ri-m-vinyl($ri-textColor, $ri-tertiaryColor)
+        ri-m-vinyl(var(--color-text), var(--color-tertiary))
 
       &:nth-of-type(2),
       &:nth-of-type(3),
@@ -152,12 +152,12 @@
 
     &__character
       display inline-block
-      color $ri-primaryColor
+      color var(--color-primary)
 
       &:first-of-type,
       &:last-of-type
         flex 1
-        color $ri-tertiaryColor
+        color var(--color-tertiary)
 
       &:first-of-type
         text-align right

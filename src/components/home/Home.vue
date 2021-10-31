@@ -63,7 +63,7 @@
         padding: 2 * $ri-baseMargin 0 $ri-baseMargin 0;
 
     &__subtitle
-      ri-m-titleText($ri-secondaryColor);
+      ri-m-titleText(var(--color-secondary));
       padding-bottom: 2 * $ri-baseMargin;
 
     &__container
@@ -101,10 +101,10 @@
 
       @media screen and (min-width: $ri-breakpoint-minMedium)
         padding-left: 2 * $ri-baseMargin;
-        border-left: $ri-borderWidth solid $ri-secondaryColor;
+        border-left: $ri-borderWidth solid var(--color-secondary);
 
     &__text
-      ri-m-subtitleText($ri-textColor);
+      ri-m-subtitleText(var(--color-text));
       padding-bottom: $ri-baseMargin;
       text-align: justify;
 
@@ -151,7 +151,7 @@
         '/assets/icons/location.svg',
         $ri-home-iconSize,
         $ri-home-iconSize,
-        $ri-secondaryColor
+        var(--color-secondary)
       )
 
     &__phone::before
@@ -159,7 +159,7 @@
         '/assets/icons/phone.svg',
         $ri-home-iconSize,
         $ri-home-iconSize,
-        $ri-secondaryColor
+        var(--color-secondary)
       )
 
     &__email::before
@@ -167,7 +167,7 @@
         '/assets/icons/email.svg',
         $ri-home-iconSize,
         $ri-home-iconSize,
-        $ri-secondaryColor
+        var(--color-secondary)
       )
 
   .ri-contactDetails

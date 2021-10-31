@@ -64,7 +64,7 @@
       ri-m-legend()
       flex 2
       @media screen and (min-width: $ri-breakpoint-minMedium)
-        border-left $ri-borderWidth solid $ri-secondaryColor
+        border-left $ri-borderWidth solid var(--color-secondary)
         padding-right 4 * $ri-baseMargin
         padding-left 2 * $ri-baseMargin
 

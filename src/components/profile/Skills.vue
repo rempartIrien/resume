@@ -49,7 +49,7 @@ ul.ri-skills
       align-self end
       padding 0.5 * $ri-baseMargin
       padding-top 1.5 * $ri-baseMargin
-      border-bottom $ri-pointWidth solid $ri-tertiaryColor
+      border-bottom $ri-pointWidth solid var(--color-tertiary)
 
       &::after
         position absolute
@@ -59,7 +59,7 @@ ul.ri-skills
         bottom - 0.5 * ($ri-baseMargin + $ri-pointWidth)
         left 50%
         border-radius 50%
-        background-color $ri-tertiaryColor
+        background-color var(--color-tertiary)
 
       &--30::after
         left 30%

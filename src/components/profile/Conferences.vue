@@ -34,7 +34,7 @@
 
   .ri-conferences
     &__intro
-      ri-m-subtitleText($ri-tertiaryColor)
+      ri-m-subtitleText(var(--color-tertiary))
 
     &__list,
     &__caption

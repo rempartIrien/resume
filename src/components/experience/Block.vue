@@ -52,13 +52,13 @@
       display flex
 
     &__date
-      ri-m-text($ri-tertiaryColor, $ri-fontSize--subtitle, 500)
+      ri-m-text(var(--color-tertiary), $ri-fontSize--subtitle, 500)
       line-height $ri-fontSize--title
       text-align center
       @media screen and (min-width: $ri-breakpoint-minSmall)
         text-align right
         width 35%
-        border-right $ri-arrow-width solid $ri-tertiaryColor
+        border-right $ri-arrow-width solid var(--color-tertiary)
 
     &__date,
     &__info
@@ -77,11 +77,11 @@
         text-align left
 
     &__showDetails
-      ri-m-button($ri-backgroundColor, $ri-tertiaryColor, $ri-fontSize, 400)
+      ri-m-button(var(--color-background), var(--color-tertiary), $ri-fontSize, 400)
       padding 0.5 * $ri-baseMargin
       display none
       @media screen and (min-width: $ri-breakpoint-minSmall)
-        ri-m-button($ri-tertiaryColor, $ri-backgroundColor, $ri-fontSize, 400)
+        ri-m-button(var(--color-tertiary), var(--color-background), $ri-fontSize, 400)
 
     &__title
       ri-m-titleText()
@@ -100,7 +100,7 @@
 
   .ri-tagList
     ri-m-unstyleList()
-    ri-m-regularText($ri-secondaryColor)
+    ri-m-regularText(var(--color-secondary))
 
     &__item
       display inline-block
@@ -115,7 +115,7 @@
 
     &::after
       border-radius 50%
-      background-color $ri-tertiaryColor
+      background-color var(--color-tertiary)
       display block
       height 4 * $ri-arrow-width
       width 4 * $ri-arrow-width
@@ -136,7 +136,7 @@
       background-color transparent
       border-left 2.5 * $ri-arrow-width solid transparent
       border-right 2.5 * $ri-arrow-width solid transparent
-      border-bottom 5 * $ri-arrow-width solid $ri-tertiaryColor
+      border-bottom 5 * $ri-arrow-width solid var(--color-tertiary)
       top -1 * $ri-arrow-width
       right -1 * $ri-baseMargin + -6 * $ri-arrow-width
     @media screen and (min-width: $ri-breakpoint-minMedium)

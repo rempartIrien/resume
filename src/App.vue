@@ -42,6 +42,11 @@
 
   :root
    --app-height 100vh
+   --color-primary #c44536
+   --color-secondary #772e25
+   --color-tertiary #197278
+   --color-text #283d3b
+   --color-background #fcf9f7
 
   html
     // Set 1rem to 10px
@@ -55,7 +60,7 @@
 
   body
     ri-m-regularText()
-    background-color $ri-backgroundColor
+    background-color var(--color-background)
     height var(--app-height)
     line-height 1.5
     // Thanks IE and Edge!

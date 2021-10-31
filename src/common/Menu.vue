@@ -69,7 +69,7 @@ div.ri-menu
       content ''
       z-index 2
       height $ri-borderWidth
-      background-color $ri-secondaryColor
+      background-color var(--color-secondary)
       position absolute
       bottom 0
       left 50%
@@ -99,7 +99,7 @@ div.ri-menu
           $ri-menu-iconPath,
           $ri-menu-toggleSize,
           $ri-menu-toggleSize,
-          $ri-secondaryColor
+          var(--color-secondary)
         )
 
     &__list,
@@ -121,7 +121,7 @@ div.ri-menu
       bottom 0
       transform translateY(0)
       transition transform 250ms ease-in-out
-      border-bottom $ri-borderWidth solid $ri-secondaryColor
+      border-bottom $ri-borderWidth solid var(--color-secondary)
       @media screen and (min-width: $ri-breakpoint-minMedium)
         border-bottom 0
         position static
@@ -136,7 +136,7 @@ div.ri-menu
 
     &__title,
     &__list
-      background-color $ri-backgroundColor
+      background-color var(--color-background)
 
     &__localeList
       margin-left auto
@@ -162,13 +162,13 @@ div.ri-menu
     &__toggle
       &,
       &:visited
-        ri-m-text($ri-secondaryColor, $ri-menu-titleFontSize)
+        ri-m-text(var(--color-secondary), $ri-menu-titleFontSize)
         text-decoration none
 
       &:hover,
       &:active,
       &.ri-s-active
-        color $ri-primaryColor
+        color var(--color-primary)
 
     &__link
       &:hover,
@@ -183,6 +183,6 @@ div.ri-menu
             $ri-menu-iconPath,
             $ri-menu-toggleSize,
             $ri-menu-toggleSize,
-            $ri-primaryColor
+            var(--color-primary)
           )
 </style>

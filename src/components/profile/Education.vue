@@ -32,11 +32,11 @@
       margin-top 2 * $ri-baseMargin
 
     &__name
-      ri-m-subtitleText($ri-tertiaryColor)
+      ri-m-subtitleText(var(--color-tertiary))
       padding 0.5 * $ri-baseMargin 0
 
     &__date
-      ri-m-text($ri-tertiaryColor)
+      ri-m-text(var(--color-tertiary))
 
     &__degree
       ri-m-text()
