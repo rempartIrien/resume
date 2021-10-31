@@ -1,29 +1,35 @@
 <template lang="pug">
 .ri-faq
-  h1.ri-faq__title(v-t="'faq.title'")
-  p.ri-faq__intro(v-t="'faq.intro'")
+  h1.ri-faq__title {{ t('faq.title') }}
+  p.ri-faq__intro {{ t('faq.intro') }}
   ul.ri-faq__questions.ri-questionList
     li.ri-questionList__item(v-for="question in questions", :key="question.question")
       h2.ri-faq__question {{ question.question }}
-      MarkdownViewer.ri-faq__answer(:input=" question.answer ")
+      MarkdownViewer.ri-faq__answer(:input="question.answer")
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { ComputedRef, computed, defineComponent } from 'vue';
+  import { useI18n } from 'vue-i18n';
 
   import MarkdownViewer from '../../common/MarkdownViewer.vue';
+  import { Locale } from '../../i18n';
 
-  import questions from './questions.json';
+  import { Question, getQuestionList } from './question.data';
 
   export default defineComponent({
     name: 'Faq',
     components: {
       MarkdownViewer
     },
-    computed: {
-      questions() {
-        return questions.en;
-      }
+    setup() {
+      const { t, locale } = useI18n();
+
+      const questions: ComputedRef<Question[]> = computed(() =>
+        getQuestionList(locale.value as Locale)
+      );
+
+      return { t, questions };
     }
   });
 </script>

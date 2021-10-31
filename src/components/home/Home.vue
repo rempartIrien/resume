@@ -33,13 +33,13 @@
   import MarkdownViewer from '../../common/MarkdownViewer.vue';
 
   export default defineComponent({
-    setup() {
-      const { t } = useI18n();
-      return { t };
-    },
     name: 'Home',
     components: {
       MarkdownViewer
+    },
+    setup() {
+      const { t } = useI18n();
+      return { t };
     }
   });
 </script>

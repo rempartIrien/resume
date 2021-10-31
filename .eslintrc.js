@@ -2,7 +2,7 @@
  *   npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser \
  *     @vue/eslint-config-prettier @vue/eslint-config-typescript \
  *     eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-vue \
- *     eslint-config-prettier prettier typescript
+ *     eslint-config-prettier vue-eslint-parser prettier typescript
  */
 const tsRules = {
   '@typescript-eslint/typedef': [
@@ -246,8 +246,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/errors',
         'plugin:import/typescript',
-        'prettier',
-        'prettier/@typescript-eslint'
+        'prettier'
       ],
       parser: 'vue-eslint-parser',
       parserOptions: {

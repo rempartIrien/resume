@@ -11,13 +11,17 @@
   import Menu from './common/Menu.vue';
 
   export default defineComponent({
+    name: 'App',
+    components: {
+      Menu
+    },
     setup() {
       // With mobile devices, browsers hide and show toolbars, but these
       // toolsbars are taken into account in the 100vh computation.
       // So we need to dynamically recompute the csreen size.
       // See https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9
-      const appHeight = () => {
-        const doc = document.documentElement;
+      const appHeight: () => void = () => {
+        const doc: HTMLElement = document.documentElement;
         doc.style.setProperty('--app-height', `${window.innerHeight}px`);
       };
 
@@ -28,10 +32,6 @@
       onUnmounted(() => {
         window.removeEventListener('resize', appHeight);
       });
-    },
-    name: 'App',
-    components: {
-      Menu
     }
   });
 </script>

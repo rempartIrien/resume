@@ -14,7 +14,7 @@
 <script lang="ts">
   import { PropType, defineComponent } from 'vue';
 
-  import { Experience } from './experience.model';
+  import { Experience } from './experience.data';
 
   const SHOW_ALL_EVENT: string = 'showAll';
 

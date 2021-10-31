@@ -3,23 +3,28 @@
   ul.ri-conferences__list
     li.ri-conferences__item
       a.ri-conferences__logoContainer(href="http://dotjs.io")
-        img.ri-conferences__logo(src="/assets/logos/logo-dotjs.png", alt="dotJS logo")
+        img.ri-conferences__logo(src="/assets/logos/logo-dotjs.png", :alt="t('profile.conferences.dotjs.logo')")
       ul.ri-conferences__caption
-        li(v-t="'profile.conferences.dotjs.2017'")
-        li(v-t="'profile.conferences.dotjs.2018'")
+        li {{ t('profile.conferences.dotjs.2017') }}
+        li {{ t('profile.conferences.dotjs.2018') }}
     li.ri-conferences__item
       a.ri-conferences__logoContainer(href="http://dotcss.io")
-        img.ri-conferences__logo(src="/assets/logos/logo-dotcss.png", alt="dotCSS logo")
+        img.ri-conferences__logo(src="/assets/logos/logo-dotcss.png", :alt="t('profile.conferences.dotcss.logo')")
       ul.ri-conferences__caption
-        li(v-t="'profile.conferences.dotcss.2017'")
-        li(v-t="'profile.conferences.dotcss.2018'")
+        li {{ t('profile.conferences.dotcss.2017') }}
+        li {{ t('profile.conferences.dotcss.2018') }}
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
+  import { useI18n } from 'vue-i18n';
 
   export default defineComponent({
-    name: 'Conferences'
+    name: 'Conferences',
+    setup() {
+      const { t } = useI18n();
+      return { t };
+    }
   });
 </script>
 

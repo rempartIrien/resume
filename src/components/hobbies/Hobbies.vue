@@ -1,31 +1,32 @@
 <template lang="pug">
 .ri-hobbies
-  .ri-hobbies__title(v-t="'hobbies.title'")
-  .ri-hobbies__intro(v-t="'hobbies.intro'")
+  .ri-hobbies__title {{ t('hobbies.title') }}
+  .ri-hobbies__intro {{ t('hobbies.intro') }}
   .ri-hobbies__part
     ol.ri-hobbies__aside.ri-music
       each val in [1, 2, 3, 4, 5, 6]
         li.ri-music__vinyl
     .ri-hobbies__main
-      .ri-hobbies__subtitle(v-t="'hobbies.music.title'")
-      .ri-hobbies__description(v-t="'hobbies.music.description'")
+      .ri-hobbies__subtitle {{ t('hobbies.music.title') }}
+      .ri-hobbies__description {{ t('hobbies.music.description') }}
   .ri-hobbies__part
     Photos.ri-hobbies__aside
     .ri-hobbies__main
-      h2.ri-hobbies__subtitle(v-t="'hobbies.travel.title'")
-      p.ri-hobbies__description(v-t="'hobbies.travel.description'")
+      h2.ri-hobbies__subtitle {{ t('hobbies.travel.title') }}
+      p.ri-hobbies__description {{ t('hobbies.travel.description') }}
   .ri-hobbies__part
     ol.ri-hobbies__aside.ri-code
       li.ri-code__character {
       li.ri-code__character code
       li.ri-code__character }
     .ri-hobbies__main
-      h2.ri-hobbies__subtitle(v-t="'hobbies.code.title'")
-      p.ri-hobbies__description(v-t="'hobbies.code.description'")
+      h2.ri-hobbies__subtitle {{ t('hobbies.code.title') }}
+      p.ri-hobbies__description {{ t('hobbies.code.description') }}
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
+  import { useI18n } from 'vue-i18n';
 
   import Photos from './Photos.vue';
 
@@ -33,6 +34,10 @@
     name: 'Hobbies',
     components: {
       Photos
+    },
+    setup() {
+      const { t } = useI18n();
+      return { t };
     }
   });
 </script>

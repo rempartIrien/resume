@@ -1,31 +1,35 @@
 <template lang="pug">
 .ri-experience
-  h1.ri-experience__title(v-t="'experience.title'")
-  p.ri-experience__intro(v-t="'experience.summary'")
+  h1.ri-experience__title {{ t('experience.title') }}
+  p.ri-experience__intro {{ t('experience.summary') }}
   ul.ri-experience__experiences
     li(v-for="experience in experiences", :key="experience.id", :class="{ 'ri-s-collapsed': isCollapsed(experience) }")
       Block(:experience="experience", :collapsed="isCollapsed(experience)", @showAll="showAll()")
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { ComputedRef, computed, defineComponent } from 'vue';
+  import { useI18n } from 'vue-i18n';
 
-  import { Experience } from './experience.model';
-  import experiences from './experiences.json';
+  import { Locale } from '../../i18n';
+
   import Block from './Block.vue';
+  import { Experience, getExperienceList } from './experience.data';
 
   export default defineComponent({
     name: 'Experience',
     components: {
       Block
     },
+    setup() {
+      const { t, locale } = useI18n();
+      const experiences: ComputedRef<Experience[]> = computed(() =>
+        getExperienceList(locale.value as Locale)
+      );
+      return { t, experiences };
+    },
     data() {
       return { collapsedAll: true };
-    },
-    computed: {
-      experiences(): Experience[] {
-        return experiences.en;
-      }
     },
     methods: {
       showAll() {

@@ -1,25 +1,30 @@
 <template lang="pug">
 ul.ri-skills
-  li.ri-skills__item.ri-skills__item--90(v-t="'profile.skills.javascript'")
-  li.ri-skills__item.ri-skills__item--80(v-t="'profile.skills.angular'")
-  li.ri-skills__item.ri-skills__item--70(v-t="'profile.skills.vuejs'")
-  li.ri-skills__item.ri-skills__item--60(v-t="'profile.skills.react'")
-  li.ri-skills__item.ri-skills__item--70(v-t="'profile.skills.test'")
-  li.ri-skills__item.ri-skills__item--90(v-t="'profile.skills.html'")
-  li.ri-skills__item.ri-skills__item--90(v-t="'profile.skills.css'")
-  li.ri-skills__item.ri-skills__item--80(v-t="'profile.skills.english'")
-  li.ri-skills__item.ri-skills__item--100(v-t="'profile.skills.french'")
-  li.ri-skills__item.ri-skills__item--80(v-t="'profile.skills.git'")
-  li.ri-skills__item.ri-skills__item--60(v-t="'profile.skills.java'")
-  li.ri-skills__item.ri-skills__item--70(v-t="'profile.skills.agile'")
-  li.ri-skills__item.ri-skills__item--70(v-t="'profile.skills.uml'")
+  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.javascript') }}
+  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.angular') }}
+  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.vuejs') }}
+  li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.react') }}
+  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.test') }}
+  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.html') }}
+  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.css') }}
+  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.english') }}
+  li.ri-skills__item.ri-skills__item--100 {{ t('profile.skills.french') }}
+  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.git') }}
+  li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.java') }}
+  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.agile') }}
+  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.uml') }}
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
+  import { useI18n } from 'vue-i18n';
 
   export default defineComponent({
-    name: 'Skills'
+    name: 'Skills',
+    setup() {
+      const { t } = useI18n();
+      return { t };
+    }
   });
 </script>
 
