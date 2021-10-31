@@ -5,11 +5,7 @@ div.ri-menu
   ul.ri-menu__list(:class="{ 'ri-s-visible': isMenuVisible }")
     li.ri-menu__item(v-for="route in routes", :key="route.path")
       router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active") {{ t(route.meta.translationKey) }}
-  ul.ri-menu__localeList
-    li.ri-menu__localeItem
-      button.ri-menu__locale(@click="() => setLocale('en')", title="Switch to English") 🇬🇧
-    li.ri-menu__localeItem
-      button.ri-menu__locale(@click="() => setLocale('fr')", title="Passer en français") 🇫🇷
+  LocaleSwitcher.ri-menu__locales
 </template>
 
 <script lang="ts">
@@ -24,17 +20,16 @@ div.ri-menu
   import { useI18n } from 'vue-i18n';
   import { RouteRecordRaw, Router, useRouter } from 'vue-router';
 
-  import { Locale } from '../i18n';
   import { routes as ROUTES } from '../routes';
+
+  import LocaleSwitcher from './LocaleSwitcher.vue';
 
   export default defineComponent({
     name: 'Menu',
+    components: { LocaleSwitcher },
     setup() {
       const router: Router = useRouter();
-      const { t, locale } = useI18n();
-      const setLocale: (locale: Locale) => void = (newLocale: Locale) => {
-        locale.value = newLocale;
-      };
+      const { t } = useI18n();
       const routes: ComputedRef<RouteRecordRaw[]> = computed(() => ROUTES);
       const isMenuVisible: Ref<boolean> = ref(false);
 
@@ -49,7 +44,7 @@ div.ri-menu
         });
       });
 
-      return { t, setLocale, routes, isMenuVisible, toggleMenu };
+      return { t, routes, isMenuVisible, toggleMenu };
     }
   });
 </script>
@@ -59,7 +54,6 @@ div.ri-menu
   @import '../style/mixins'
 
   $ri-menu-toggleSize = 3rem
-  $ri-menu-titleFontSize = 2rem
   $ri-menu-iconPath = '/assets/icons/menu.svg'
 
   .ri-menu
@@ -79,17 +73,21 @@ div.ri-menu
       width 100%
       max-width $ri-body-maxWidth
 
+    &__title,
+    &__locales
+      z-index 1
+      padding $ri-baseMargin 2 * $ri-baseMargin
+
     &__title
       position relative
-      z-index 1
       @media screen and (min-width: $ri-breakpoint-minMedium)
         display none
 
-    &__toggle,
-    &__locale
-      ri-m-buttonReset()
+    &__locales
+      margin-left auto
 
     &__toggle
+      ri-m-buttonReset()
       display flex
       align-items center
 
@@ -104,16 +102,8 @@ div.ri-menu
           var(--color-secondary)
         )
 
-    &__list,
-    &__localeList
-      ri-m-unstyleList()
-
-    &__title,
-    &__localeList
-      z-index 1
-      padding $ri-baseMargin 2 * $ri-baseMargin
-
     &__list
+      ri-m-unstyleList()
       position absolute
       margin 0
       width 100%
@@ -140,25 +130,12 @@ div.ri-menu
     &__list
       background-color var(--color-background)
 
-    &__localeList
-      margin-left auto
-      display flex
-
     &__item
       display block
       padding $ri-baseMargin 0
       @media screen and (min-width: $ri-breakpoint-minMedium)
         display inline-block
         padding 0 $ri-baseMargin
-
-    &__localeItem
-      display flex
-      align-items center
-      & + &
-        margin-left $ri-baseMargin
-
-    &__locale
-      font-size $ri-menu-titleFontSize
 
     &__link,
     &__toggle
