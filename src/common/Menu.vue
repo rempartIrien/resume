@@ -5,6 +5,7 @@ div.ri-menu
   ul.ri-menu__list(:class="{ 'ri-s-visible': isMenuVisible }")
     li.ri-menu__item(v-for="route in routes", :key="route.path")
       router-link.ri-menu__link(:to="route.path", exact-active-class="ri-s-active") {{ t(route.meta.translationKey) }}
+  ThemeSwitcher.ri-menu__themes
   LocaleSwitcher.ri-menu__locales
 </template>
 
@@ -23,10 +24,11 @@ div.ri-menu
   import { routes as ROUTES } from '../routes';
 
   import LocaleSwitcher from './LocaleSwitcher.vue';
+  import ThemeSwitcher from './ThemeSwitcher.vue';
 
   export default defineComponent({
     name: 'Menu',
-    components: { LocaleSwitcher },
+    components: { LocaleSwitcher, ThemeSwitcher },
     setup() {
       const router: Router = useRouter();
       const { t } = useI18n();
@@ -74,7 +76,8 @@ div.ri-menu
       max-width $ri-body-maxWidth
 
     &__title,
-    &__locales
+    &__locales,
+    &__themes
       z-index 1
       padding $ri-baseMargin 2 * $ri-baseMargin
 
@@ -83,8 +86,11 @@ div.ri-menu
       @media screen and (min-width: $ri-breakpoint-minMedium)
         display none
 
-    &__locales
+    &__themes
+      padding-right $ri-baseMargin
       margin-left auto
+    &__locales
+      padding-left 0
 
     &__toggle
       ri-m-buttonReset()

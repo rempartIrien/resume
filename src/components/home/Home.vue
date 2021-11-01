@@ -17,7 +17,7 @@
       ul.ri-home__links
         li
           a(href="https://github.com/rempartIrien", target="_blank")
-            img.ri-home__linkImage(src="/assets/logos/logo-github.png", :alt="t('home.github')", target="_blank" rel="noopener noreferrer nofollow")
+            img.ri-home__linkImage(:src="githubLogoUrl", :alt="t('home.github')", target="_blank" rel="noopener noreferrer nofollow")
         li
           a(href="https://twitter.com/RempartIrien", target="_blank")
             img.ri-home__linkImage.ri-home__linkImage--large(src="/assets/logos/logo-twitter.svg", :alt="t('home.twitter')", target="_blank" rel="noopener noreferrer nofollow")
@@ -27,10 +27,11 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { ComputedRef, computed, defineComponent } from 'vue';
   import { useI18n } from 'vue-i18n';
 
   import MarkdownViewer from '../../common/MarkdownViewer.vue';
+  import { useTheme } from '../../common/theme.composer';
 
   export default defineComponent({
     name: 'Home',
@@ -39,7 +40,13 @@
     },
     setup() {
       const { t } = useI18n();
-      return { t };
+      const { isDarkMode } = useTheme();
+      const githubLogoUrl: ComputedRef<string> = computed(() =>
+        isDarkMode.value
+          ? '/assets/logos/logo-github-dark.png'
+          : '/assets/logos/logo-github-light.png'
+      );
+      return { t, githubLogoUrl };
     }
   });
 </script>

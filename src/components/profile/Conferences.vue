@@ -3,27 +3,40 @@
   ul.ri-conferences__list
     li.ri-conferences__item
       a.ri-conferences__logoContainer(href="http://dotjs.io")
-        img.ri-conferences__logo(src="/assets/logos/logo-dotjs.png", :alt="t('profile.conferences.dotjs.logo')")
+        img.ri-conferences__logo(:src="dotJsLogoUrl", :alt="t('profile.conferences.dotjs.logo')")
       ul.ri-conferences__caption
         li {{ t('profile.conferences.dotjs.2017') }}
         li {{ t('profile.conferences.dotjs.2018') }}
     li.ri-conferences__item
       a.ri-conferences__logoContainer(href="http://dotcss.io")
-        img.ri-conferences__logo(src="/assets/logos/logo-dotcss.png", :alt="t('profile.conferences.dotcss.logo')")
+        img.ri-conferences__logo(:src="dotCssLogoUrl", :alt="t('profile.conferences.dotcss.logo')")
       ul.ri-conferences__caption
         li {{ t('profile.conferences.dotcss.2017') }}
         li {{ t('profile.conferences.dotcss.2018') }}
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { ComputedRef, computed, defineComponent } from 'vue';
   import { useI18n } from 'vue-i18n';
+
+  import { useTheme } from '../../common/theme.composer';
 
   export default defineComponent({
     name: 'Conferences',
     setup() {
       const { t } = useI18n();
-      return { t };
+      const { isDarkMode } = useTheme();
+      const dotCssLogoUrl: ComputedRef<string> = computed(() =>
+        isDarkMode.value
+          ? '/assets/logos/logo-dotcss-dark.png'
+          : '/assets/logos/logo-dotcss-light.png'
+      );
+      const dotJsLogoUrl: ComputedRef<string> = computed(() =>
+        isDarkMode.value
+          ? '/assets/logos/logo-dotjs-dark.png'
+          : '/assets/logos/logo-dotjs-light.png'
+      );
+      return { t, dotCssLogoUrl, dotJsLogoUrl };
     }
   });
 </script>
