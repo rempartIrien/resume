@@ -15,7 +15,7 @@
     },
     "content": {
       "en": "Homiwoo provides real estate data to its clients through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and Elasticsearch parts sometimes.",
-      "fr": "Homiwoo fournit des données immobilères à ses clients à travers des interfaces, des rapports PDF et des API. J'ai principalement travaillé sur la parte frontend mais j'ai aussi occasionnellement travaillé sur les parties en Scala et Elasticsearch."
+      "fr": "Homiwoo fournit des données immobilères à ses clients à travers des interfaces, des rapports PDF et des API. J'ai principalement travaillé sur la parte frontend mais j'ai aussi participé occasionnellement aux développements sur les parties Scala et Elasticsearch."
     },
     "tags": [
       "Angular",
@@ -32,6 +32,7 @@
       "Prettier",
       "ESLint",
       "Git",
+      "Gerrit",
       "Webpack",
       "AngularCLI",
       "Docker",
@@ -52,7 +53,7 @@
       "fr": "Tech lead, consultant de Viseo"
     },
     "content": {
-      "en": "CCGPF is in charge of organizing summer camps for SNCF's employee children and wanted an application able to dispatch and bring them to destination safely.",
+      "en": "CCGPF is in charge of organizing summer camps for SNCF's employees' children and wanted an application able to dispatch and bring them to destination safely.",
       "fr": "CCGPF organise des camps de vacances estivaux pour les enfants des employés de la SNCF et voulait une application capable d'organiser les voyages de tous ces enfants de manière automatique et sûre."
     },
     "tags": [
@@ -65,6 +66,7 @@
       "Spring",
       "PostgreSQL",
       "Liquibase",
+      "TSLint",
       "Git",
       "Webpack",
       "Maven",
@@ -89,7 +91,7 @@
     },
     "content": {
       "en": "HomeSend provides a transaction system and I helped a junior developer to remake an old Flex interface in Angular.",
-      "fr": "HomeSend fournit un système de transaction bancaires and j'ai dû aider un développeur junior à refondre une vieille interface en Flex en utilisant Angular."
+      "fr": "HomeSend fournit un système de transactions bancaires and j'ai dû aider un développeur junior à refondre une vieille interface en Flex en utilisant Angular."
     },
     "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
     "inProgress": false,
@@ -108,7 +110,7 @@
     },
     "content": {
       "en": "Back on this project, I had to help the team to create new screens based on what we had previously done one year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possible solutions had.",
-      "fr": "De retour sur ce projet, J'ai dû aider l'équipe à créer de nouvelles interfaces basées sur ce qu'i avait été déjà réalisé un an auparavant. Par ailleurs, j'ai dû gérer des soucis de production étoitement liés à des décisions foncitonnelles et aider le client à prendre les bonnes décisions."
+      "fr": "De retour sur ce projet, j'ai dû aider l'équipe à créer de nouvelles interfaces basées sur ce qui avait été déjà réalisé un an auparavant. Par ailleurs, j'ai dû gérer des soucis de production étoitement liés à des choix foncitonnels et aider le client à prendre les bonnes décisions."
     },
     "tags": [
       "AngularJS",
@@ -143,7 +145,7 @@
     },
     "content": {
       "en": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The front-end team and I had to offer the same experience as on the WPF client to web users.",
-      "fr": "L'application Xerox Case Management s'adresse aux centres d'appels téléphoniques. Il s'agit d'un framework qui fournit des actions prêtes à l'emploi facilitant la création de processus métiers. De plus, des actions personnalisées devaient pouvoir être créées et ajoutées par les clients. Cet aspect framework était un point à prendre en compte pendant le devéloppement de chaque fonctionnalité. L'équipe frontend dont je faisais partie s'attelait à fofrir la même expérience aux internautes qu'aux clients utilisant l'application WPF."
+      "fr": "L'application Xerox Case Management s'adresse aux centres d'appels téléphoniques. Il s'agit d'un framework qui fournit des actions prêtes à l'emploi facilitant la création de processus métiers. De plus, des actions personnalisées devaient pouvoir être créées et ajoutées par les clients. Cet aspect framework était un point à prendre en compte pendant le devéloppement de chaque fonctionnalité. L'équipe frontend dont je faisais partie s'attelait à offrir la même expérience aux internautes qu'aux clients utilisant l'application WPF."
     },
     "tags": [
       "AngularJS",
@@ -174,7 +176,7 @@
     },
     "content": {
       "en": "Three Ireland wanted to use Lumata technology to target users more efficiently with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobile apps and chose to share a common codebase using AngularJS and Ionic.",
-      "fr": "Three Ireland voulait utilisait la technologie de Lumata pour cibler des utilisateurs plus efficacement avec leur service Three Plus, fournissant des coupons de réduction. Nous avons dû refondre entièrement leur site et leur application mobile et avons fait le choix d'tiliser une base de code commune avec AngularJS et Ionic."
+      "fr": "Three Ireland voulait utilisait la technologie de Lumata pour cibler des utilisateurs plus efficacement avec leur service Three Plus, fournissant des coupons de réduction. Nous avons dû refondre entièrement leur site et leur application mobile et avons fait le choix d'utiliser une base de code commune avec AngularJS et Ionic."
     },
     "tags": [
       "AngularJS",
@@ -206,7 +208,7 @@
     },
     "content": {
       "en": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of daily messages to extract and gather data. I created a graphical framework and provided complex administration and reporting interfaces.",
-      "fr": "Elis est un leader du monde de l'hygiène publique et voulait une plateforme pour collecter et analyser les données envoyées par des appareils connectés. Nous avons créé un serveur capable de gérer des milliers de messages quotidiens pour extraire et consolider l'information. J'ai créé un frmework graphique et fournit des interfaces de gestion et de suivi complexes et sur mesure."
+      "fr": "Elis est un leader du monde de l'hygiène publique et voulait une plateforme pour collecter et analyser les données envoyées par des appareils connectés. Nous avons créé un serveur capable de gérer des milliers de messages quotidiens pour extraire et consolider l'information. J'ai créé un frmework graphique et fourni des interfaces de gestion et de suivi complexes et sur mesure."
     },
     "tags": [
       "AngularJS",
@@ -239,7 +241,7 @@
     },
     "content": {
       "en": "Coservit Viadéis provides additional modules for Sage CRM. I had to make them suitable to a new Sage CRM version which brought breaking changes. No framework were used, except for jQuery, and everything was injected by JavaScript.",
-      "fr": "Viadéis de Coservit fournit des modules supplémentaires pour Sage CRM. J'ai dû rendre compatibles des modules existant avec la nouvelle version du CRM qui impliquait des changements majeurs. Aucun framework ne devait être utilisé, à l'exception de jQuery et tout était injecté par JavaScript."
+      "fr": "Viadéis de Coservit fournit des modules supplémentaires pour Sage CRM. J'ai dû rendre compatibles des modules existants avec la nouvelle version du CRM qui amenait des changements majeurs. Aucun framework ne devait être utilisé, à l'exception de jQuery et tout était injecté par JavaScript."
     },
     "tags": ["JavaScript", "jQuery", "HTML5", "CSS3", "SVN"],
     "inProgress": false,
@@ -268,7 +270,7 @@
     "role": { "en": "Front-end developer", "fr": "Développeur frontend" },
     "content": {
       "en": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
-      "fr": "Synaps était une application à communication temps réel utilisant des websockets. Son but de rendre les réunions plus rapides et plus efficaces. L'équipe et moi avons implémenté divers modules comme de la visioconférence avec WebRTC, des espaces publics et privés ou encore de la présentation de slides synchronisée en temps réel."
+      "fr": "Synaps était une application à communication temps réel utilisant des websockets. Son but était de rendre les réunions plus rapides et plus efficaces. L'équipe et moi avons implémenté divers modules comme de la visioconférence avec WebRTC, des espaces publics et privés ou encore de la présentation de slides synchronisée en temps réel."
     },
     "tags": [
       "Backbone.js",
@@ -299,7 +301,7 @@
     },
     "content": {
       "en": "Net Test provides linguistic formations and wanted a module to register training requests from clients. I had to create and add it to an old existing website.",
-      "fr": "Net Test propose des formation linguistiques et voulait un module afin d'enregistrer les demandes de formation provenant des clients. J'ai dû créé et intégré ce nouveau module au sein de leur application existante."
+      "fr": "Net Test propose des formations linguistiques et voulait un module afin d'enregistrer les demandes de formation provenant des clients. J'ai dû créer et intégrer ce nouveau module au sein de leur application existante."
     },
     "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
     "inProgress": false,
@@ -315,7 +317,7 @@
     "role": { "en": "Java EE developer", "fr": "Développeur Java EE" },
     "content": {
       "en": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
-      "fr": "Betclic est un service d eparis sportifs en ligne and j'ai pris part dans le développement serveur de la version italienne. Le serveur devait proposer des API pour les applications iOS et Android en utilisant le protocole de push propriétaire de Mootwin."
+      "fr": "Betclic est un service en ligne de paris sportifs et j'ai pris part au développement serveur de la version italienne. Le serveur devait proposer des API pour les applications iOS et Android en utilisant le protocole de push propriétaire de Mootwin."
     },
     "tags": ["Java", "Java EE", "SVN", "Nagios", "Scrum"],
     "inProgress": false,
