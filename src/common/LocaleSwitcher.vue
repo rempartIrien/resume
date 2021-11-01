@@ -45,4 +45,5 @@ ul.ri-localeSwitcher__list
     &__locale
       ri-m-buttonReset()
       font-size $ri-menu-titleFontSize
+      color var(--color-text) // For Edge...
 </style>
