@@ -18,6 +18,8 @@ ul.ri-localeSwitcher__list
       const { locale } = useI18n();
       const setLocale: (locale: Locale) => void = (newLocale: Locale) => {
         locale.value = newLocale;
+        const doc: HTMLElement = document.documentElement;
+        doc.lang = locale.value;
       };
 
       return { setLocale, locales: Locale };
