@@ -6,7 +6,9 @@ import Hobbies from './components/hobbies/Hobbies.vue';
 import Home from './components/home/Home.vue';
 import Profile from './components/profile/Profile.vue';
 
-export const routes: RouteRecordRaw[] = [
+export type RealRoute = RouteRecordRaw & { meta: { translationKey: string } };
+
+export const routes: RealRoute[] = [
   {
     path: '/',
     name: 'home',
@@ -54,4 +56,4 @@ const catchAllRoute: RouteRecordRaw = {
   redirect: '/'
 };
 
-export default routes.concat(catchAllRoute);
+export default (routes as RouteRecordRaw[]).concat(catchAllRoute);

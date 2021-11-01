@@ -19,9 +19,9 @@ div.ri-menu
     ref
   } from 'vue';
   import { useI18n } from 'vue-i18n';
-  import { RouteRecordRaw, Router, useRouter } from 'vue-router';
+  import { Router, useRouter } from 'vue-router';
 
-  import { routes as ROUTES } from '../routes';
+  import { routes as ROUTES, RealRoute } from '../routes';
 
   import LocaleSwitcher from './LocaleSwitcher.vue';
   import ThemeSwitcher from './ThemeSwitcher.vue';
@@ -32,7 +32,7 @@ div.ri-menu
     setup() {
       const router: Router = useRouter();
       const { t } = useI18n();
-      const routes: ComputedRef<RouteRecordRaw[]> = computed(() => ROUTES);
+      const routes: ComputedRef<RealRoute[]> = computed(() => ROUTES);
       const isMenuVisible: Ref<boolean> = ref(false);
 
       const toggleMenu: () => void = () =>
