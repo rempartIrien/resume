@@ -15,8 +15,8 @@
       "fr": "Quels moyens ont été utilisés pour faire ce CV en ligne ?"
     },
     "answer": {
-      "en": "I used Vue.js, Pug and Stylus as technologies and VS Codium as text editor. Today if I had to make it from scratch, I would use React and styled-components (to try to convince me CSS-in-JS is a viable alternative).",
-      "fr": "J'ai utilisé Vue.js, Pug et Stylus comme technologies et VS Codium comme éditeur de texte. Aujourd'hui, je partirais sur React et styled-components (pour tenter de me convaincre que le CSS-in-JS est une bonne alternative) si je devais recommencer le site de zéro."
+      "en": "I used Vue.js, Pug and Stylus as technologies and VS Codium as text editor. Today if I had to make it from scratch, I would use React with a CSS-in-JS library.",
+      "fr": "J'ai utilisé Vue.js, Pug et Stylus comme technologies et VS Codium comme éditeur de texte. Aujourd'hui, je partirais sur React et une solution de CSS-in-JS si je devais recommencer le site de zéro."
     }
   },
   {

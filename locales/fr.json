@@ -52,7 +52,7 @@
       "react": "React",
       "test": "Jasmine, Jest",
       "html": "HTML, Pug",
-      "css": "CSS, Stylus, Sass, SCSS",
+      "css": "CSS, CSS-in-JS, Stylus, Sass, SCSS",
       "english": "Angiais",
       "french": "Français",
       "git": "Git",

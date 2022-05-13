@@ -14,7 +14,7 @@
     "github": "GitHub logo",
     "twitter": "Twitter logo",
     "location": "Gignac-La-Nerthe, France",
-    "pdf": "[Here](./resume.pdf) is my French resume in PDF format.",
+    "pdf": "[Here](./resume.pdf) is my French résumé in PDF format.",
     "photo": "Your host's photo"
   },
   "profile": {
@@ -52,7 +52,7 @@
       "react": "React",
       "test": "Jasmine, Jest",
       "html": "HTML, Pug",
-      "css": "CSS, Stylus, Sass, SCSS",
+      "css": "CSS, CSS-in-JS, Stylus, Sass, SCSS",
       "english": "English",
       "french": "French",
       "git": "Git",

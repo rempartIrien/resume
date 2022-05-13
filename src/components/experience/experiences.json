@@ -1,9 +1,47 @@
 [
   {
+    "id": "13",
+    "dateString": {
+      "en": "03/2022 to today",
+      "fr": "De 03/2022 à aujourd'hui"
+    },
+    "title": {
+      "en": "Linxo - D8",
+      "fr": "Linxo - D8"
+    },
+    "role": {
+      "en": "Front-end developer",
+      "fr": "Développeur front-end"
+    },
+    "content": {
+      "en": "Linxo provides an application to manage budget by aggregating multiple bank accounts and payment services. I work on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
+      "fr": "Linxo propose une application permettant de gérer son budget en aggrégeant plusieurs comptes bancaires et des services de paiment. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
+    },
+    "tags": [
+      "React",
+      "TypeScript",
+      "MaterialUI",
+      "Jest",
+      "Node.js",
+      "Express",
+      "ESLint",
+      "Prettier",
+      "Create React App",
+      "Git",
+      "Jenkins",
+      "Helm",
+      "Docker",
+      "Kubernetes",
+      "Scrum"
+    ],
+    "inProgress": true,
+    "collapsed": false
+  },
+  {
     "id": "12",
     "dateString": {
-      "en": "05/2018 to today",
-      "fr": "De 05/2018 à aujourd'hui"
+      "en": "05/2018 to 02/2022",
+      "fr": "De 05/2018 à 02/2022"
     },
     "title": {
       "en": "Homiwoo - Homiwoo platform",
@@ -38,7 +76,7 @@
       "Docker",
       "Scrum"
     ],
-    "inProgress": true,
+    "inProgress": false,
     "collapsed": false
   },
   {
