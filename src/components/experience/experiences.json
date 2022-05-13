@@ -15,7 +15,7 @@
     },
     "content": {
       "en": "Linxo provides an application to manage budget by aggregating multiple bank accounts and payment services. I work on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
-      "fr": "Linxo propose une application permettant de gérer son budget en aggrégeant plusieurs comptes bancaires et des services de paiment. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
+      "fr": "Linxo propose une application permettant de gérer son budget en aggrégeant plusieurs comptes bancaires et des services de paiement. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
     },
     "tags": [
       "React",
