@@ -12,6 +12,7 @@ ul.ri-skills
   li.ri-skills__item.ri-skills__item--100 {{ t('profile.skills.french') }}
   li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.git') }}
   li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.java') }}
+  li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.scala') }}
   li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.agile') }}
   li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.uml') }}
 </template>

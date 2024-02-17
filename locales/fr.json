@@ -29,14 +29,14 @@
     },
     "ux": {
       "title": "Expérience utilisateur",
-      "description": "Même si je suis un développeur frontend, je suis intéressé par Node.js et tout ce qui touche au JavaScript. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. C'est pourquoi j'ai commencé à participer à des conférences pour aller plus loin sur les sujets liés au web et à l'UX (mais c'est compliqué avec le Covid-19)."
+			"description": "Même si je suis un développeur frontend, je suis intéressé par Node.js et tout ce qui touche au JavaScript. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. C'est pourquoi j'ai commencé à participer à des conférences pour aller plus loin sur les sujets liés au web et à l'UX."
     },
     "education": {
       "title": "Formation",
       "ensisa": {
         "title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
         "date": "De 2009 à 2012",
-        "degree": "Diplôme d'ingénieur en Informartique et Réseaux"
+				"degree": "Diplôme d'ingénieur en Informatique et Réseaux"
       },
       "polytechnique": {
         "title": "École Polytechnique de Montréal",
@@ -57,6 +57,7 @@
       "french": "Français",
       "git": "Git",
       "java": "Java, Spring",
+			"scala": "Scala",
       "agile": "Méthodologies agiles",
       "uml": "UML"
     },

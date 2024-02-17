@@ -29,7 +29,7 @@
     },
     "ux": {
       "title": "User experience",
-      "description": "Although I am a front-end developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have begun to attend conferences to go deeper into web and UX subjects (but it's complicated with Covid-19)."
+			"description": "Although I am a front-end developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have begun to attend conferences to go deeper into web and UX subjects."
     },
     "education": {
       "title": "Education",
@@ -57,6 +57,7 @@
       "french": "French",
       "git": "Git",
       "java": "Java, Spring",
+			"scala": "Scala",
       "agile": "Agile methodologies",
       "uml": "UML"
     },

@@ -25,7 +25,7 @@ export interface Experience {
 }
 
 export function getExperienceList(locale: Locale): Experience[] {
-	return (experiences as I18nExperience[]).map((exp) => {
+	return (experiences satisfies I18nExperience[]).map((exp) => {
 		return {
 			...exp,
 			dateString: exp.dateString[locale],

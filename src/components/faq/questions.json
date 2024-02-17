@@ -1,5 +1,6 @@
 [
 	{
+		"id": "0",
 		"question": {
 			"en": "Why did I choose to make an online résumé?",
 			"fr": "Pourquoi avoir choisi de faire ce CV en ligne ?"
@@ -10,6 +11,7 @@
 		}
 	},
 	{
+		"id": "1",
 		"question": {
 			"en": "What did I use to make this website?",
 			"fr": "Quels moyens ont été utilisés pour faire ce CV en ligne ?"
@@ -20,6 +22,7 @@
 		}
 	},
 	{
+		"id": "2",
 		"question": {
 			"en": "Why have I been to Montreal?",
 			"fr": "Pourquoi avoir été à Montréal ?"
@@ -30,6 +33,7 @@
 		}
 	},
 	{
+		"id": "3",
 		"question": {
 			"en": "Why do I want to do more UX and UI?",
 			"fr": "Pourquoi vouloir faire plus d'UX et d'UI ?"
@@ -40,6 +44,7 @@
 		}
 	},
 	{
+		"id": "4",
 		"question": {
 			"en": "What was my best work experience?",
 			"fr": "Quelle a été ma meilleure expérience professionnelle ?"
@@ -50,6 +55,7 @@
 		}
 	},
 	{
+		"id": "5",
 		"question": {
 			"en": "TypeScript or JavaScript?",
 			"fr": "TypeScript ou JavaScript ?"
@@ -60,6 +66,7 @@
 		}
 	},
 	{
+		"id": "6",
 		"question": {
 			"en": "What artist have I most seen so far?",
 			"fr": "Quel.le artiste ai-je vu.e le plus de fois ?"
@@ -70,6 +77,7 @@
 		}
 	},
 	{
+		"id": "7",
 		"question": {
 			"en": "In which Hogwarts House should the Sorting Hat send me?",
 			"fr": "Dans quelle maison de Poudlard le Choixpeau devrait m'envoyer ?"
@@ -77,6 +85,7 @@
 		"answer": { "en": "Ravenclaw, I think.", "fr": "Serdaigle, je pense." }
 	},
 	{
+		"id": "8",
 		"question": { "en": "Tabs or spaces?", "fr": "Espaces ou tabulations ?" },
 		"answer": {
 			"en": "I was a space adept but I recently learned that tabs are better for accessibility.",
@@ -84,6 +93,7 @@
 		}
 	},
 	{
+		"id": "9",
 		"question": { "en": "Dog or cat?", "fr": "Chien ou chat ?" },
 		"answer": { "en": "Definitely cat.", "fr": "Chat, sans hésiter." }
 	}

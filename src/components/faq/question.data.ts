@@ -15,7 +15,7 @@ export interface Question {
 }
 
 export function getQuestionList(locale: Locale): Question[] {
-	return (questions as I18nQuestion[]).map((question) => {
+	return (questions satisfies I18nQuestion[]).map((question) => {
 		return {
 			...question,
 			question: question.question[locale],
