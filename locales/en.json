@@ -12,7 +12,6 @@
     "subtitle": "Senior front-end software engineer interested in UX",
     "text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
     "github": "GitHub logo",
-    "twitter": "Twitter logo",
     "location": "Gignac-La-Nerthe, France",
     "pdf": "[Here](./resume.pdf) is my French résumé in PDF format.",
     "photo": "Your host's photo"
@@ -74,7 +73,7 @@
     }
   },
   "experience": {
-    "title": "Short long stories",
+    "title": "Long stories short",
     "summary": "Here are all my experiences. They took place in different places, different situations with different people but for all of them, I always had something to learn and to bring.",
     "show_all": "Show all experiences"
   },

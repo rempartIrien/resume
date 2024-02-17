@@ -51,7 +51,7 @@
       padding-bottom 4 * $ri-baseMargin
 
     &__question
-      ri-m-subtitleText(var(--color-primary))
+      ri-m-subtitleText(var(--color-secondary))
       padding-bottom $ri-baseMargin
 
     &__answer

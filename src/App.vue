@@ -17,8 +17,8 @@
     },
     setup() {
       // With mobile devices, browsers hide and show toolbars, but these
-      // toolsbars are taken into account in the 100vh computation.
-      // So we need to dynamically recompute the csreen size.
+      // toolbars are taken into account in the 100vh computation.
+      // So we need to dynamically recompute the screen size.
       // See https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9
       const appHeight: () => void = () => {
         const doc: HTMLElement = document.documentElement;

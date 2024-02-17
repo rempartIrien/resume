@@ -19,9 +19,6 @@
           a(href="https://github.com/rempartIrien", target="_blank")
             img.ri-home__linkImage(:src="githubLogoUrl", :alt="t('home.github')", target="_blank" rel="noopener noreferrer nofollow")
         li
-          a(href="https://twitter.com/RempartIrien", target="_blank")
-            img.ri-home__linkImage.ri-home__linkImage--large(src="/assets/logos/logo-twitter.svg", :alt="t('home.twitter')", target="_blank" rel="noopener noreferrer nofollow")
-        li
           a(href="https://www.linkedin.com/in/pierremartin2", target="_blank")
             img.ri-home__linkImage(src="/assets/logos/logo-linkedin.png", :alt="t('home.twitter')", target="_blank" rel="noopener noreferrer nofollow")
 </template>
