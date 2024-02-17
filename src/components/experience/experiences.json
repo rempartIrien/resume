@@ -1,366 +1,366 @@
 [
-  {
-    "id": "13",
-    "dateString": {
-      "en": "03/2022 to today",
-      "fr": "De 03/2022 à aujourd'hui"
-    },
-    "title": {
-      "en": "Linxo - D8",
-      "fr": "Linxo - D8"
-    },
-    "role": {
-      "en": "Front-end developer",
-      "fr": "Développeur front-end"
-    },
-    "content": {
-      "en": "D8 is a digital vault that stores users' documents and can also collect them from different providers. I work on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
-      "fr": "D8 est une coffrefort numérique qui stocke les documents des utilisateurs et sait aussi les collecter depuis différents organismes. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
-    },
-    "tags": [
-      "React",
-      "TypeScript",
-      "MaterialUI",
-      "Jest",
-      "Node.js",
-      "Express",
-      "ESLint",
-      "Prettier",
+	{
+		"id": "13",
+		"dateString": {
+			"en": "03/2022 to today",
+			"fr": "De 03/2022 à aujourd'hui"
+		},
+		"title": {
+			"en": "Linxo - D8",
+			"fr": "Linxo - D8"
+		},
+		"role": {
+			"en": "Front-end developer",
+			"fr": "Développeur front-end"
+		},
+		"content": {
+			"en": "D8 is a digital vault that stores users' documents and can also collect them from different providers. I work on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
+			"fr": "D8 est une coffrefort numérique qui stocke les documents des utilisateurs et sait aussi les collecter depuis différents organismes. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
+		},
+		"tags": [
+			"React",
+			"TypeScript",
+			"MaterialUI",
+			"Jest",
+			"Node.js",
+			"Express",
+			"ESLint",
+			"Prettier",
 			"Vite",
-      "Create React App",
-      "Git",
+			"Create React App",
+			"Git",
 			"Grafana",
-      "Jenkins",
-      "Helm",
-      "Docker",
-      "Kubernetes",
-      "Scrum"
-    ],
-    "inProgress": true,
-    "collapsed": false
-  },
-  {
-    "id": "12",
-    "dateString": {
-      "en": "05/2018 to 02/2022",
-      "fr": "De 05/2018 à 02/2022"
-    },
-    "title": {
-      "en": "Homiwoo - Homiwoo platform",
-      "fr": "Homiwoo - Plateforme Homiwoo"
-    },
-    "role": {
-      "en": "Fullstack developer, tech lead on front end",
-      "fr": "Fullstack developer, tech lead sur la partie frontend"
-    },
-    "content": {
-      "en": "Homiwoo provides real estate data to its clients through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and Elasticsearch parts sometimes.",
-      "fr": "Homiwoo fournit des données immobilères à ses clients à travers des interfaces, des rapports PDF et des API. J'ai principalement travaillé sur la parte frontend mais j'ai aussi participé occasionnellement aux développements sur les parties Scala et Elasticsearch."
-    },
-    "tags": [
-      "Angular",
-      "AngularJS",
-      "Jasmine",
-      "Karma",
-      "Cypress",
-      "Puppeteer",
-      "Node.js",
-      "SCSS",
-      "Scala",
-      "Elasticsearch",
-      "TypeScript",
-      "Prettier",
-      "ESLint",
-      "Git",
-      "Gerrit",
-      "Webpack",
-      "AngularCLI",
-      "Docker",
-      "Scrum"
-    ],
-    "inProgress": false,
-    "collapsed": false
-  },
-  {
-    "id": "11",
-    "dateString": {
-      "en": "10/2017 to 04/2018",
-      "fr": "De 10/2017 à 04/2018"
-    },
-    "title": { "en": "CCGPF - MooV", "fr": "CCGPF - MooV" },
-    "role": {
-      "en": "Tech lead, contractor from Viseo",
-      "fr": "Tech lead, consultant de Viseo"
-    },
-    "content": {
-      "en": "CCGPF is in charge of organizing summer camps for SNCF's employees' children and wanted an application able to dispatch and bring them to destination safely.",
-      "fr": "CCGPF organise des camps de vacances estivaux pour les enfants des employés de la SNCF et voulait une application capable d'organiser les voyages de tous ces enfants de manière automatique et sûre."
-    },
-    "tags": [
-      "Angular",
-      "Jasmine",
-      "Karma",
-      "Protractor",
-      "SCSS",
-      "Java",
-      "Spring",
-      "PostgreSQL",
-      "Liquibase",
-      "TSLint",
-      "Git",
-      "Webpack",
-      "Maven",
-      "Scrum"
-    ],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "10",
-    "dateString": {
-      "en": "10/2017 to 12/2017",
-      "fr": "De 10/2017 à 12/2017"
-    },
-    "title": {
-      "en": "HomeSend - Web Customer Care",
-      "fr": "HomeSend - Web Customer Care"
-    },
-    "role": {
-      "en": "Tech lead, contractor from Viseo",
-      "fr": "Tech lead, contractor from Viseo"
-    },
-    "content": {
-      "en": "HomeSend provides a transaction system and I helped a junior developer to remake an old Flex interface in Angular.",
-      "fr": "HomeSend fournit un système de transactions bancaires and j'ai dû aider un développeur junior à refondre une vieille interface en Flex en utilisant Angular."
-    },
-    "tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "9",
-    "dateString": { "en": "07/2017 to 09/2017", "fr": "De 07/2017 à 09/2017" },
-    "title": {
-      "en": "Elis - Portail InfoConso",
-      "fr": "Elis - Portail InfoConso"
-    },
-    "role": {
-      "en": "Front-end expert, contractor from Viseo",
-      "fr": "Epert frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "Back on this project, I had to help the team to create new screens based on what we had previously done one year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possible solutions had.",
-      "fr": "De retour sur ce projet, j'ai dû aider l'équipe à créer de nouvelles interfaces basées sur ce qui avait été déjà réalisé un an auparavant. Par ailleurs, j'ai dû gérer des soucis de production étoitement liés à des choix foncitonnels et aider le client à prendre les bonnes décisions."
-    },
-    "tags": [
-      "AngularJS",
-      "Jasmine",
-      "Karma",
-      "Protractor",
-      "Stylus",
-      "Java",
-      "Spring",
-      "PostgreSQL",
-      "MongoDB",
-      "Git",
-      "Jenkins",
-      "Gulp",
-      "Maven",
-      "OpenShift",
-      "IoT"
-    ],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "8",
-    "dateString": { "en": "10/2016 to 07/2017", "fr": "De 10/2016 à 07/2017" },
-    "title": {
-      "en": "Xerox (then Conduent) - Xerox Case Management",
-      "fr": "Xerox (puis Conduent) - Xerox Case Management"
-    },
-    "role": {
-      "en": "Front-end expert, contractor from Viseo",
-      "fr": "Expert frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The front-end team and I had to offer the same experience as on the WPF client to web users.",
-      "fr": "L'application Xerox Case Management s'adresse aux centres d'appels téléphoniques. Il s'agit d'un framework qui fournit des actions prêtes à l'emploi facilitant la création de processus métiers. De plus, des actions personnalisées devaient pouvoir être créées et ajoutées par les clients. Cet aspect framework était un point à prendre en compte pendant le devéloppement de chaque fonctionnalité. L'équipe frontend dont je faisais partie s'attelait à offrir la même expérience aux internautes qu'aux clients utilisant l'application WPF."
-    },
-    "tags": [
-      "AngularJS",
-      "TypeScript",
-      "Jasmine",
-      "Karma",
-      "Protractor",
-      "SCSS",
-      "Bootstrap",
-      "Git",
-      "TeamCity",
-      "Gulp",
-      "Scrum"
-    ],
-    "inProgress": false,
-    "collapsed": false
-  },
-  {
-    "id": "7",
-    "dateString": { "en": "06/2016 to 10/2016", "fr": "De 06/2016 à 10/2016" },
-    "title": {
-      "en": "Three Ireland - Three Plus site powered by Lumata technology",
-      "fr": "Three Ireland - Site Three Plus s'appuyant sur la technologie de Lumata"
-    },
-    "role": {
-      "en": "Front-end developer, contractor from Viseo",
-      "fr": "Développeur frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "Three Ireland wanted to use Lumata technology to target users more efficiently with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobile apps and chose to share a common codebase using AngularJS and Ionic.",
-      "fr": "Three Ireland voulait utilisait la technologie de Lumata pour cibler des utilisateurs plus efficacement avec leur service Three Plus, fournissant des coupons de réduction. Nous avons dû refondre entièrement leur site et leur application mobile et avons fait le choix d'utiliser une base de code commune avec AngularJS et Ionic."
-    },
-    "tags": [
-      "AngularJS",
-      "Jasmine",
-      "Karma",
-      "Protractor",
-      "Sass",
-      "Java",
-      "Spring",
-      "Git",
-      "Jenkins",
-      "Gulp",
-      "Maven",
-      "Scrum"
-    ],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "6",
-    "dateString": { "en": "06/2015 to 04/2016", "fr": "De 06/2015 à 04/2016" },
-    "title": {
-      "en": "Elis - Portail InfoConso",
-      "fr": "Elis - Portail InfoConso"
-    },
-    "role": {
-      "en": "Front-end leader, contractor from Viseo",
-      "fr": "Leader frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of daily messages to extract and gather data. I created a graphical framework and provided complex administration and reporting interfaces.",
-      "fr": "Elis est un leader du monde de l'hygiène publique et voulait une plateforme pour collecter et analyser les données envoyées par des appareils connectés. Nous avons créé un serveur capable de gérer des milliers de messages quotidiens pour extraire et consolider l'information. J'ai créé un frmework graphique et fourni des interfaces de gestion et de suivi complexes et sur mesure."
-    },
-    "tags": [
-      "AngularJS",
-      "Jasmine",
-      "Karma",
-      "Protractor",
-      "Stylus",
-      "Java",
-      "Spring",
-      "PostgreSQL",
-      "MongoDB",
-      "Git",
-      "Jenkins",
-      "Gulp",
-      "Maven",
-      "OpenShift",
-      "IoT",
-      "Scrum"
-    ],
-    "inProgress": false,
-    "collapsed": false
-  },
-  {
-    "id": "5",
-    "dateString": { "en": "02/2015 to 06/2015", "fr": "De 02/2015 à 06/2015" },
-    "title": { "en": "Coservit - Viadéis", "fr": "Coservit - Viadéis" },
-    "role": {
-      "en": "Front-end developer, contractor from Viseo",
-      "fr": "Développeur frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "Coservit Viadéis provides additional modules for Sage CRM. I had to make them suitable to a new Sage CRM version which brought breaking changes. No framework were used, except for jQuery, and everything was injected by JavaScript.",
-      "fr": "Viadéis de Coservit fournit des modules supplémentaires pour Sage CRM. J'ai dû rendre compatibles des modules existants avec la nouvelle version du CRM qui amenait des changements majeurs. Aucun framework ne devait être utilisé, à l'exception de jQuery et tout était injecté par JavaScript."
-    },
-    "tags": ["JavaScript", "jQuery", "HTML5", "CSS3", "SVN"],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "4",
-    "dateString": { "en": "10/2014 to 02/2015", "fr": "De 10/2014 à 02/2015" },
-    "title": { "en": "Schneider - PEPs", "fr": "Schneider - PEPs" },
-    "role": {
-      "en": "Front-end developer, contractor from Viseo",
-      "fr": "Développeur frontend, consultant de Viseo"
-    },
-    "content": {
-      "en": "PEPs collects and analyzes building energy consumption data. The team and I had to present these data proprely.",
-      "fr": "PEPs collecte et analyse des données sur la consommation énergétique des bâtiments. L'équipe et moi avons dû présenter ces données de façon intelligente et efficace."
-    },
-    "tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "Git", "Scrum"],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "3",
-    "dateString": { "en": "06/2013 to 10/2014", "fr": "De 06/2013 à 10/2014" },
-    "title": { "en": "Viseo - Synaps", "fr": "Viseo - Synaps" },
-    "role": { "en": "Front-end developer", "fr": "Développeur frontend" },
-    "content": {
-      "en": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
-      "fr": "Synaps était une application à communication temps réel utilisant des websockets. Son but était de rendre les réunions plus rapides et plus efficaces. L'équipe et moi avons implémenté divers modules comme de la visioconférence avec WebRTC, des espaces publics et privés ou encore de la présentation de slides synchronisée en temps réel."
-    },
-    "tags": [
-      "Backbone.js",
-      "Marionette.js",
-      "Less",
-      "KineticJS",
-      "Java",
-      "Spring",
-      "Neo4j",
-      "Git",
-      "Scrum",
-      "SockJS",
-      "STOMP"
-    ],
-    "inProgress": false,
-    "collapsed": false
-  },
-  {
-    "id": "2",
-    "dateString": { "en": "03/2013 to 06/2013", "fr": "De 03/2013 à 06/2013" },
-    "title": {
-      "en": "Net Test - Training Request Module",
-      "fr": "Net Test - Module de demandes de formation"
-    },
-    "role": {
-      "en": "PHP developer, contractor from Viseo",
-      "fr": "Développeur PHP, consultant de Viseo"
-    },
-    "content": {
-      "en": "Net Test provides linguistic formations and wanted a module to register training requests from clients. I had to create and add it to an old existing website.",
-      "fr": "Net Test propose des formations linguistiques et voulait un module afin d'enregistrer les demandes de formation provenant des clients. J'ai dû créer et intégrer ce nouveau module au sein de leur application existante."
-    },
-    "tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
-    "inProgress": false,
-    "collapsed": true
-  },
-  {
-    "id": "1",
-    "dateString": { "en": "08/2012 to 11/2012", "fr": "De 08/2012 à 11/2012" },
-    "title": {
-      "en": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy",
-      "fr": "Mootwin (puis Motwin, maintenant Streamdata.io) - Betclic Italie"
-    },
-    "role": { "en": "Java EE developer", "fr": "Développeur Java EE" },
-    "content": {
-      "en": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
-      "fr": "Betclic est un service en ligne de paris sportifs et j'ai pris part au développement serveur de la version italienne. Le serveur devait proposer des API pour les applications iOS et Android en utilisant le protocole de push propriétaire de Mootwin."
-    },
-    "tags": ["Java", "Java EE", "SVN", "Nagios", "Scrum"],
-    "inProgress": false,
-    "collapsed": true
-  }
+			"Jenkins",
+			"Helm",
+			"Docker",
+			"Kubernetes",
+			"Scrum"
+		],
+		"inProgress": true,
+		"collapsed": false
+	},
+	{
+		"id": "12",
+		"dateString": {
+			"en": "05/2018 to 02/2022",
+			"fr": "De 05/2018 à 02/2022"
+		},
+		"title": {
+			"en": "Homiwoo - Homiwoo platform",
+			"fr": "Homiwoo - Plateforme Homiwoo"
+		},
+		"role": {
+			"en": "Fullstack developer, tech lead on front end",
+			"fr": "Fullstack developer, tech lead sur la partie frontend"
+		},
+		"content": {
+			"en": "Homiwoo provides real estate data to its clients through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and Elasticsearch parts sometimes.",
+			"fr": "Homiwoo fournit des données immobilères à ses clients à travers des interfaces, des rapports PDF et des API. J'ai principalement travaillé sur la parte frontend mais j'ai aussi participé occasionnellement aux développements sur les parties Scala et Elasticsearch."
+		},
+		"tags": [
+			"Angular",
+			"AngularJS",
+			"Jasmine",
+			"Karma",
+			"Cypress",
+			"Puppeteer",
+			"Node.js",
+			"SCSS",
+			"Scala",
+			"Elasticsearch",
+			"TypeScript",
+			"Prettier",
+			"ESLint",
+			"Git",
+			"Gerrit",
+			"Webpack",
+			"AngularCLI",
+			"Docker",
+			"Scrum"
+		],
+		"inProgress": false,
+		"collapsed": false
+	},
+	{
+		"id": "11",
+		"dateString": {
+			"en": "10/2017 to 04/2018",
+			"fr": "De 10/2017 à 04/2018"
+		},
+		"title": { "en": "CCGPF - MooV", "fr": "CCGPF - MooV" },
+		"role": {
+			"en": "Tech lead, contractor from Viseo",
+			"fr": "Tech lead, consultant de Viseo"
+		},
+		"content": {
+			"en": "CCGPF is in charge of organizing summer camps for SNCF's employees' children and wanted an application able to dispatch and bring them to destination safely.",
+			"fr": "CCGPF organise des camps de vacances estivaux pour les enfants des employés de la SNCF et voulait une application capable d'organiser les voyages de tous ces enfants de manière automatique et sûre."
+		},
+		"tags": [
+			"Angular",
+			"Jasmine",
+			"Karma",
+			"Protractor",
+			"SCSS",
+			"Java",
+			"Spring",
+			"PostgreSQL",
+			"Liquibase",
+			"TSLint",
+			"Git",
+			"Webpack",
+			"Maven",
+			"Scrum"
+		],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "10",
+		"dateString": {
+			"en": "10/2017 to 12/2017",
+			"fr": "De 10/2017 à 12/2017"
+		},
+		"title": {
+			"en": "HomeSend - Web Customer Care",
+			"fr": "HomeSend - Web Customer Care"
+		},
+		"role": {
+			"en": "Tech lead, contractor from Viseo",
+			"fr": "Tech lead, contractor from Viseo"
+		},
+		"content": {
+			"en": "HomeSend provides a transaction system and I helped a junior developer to remake an old Flex interface in Angular.",
+			"fr": "HomeSend fournit un système de transactions bancaires and j'ai dû aider un développeur junior à refondre une vieille interface en Flex en utilisant Angular."
+		},
+		"tags": ["Angular", "Jasmine", "Karma", "SCSS", "Git", "AngularCLI"],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "9",
+		"dateString": { "en": "07/2017 to 09/2017", "fr": "De 07/2017 à 09/2017" },
+		"title": {
+			"en": "Elis - Portail InfoConso",
+			"fr": "Elis - Portail InfoConso"
+		},
+		"role": {
+			"en": "Front-end expert, contractor from Viseo",
+			"fr": "Epert frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "Back on this project, I had to help the team to create new screens based on what we had previously done one year before. Besides, I had to handle feature-based production issues and fix them by explaining what impacts possible solutions had.",
+			"fr": "De retour sur ce projet, j'ai dû aider l'équipe à créer de nouvelles interfaces basées sur ce qui avait été déjà réalisé un an auparavant. Par ailleurs, j'ai dû gérer des soucis de production étoitement liés à des choix foncitonnels et aider le client à prendre les bonnes décisions."
+		},
+		"tags": [
+			"AngularJS",
+			"Jasmine",
+			"Karma",
+			"Protractor",
+			"Stylus",
+			"Java",
+			"Spring",
+			"PostgreSQL",
+			"MongoDB",
+			"Git",
+			"Jenkins",
+			"Gulp",
+			"Maven",
+			"OpenShift",
+			"IoT"
+		],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "8",
+		"dateString": { "en": "10/2016 to 07/2017", "fr": "De 10/2016 à 07/2017" },
+		"title": {
+			"en": "Xerox (then Conduent) - Xerox Case Management",
+			"fr": "Xerox (puis Conduent) - Xerox Case Management"
+		},
+		"role": {
+			"en": "Front-end expert, contractor from Viseo",
+			"fr": "Expert frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "Xerox Case Managament addresses to call centers. It is a framework providing out-of-the-box actions that can be put together to define workflows. Moreover, custom actions can be implemented and added afterwards. We had to keep that in mind when developing new features. The front-end team and I had to offer the same experience as on the WPF client to web users.",
+			"fr": "L'application Xerox Case Management s'adresse aux centres d'appels téléphoniques. Il s'agit d'un framework qui fournit des actions prêtes à l'emploi facilitant la création de processus métiers. De plus, des actions personnalisées devaient pouvoir être créées et ajoutées par les clients. Cet aspect framework était un point à prendre en compte pendant le devéloppement de chaque fonctionnalité. L'équipe frontend dont je faisais partie s'attelait à offrir la même expérience aux internautes qu'aux clients utilisant l'application WPF."
+		},
+		"tags": [
+			"AngularJS",
+			"TypeScript",
+			"Jasmine",
+			"Karma",
+			"Protractor",
+			"SCSS",
+			"Bootstrap",
+			"Git",
+			"TeamCity",
+			"Gulp",
+			"Scrum"
+		],
+		"inProgress": false,
+		"collapsed": false
+	},
+	{
+		"id": "7",
+		"dateString": { "en": "06/2016 to 10/2016", "fr": "De 06/2016 à 10/2016" },
+		"title": {
+			"en": "Three Ireland - Three Plus site powered by Lumata technology",
+			"fr": "Three Ireland - Site Three Plus s'appuyant sur la technologie de Lumata"
+		},
+		"role": {
+			"en": "Front-end developer, contractor from Viseo",
+			"fr": "Développeur frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "Three Ireland wanted to use Lumata technology to target users more efficiently with their Three Plus service, which gives discount coupons to subscribers. We had to remake their website and their mobile apps and chose to share a common codebase using AngularJS and Ionic.",
+			"fr": "Three Ireland voulait utilisait la technologie de Lumata pour cibler des utilisateurs plus efficacement avec leur service Three Plus, fournissant des coupons de réduction. Nous avons dû refondre entièrement leur site et leur application mobile et avons fait le choix d'utiliser une base de code commune avec AngularJS et Ionic."
+		},
+		"tags": [
+			"AngularJS",
+			"Jasmine",
+			"Karma",
+			"Protractor",
+			"Sass",
+			"Java",
+			"Spring",
+			"Git",
+			"Jenkins",
+			"Gulp",
+			"Maven",
+			"Scrum"
+		],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "6",
+		"dateString": { "en": "06/2015 to 04/2016", "fr": "De 06/2015 à 04/2016" },
+		"title": {
+			"en": "Elis - Portail InfoConso",
+			"fr": "Elis - Portail InfoConso"
+		},
+		"role": {
+			"en": "Front-end leader, contractor from Viseo",
+			"fr": "Leader frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "Elis, a leader in public hygiene and wellness, wanted a platform to collect and analyze data sent by connected devices. We created a server able to deal with thousands of daily messages to extract and gather data. I created a graphical framework and provided complex administration and reporting interfaces.",
+			"fr": "Elis est un leader du monde de l'hygiène publique et voulait une plateforme pour collecter et analyser les données envoyées par des appareils connectés. Nous avons créé un serveur capable de gérer des milliers de messages quotidiens pour extraire et consolider l'information. J'ai créé un frmework graphique et fourni des interfaces de gestion et de suivi complexes et sur mesure."
+		},
+		"tags": [
+			"AngularJS",
+			"Jasmine",
+			"Karma",
+			"Protractor",
+			"Stylus",
+			"Java",
+			"Spring",
+			"PostgreSQL",
+			"MongoDB",
+			"Git",
+			"Jenkins",
+			"Gulp",
+			"Maven",
+			"OpenShift",
+			"IoT",
+			"Scrum"
+		],
+		"inProgress": false,
+		"collapsed": false
+	},
+	{
+		"id": "5",
+		"dateString": { "en": "02/2015 to 06/2015", "fr": "De 02/2015 à 06/2015" },
+		"title": { "en": "Coservit - Viadéis", "fr": "Coservit - Viadéis" },
+		"role": {
+			"en": "Front-end developer, contractor from Viseo",
+			"fr": "Développeur frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "Coservit Viadéis provides additional modules for Sage CRM. I had to make them suitable to a new Sage CRM version which brought breaking changes. No framework were used, except for jQuery, and everything was injected by JavaScript.",
+			"fr": "Viadéis de Coservit fournit des modules supplémentaires pour Sage CRM. J'ai dû rendre compatibles des modules existants avec la nouvelle version du CRM qui amenait des changements majeurs. Aucun framework ne devait être utilisé, à l'exception de jQuery et tout était injecté par JavaScript."
+		},
+		"tags": ["JavaScript", "jQuery", "HTML5", "CSS3", "SVN"],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "4",
+		"dateString": { "en": "10/2014 to 02/2015", "fr": "De 10/2014 à 02/2015" },
+		"title": { "en": "Schneider - PEPs", "fr": "Schneider - PEPs" },
+		"role": {
+			"en": "Front-end developer, contractor from Viseo",
+			"fr": "Développeur frontend, consultant de Viseo"
+		},
+		"content": {
+			"en": "PEPs collects and analyzes building energy consumption data. The team and I had to present these data proprely.",
+			"fr": "PEPs collecte et analyse des données sur la consommation énergétique des bâtiments. L'équipe et moi avons dû présenter ces données de façon intelligente et efficace."
+		},
+		"tags": ["AngularJS", "Jasmine", "Karma", "Bootstrap", "Git", "Scrum"],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "3",
+		"dateString": { "en": "06/2013 to 10/2014", "fr": "De 06/2013 à 10/2014" },
+		"title": { "en": "Viseo - Synaps", "fr": "Viseo - Synaps" },
+		"role": { "en": "Front-end developer", "fr": "Développeur frontend" },
+		"content": {
+			"en": "Synaps was a realtime communication application based on websockets. Its aim was to make meetings faster and more efficient. The team and I implemented concepts such as video conference calls through WebRTC, private and shared areas and documents, realtime slideshare.",
+			"fr": "Synaps était une application à communication temps réel utilisant des websockets. Son but était de rendre les réunions plus rapides et plus efficaces. L'équipe et moi avons implémenté divers modules comme de la visioconférence avec WebRTC, des espaces publics et privés ou encore de la présentation de slides synchronisée en temps réel."
+		},
+		"tags": [
+			"Backbone.js",
+			"Marionette.js",
+			"Less",
+			"KineticJS",
+			"Java",
+			"Spring",
+			"Neo4j",
+			"Git",
+			"Scrum",
+			"SockJS",
+			"STOMP"
+		],
+		"inProgress": false,
+		"collapsed": false
+	},
+	{
+		"id": "2",
+		"dateString": { "en": "03/2013 to 06/2013", "fr": "De 03/2013 à 06/2013" },
+		"title": {
+			"en": "Net Test - Training Request Module",
+			"fr": "Net Test - Module de demandes de formation"
+		},
+		"role": {
+			"en": "PHP developer, contractor from Viseo",
+			"fr": "Développeur PHP, consultant de Viseo"
+		},
+		"content": {
+			"en": "Net Test provides linguistic formations and wanted a module to register training requests from clients. I had to create and add it to an old existing website.",
+			"fr": "Net Test propose des formations linguistiques et voulait un module afin d'enregistrer les demandes de formation provenant des clients. J'ai dû créer et intégrer ce nouveau module au sein de leur application existante."
+		},
+		"tags": ["PHP", "HTML5", "CSS3", "jQuery", "Bootstrap", "SVN"],
+		"inProgress": false,
+		"collapsed": true
+	},
+	{
+		"id": "1",
+		"dateString": { "en": "08/2012 to 11/2012", "fr": "De 08/2012 à 11/2012" },
+		"title": {
+			"en": "Mootwin (then Motwin, now Streamdata.io) - Betclic Italy",
+			"fr": "Mootwin (puis Motwin, maintenant Streamdata.io) - Betclic Italie"
+		},
+		"role": { "en": "Java EE developer", "fr": "Développeur Java EE" },
+		"content": {
+			"en": "Betclic is an online sports betting service and I took part in the server-side development for its Italian version. The server had to provide webservices for iOS and Android applications using Mootwin's proprietary push protocol.",
+			"fr": "Betclic est un service en ligne de paris sportifs et j'ai pris part au développement serveur de la version italienne. Le serveur devait proposer des API pour les applications iOS et Android en utilisant le protocole de push propriétaire de Mootwin."
+		},
+		"tags": ["Java", "Java EE", "SVN", "Nagios", "Scrum"],
+		"inProgress": false,
+		"collapsed": true
+	}
 ]
