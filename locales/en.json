@@ -52,7 +52,7 @@
       "react": "React, Remix",
       "test": "Jasmine, Jest",
       "html": "HTML, Pug",
-      "css": "CSS, CSS-in-JS, Vanilla Extract, Stylus, Sass, SCSS",
+      "css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
       "english": "English",
       "french": "French",
       "git": "Git",
