@@ -10,9 +10,9 @@
         li.ri-contactDetails__item
           span.ri-home__location(v-t="'home.location'")
         li.ri-contactDetails__item
-          a.ri-home__phone(href="tel:+33695221626") +33 6 95 22 16 26
+          a.ri-home__phone(href="tel:+33695221626", data-no-icon) +33 6 95 22 16 26
         li.ri-contactDetails__item
-          a.ri-home__email(href="mailto:pierre.martin@live.com") pierre.martin@live.com
+          a.ri-home__email(href="mailto:pierre.martin@live.com", data-no-icon) pierre.martin@live.com
       MarkdownViewer.ri-home__pdfResume(:input="t('home.pdf')")
       ul.ri-home__links
         li
@@ -20,7 +20,7 @@
             img.ri-home__linkImage(:src="githubLogoUrl", :alt="t('home.github')")
         li
           a(href="https://www.linkedin.com/in/pierremartin2", target="_blank" rel="noopener noreferrer nofollow")
-            img.ri-home__linkImage(src="/assets/logos/logo-linkedin.png", :alt="t('home.twitter')")
+            img.ri-home__linkImage(src="/assets/logos/logo-linkedin.png", :alt="t('home.linkedin')")
 </template>
 
 <script lang="ts">

@@ -45,17 +45,6 @@ ri-m-pageSubtitle()
   @media screen and (min-width: $ri-breakpoint-minMedium)
     text-align left
 
-ri-m-link()
-  &,
-  &:visited
-    color var(--color-secondary)
-    text-decoration none
-
-  &:hover,
-  &:active
-    color var(--color-primary)
-    text-decoration underline
-
 ri-m-bodyMaxWidth()
   max-width $ri-body-maxWidth
 
@@ -89,3 +78,38 @@ ri-m-icon($path, $height, $width, $color)
   mask-position center
   -webkit-mask-repeat no-repeat
   mask-repeat no-repeat
+
+ri-m-link()
+  &,
+  &:visited
+    color var(--color-secondary)
+    text-decoration none
+
+  &:hover,
+  &:active
+    color var(--color-primary)
+    text-decoration underline
+
+  &[href^="https"]:not([data-no-icon])
+    display inline-flex
+    align-items center
+    gap .25 * $ri-baseMargin
+
+    &::after
+      content ''
+      ri-m-icon(
+        '/assets/icons/external-link.svg',
+				1.2 * $ri-fontSize,
+				1.2 * $ri-fontSize,
+        var(--color-secondary)
+      )
+
+		&:hover:not([data-no-icon])
+			&::after
+				content ''
+				ri-m-icon(
+					'/assets/icons/external-link.svg',
+					1.2 * $ri-fontSize,
+					1.2 * $ri-fontSize,
+					var(--color-primary)
+				)
