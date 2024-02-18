@@ -1,13 +1,13 @@
 <template lang="pug">
-.ri-block(ref="root", :class="{ 'ri-s-inProgress': experience.inProgress, 'ri-s-collasped': collapsed }")
-  .ri-block__date.ri-date
+.ri-experience(ref="root", :class="{ 'ri-s-inProgress': experience.inProgress, 'ri-s-collasped': collapsed }")
+  .ri-experience__date.ri-date
     p.ri-date__text {{ experience.dateString }}
-    p.ri-block__role {{ experience.role }}
-    button.ri-block__showDetails(type=button, @click="showDetails", v-t="'experience.show_all'")
-  .ri-block__info
-    h2.ri-block__title {{ experience.title }}
-    p.ri-block__content {{ experience.content }}
-    TagList.ri-block__tags(:tags="experience.tags")
+    p.ri-experience__role {{ experience.role }}
+    button.ri-experience__showDetails(type=button, @click="showDetails", v-t="'experience.show_all'")
+  .ri-experience__info
+    h2.ri-experience__title {{ experience.title }}
+    p.ri-experience__content {{ experience.content }}
+    TagList.ri-experience__tags(:tags="experience.tags")
 </template>
 
 <script lang="ts">
@@ -49,7 +49,7 @@ export default defineComponent({
 
 $ri-arrow-width = 0.4rem
 
-.ri-block
+.ri-experience
   width 100%
   padding-bottom 2 * $ri-baseMargin
   @media screen and (min-width: $ri-breakpoint-minSmall)
@@ -136,8 +136,8 @@ $ri-arrow-width = 0.4rem
     right -4 * $ri-baseMargin + -6 * $ri-arrow-width
 
 &.ri-s-collasped
-  .ri-block__info,
-  .ri-block__role,
+  .ri-experience__info,
+  .ri-experience__role,
   .ri-date__text
     display none
 
@@ -146,7 +146,7 @@ $ri-arrow-width = 0.4rem
       border-right-style dotted
       padding-top 2 * $ri-baseMargin
 
-  .ri-block__showDetails
+  .ri-experience__showDetails
     display inline-block
     width 100%
     position relative
