@@ -1,114 +1,116 @@
 @import './variables'
 
 ri-m-noPaddingMargin()
-  padding 0
-  margin 0
+	padding 0
+	margin 0
 
 
 ri-m-buttonReset()
-  ri-m-noPaddingMargin()
-  border none
-  background-color transparent
-  cursor pointer
+	ri-m-noPaddingMargin()
+	border none
+	background-color transparent
+	cursor pointer
 
 ri-m-button($color, $backgroundColor, $font-size, $font-weight)
-  ri-m-buttonReset()
-  ri-m-text($color, $font-size, $font-weight)
-  background-color $backgroundColor
-  padding $ri-baseMargin
+	ri-m-buttonReset()
+	ri-m-text($color, $font-size, $font-weight)
+	background-color $backgroundColor
+	padding $ri-baseMargin
 
 ri-m-unstyleList()
-  ri-m-noPaddingMargin()
-  list-style none
+	ri-m-noPaddingMargin()
+	list-style none
 
 ri-m-text($color = var(--color-text), $font-size = $ri-fontSize, $font-weight = 400)
-  ri-m-noPaddingMargin()
-  color $color
-  font-size $font-size
-  font-weight $font-weight
+	ri-m-noPaddingMargin()
+	color $color
+	font-size $font-size
+	font-weight $font-weight
 
 ri-m-regularText($color = var(--color-text), $font-size = $ri-fontSize, $font-weight = 400)
-  ri-m-text($color, $font-size, $font-weight)
+	ri-m-text($color, $font-size, $font-weight)
 
 ri-m-titleText($color = var(--color-primary), $font-size = $ri-fontSize--title, $font-weight = 500)
-  ri-m-text($color, $font-size, $font-weight)
+	ri-m-text($color, $font-size, $font-weight)
 
 ri-m-subtitleText($color = var(--color-secondary), $font-size = $ri-fontSize--subtitle, $font-weight = 500)
-  ri-m-text($color, $font-size, $font-weight)
+	ri-m-text($color, $font-size, $font-weight)
 
 ri-m-pageTitle()
-  ri-m-text(var(--color-primary), 3rem)
+	ri-m-text(var(--color-primary), 3rem)
 
 ri-m-pageSubtitle()
-  ri-m-text(var(--color-text), $ri-fontSize)
-  text-align justify
-  @media screen and (min-width: $ri-breakpoint-minMedium)
-    text-align left
+	ri-m-text(var(--color-text), $ri-fontSize)
+	text-align justify
+	@media screen and (min-width: $ri-breakpoint-minMedium)
+		text-align left
 
 ri-m-bodyMaxWidth()
-  max-width $ri-body-maxWidth
+	max-width $ri-body-maxWidth
 
 ri-m-part()
-  padding-bottom 2 * $ri-baseMargin
-  @media screen and (min-width: $ri-breakpoint-minMedium)
-    padding-bottom 4 * $ri-baseMargin
-    display flex
+	padding-bottom 2 * $ri-baseMargin
+	@media screen and (min-width: $ri-breakpoint-minMedium)
+		padding-bottom 4 * $ri-baseMargin
+		display flex
 
 ri-m-legend()
-  margin-top 2 * $ri-baseMargin
-  text-align justify
-  padding-bottom 2 * $ri-baseMargin
-  @media screen and (min-width: $ri-breakpoint-minMedium)
-    text-align left
-    border-left $ri-borderWidth solid var(--color-secondary)
-    padding 0 2 * $ri-baseMargin
-    margin-top 0
+	margin-top 2 * $ri-baseMargin
+	text-align justify
+	padding-bottom 2 * $ri-baseMargin
+	@media screen and (min-width: $ri-breakpoint-minMedium)
+		text-align left
+		border-left $ri-borderWidth solid var(--color-secondary)
+		padding 0 2 * $ri-baseMargin
+		margin-top 0
 
 // See https://medium.com/@no.steiner/change-svg-icons-color-with-css-only-ba6a4912e6ba
 ri-m-icon($path, $height, $width, $color)
-  height $height
-  width $width
-  background-color $color
-  -webkit-mask-image url($path)
-  mask-image url($path)
-  background-size cover
-  -webkit-mask-size: contain;
-  mask-size: contain;
-  -webkit-mask-position center
-  mask-position center
-  -webkit-mask-repeat no-repeat
-  mask-repeat no-repeat
+	height $height
+	width $width
+	background-color $color
+	-webkit-mask-image url($path)
+	mask-image url($path)
+	background-size cover
+	-webkit-mask-size: contain;
+	mask-size: contain;
+	-webkit-mask-position center
+	mask-position center
+	-webkit-mask-repeat no-repeat
+	mask-repeat no-repeat
 
 ri-m-link()
-  &,
-  &:visited
-    color var(--color-secondary)
-    text-decoration none
+	$ri-externalLink-iconPath = '/assets/icons/external_link.svg'
 
-  &:hover,
-  &:active
-    color var(--color-primary)
-    text-decoration underline
+	&,
+	&:visited
+		color var(--color-secondary)
+		text-decoration none
 
-  &[href^="https"]:not([data-no-icon])
-    display inline-flex
-    align-items center
-    gap .25 * $ri-baseMargin
+	&:hover,
+	&:active
+		color var(--color-primary)
+		text-decoration underline
 
-    &::after
-      content ''
-      ri-m-icon(
-        '/assets/icons/external-link.svg',
+	&[href^="https"]:not([data-no-icon])
+		display inline-flex
+		align-items center
+		gap .25 * $ri-baseMargin
+
+		&::after
+			content ''
+			ri-m-icon(
+				$ri-externalLink-iconPath,
 				1.2 * $ri-fontSize,
 				1.2 * $ri-fontSize,
-        var(--color-secondary)
-      )
+				var(--color-secondary)
+			)
 
 		&:hover:not([data-no-icon])
 			&::after
 				content ''
 				ri-m-icon(
-					'/assets/icons/external-link.svg',
+					$ri-externalLink-iconPath,
 					1.2 * $ri-fontSize,
 					1.2 * $ri-fontSize,
 					var(--color-primary)
