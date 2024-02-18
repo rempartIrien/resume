@@ -24,6 +24,7 @@
 			"Jest",
 			"Node.js",
 			"Express",
+			"Storybook",
 			"ESLint",
 			"Prettier",
 			"Vite",
