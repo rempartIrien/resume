@@ -43,7 +43,7 @@ export default defineComponent({
 
 <style lang="stylus" scoped>
 @import '../../style/variables'
-@import '../../style/mixins';
+@import '../../style/mixins'
 
 .ri-experience
   ri-m-bodyMaxWidth()

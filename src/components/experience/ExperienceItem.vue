@@ -7,12 +7,13 @@
   .ri-block__info
     h2.ri-block__title {{ experience.title }}
     p.ri-block__content {{ experience.content }}
-    ul.ri-block__tags.ri-tagList
-      li.ri-tagList__item(v-for="tag in experience.tags", :key="tag") {{ tag }}
+    TagList.ri-block__tags(:tags="experience.tags")
 </template>
 
 <script lang="ts">
 import { PropType, Ref, defineComponent, nextTick, ref } from "vue";
+
+import TagList from "../../common/TagList.vue";
 
 import { Experience } from "./experience.data";
 
@@ -20,12 +21,13 @@ const SHOW_ALL_EVENT: string = "showAll";
 
 export default defineComponent({
 	name: "ExperienceItem",
+	components: { TagList },
 	props: {
 		experience: { type: Object as PropType<Experience>, required: true },
 		collapsed: { type: Boolean as PropType<boolean>, required: true },
 	},
 	emits: [SHOW_ALL_EVENT],
-	setup(props, { emit }) {
+	setup(_, { emit }) {
 		const root: Ref<HTMLElement | undefined> = ref();
 
 		const showDetails: () => void = () => {
@@ -100,18 +102,6 @@ $ri-arrow-width = 0.4rem
   &__content
     ri-m-noPaddingMargin()
     padding-bottom $ri-baseMargin
-
-.ri-tagList
-  ri-m-unstyleList()
-  ri-m-regularText(var(--color-secondary))
-
-  &__item
-    display inline-block
-
-    &:not(:last-child):after
-      content ','
-      display inline-block
-      padding-right 0.5rem
 
 .ri-date__text
   position relative
