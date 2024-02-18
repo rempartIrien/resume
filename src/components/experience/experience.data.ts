@@ -2,7 +2,7 @@ import { I18nString, Locale } from "../../i18n";
 
 import experiences from "./experiences.json";
 
-export interface I18nExperience {
+interface I18nExperience {
 	id: string;
 	dateString: I18nString;
 	title: I18nString;
@@ -13,16 +13,15 @@ export interface I18nExperience {
 	collapsed: boolean;
 }
 
-export interface Experience {
-	id: string;
+export type Experience = Omit<
+	I18nExperience,
+	"dateString" | "title" | "role" | "content"
+> & {
 	dateString: string;
 	title: string;
 	role: string;
 	content: string;
-	tags: string[];
-	inProgress: boolean;
-	collapsed: boolean;
-}
+};
 
 export function getExperienceList(locale: Locale): Experience[] {
 	return (experiences satisfies I18nExperience[]).map((exp) => {
