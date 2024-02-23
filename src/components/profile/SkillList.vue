@@ -5,6 +5,7 @@ ul.ri-skills
   li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.vuejs') }}
   li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.solidjs') }}
   li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.angular') }}
+  li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.nodejs') }}
   li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.test') }}
   li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.html') }}
   li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.css') }}
