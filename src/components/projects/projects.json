@@ -1,0 +1,66 @@
+[
+	{
+		"id": "1",
+		"name": "Easy Gundam",
+		"projectUrl": "https://easy-gundam.fly.dev",
+		"imageUrl": {
+			"light": "https://easy-gundam.fly.dev/logos/light/LogoText.svg",
+			"dark": "https://easy-gundam.fly.dev/logos/dark/LogoText.svg"
+		},
+		"repoUrl": "https://github.com/rempartIrien/easy-gundam",
+		"description": {
+			"en": "\"This is a website dedicated to the Gundam franchise. Because of the franchise complexity, I aim to help people find a way in. Many pages are missing, I still work on it!\"",
+			"fr": "\"Ceci est un site dédié à la franchise Gundam. En raison de la complexité de la franchise, j'ai voulu aider ceux qui veulent commencer la saga à savoir par où débuter.  Beaucoup de pages manquent, je suis encore en train de travailler dessus !\""
+		},
+		"challenges": {
+			"en": "\"This project is close to my heart. I had to overcome several challenges for it but I guess the main difficulty was to choose technologies for every layer (front end, back end, UI & UX and infra). I tried different things, sometimes many months after the beginning of the project.\\n\\nBesides, writing content also is important (who cares about an empty shell!) and it's really hard and time-consuming beacause the Gundam franchise has a lot of items. In the future, I plan to add more sections like quizzes or references to non-Gundam works, but let's deliver a first version before that! \\n\\nLast but not least, I had to stop working on this project due to a wrist tendinitis (not cool) and then I became a father (so cool!) but I want to resume coding as soon as possible (and I saw that many dependencies upgraded, it won't be a piece of cake to get up-to-date!).\"",
+			"fr": "\"Ce projet me tient à coeur. J'ai dû surmonter pas mal de défis pour lui mais la principale difficulté a été de choisir les technologies à utiliser pour les différentes couches (frontend, backend, UI & UX, infra). J'ai essayé pas mal de choses et j'ai parfois changé plusieurs mois après le début du projet.\\n\\nPar ailleurs, le contenu du site est important (qui veut d'une coquille vide ?) mais c'est compliqué et chronophage de l'étoffer en raison du nombre d'œvres dans la franchise Gundam. Plus tard, je souhaite ajouter plus de sections comme des quizz ou des pages sur des séries non-Gundam, mais je vais d'avord m'efforcer de livrer une première version.\\n\\nEnfin, j'ai dû arrêter de travailler sur ce projet à cause d'une tendinite au poignet (assez embêtant) puis je suis devenu père (c'est si incroyable !) mais je veux recommencer à coder dès que je pourrai (et j'ai déjà vu que j'avais un gros travail à fournir pour mettre mes dépendances à jour).\""
+		},
+		"tags": [
+			"SolidJS",
+			"SolidStart",
+			"Vanilla-extract",
+			"Kobalte",
+			"GraphQL",
+			"Directus",
+			"Docker",
+			"Fly.io",
+			"Vite",
+			"Vitest",
+			"Prettier",
+			"ESLint",
+			"Husky",
+			"lint-staged",
+			"Cookie management",
+			"System fonts",
+			"SSR"
+		]
+	},
+	{
+		"id": "0",
+		"name": "Résumé",
+		"projectUrl": "https://pierremartinhenry.fr/",
+		"imageUrl": {
+			"light": "/assets/icons/document-light.svg",
+			"dark": "/assets/icons/document-dark.svg"
+		},
+		"repoUrl": "https://github.com/rempartIrien/resume",
+		"description": {
+			"en": "\"I'm sure you know what this project is because you're browsing it! In 2017, I wanted to show a glimpse of what I could do: I thought a website was more relevant than a piece of paper to show my work and I still do. That's why I decided to use it one more time in 2021 and 2024.\"",
+			"fr": "\"Je suis certain que vous savez ce qu'est ce projet puisque vous le parcourez ! En 2017, je voulais montrer de quoi j'étais capable : j'ai alors pensé qu'il serait plus pertinent de montrer mes compétences plutôt que de présenter une feuille de papier et je le pense encore. C'est pourquoi j'ai décidé de mettre ce site à jour une fois de plus en 2021 puis en 2024.\""
+		},
+		"challenges": {
+			"en": "\"In 2017, I had been developing with AngularJS and then Angular for four years and I wanted to discover something else. I didn't want to use React because of JSX (nobody's perfect and I have changed my mind since this time!) so I got interested in Vue.js. Unfortunately, only a few companies were using it but it was very rewarding to learn a new framework.\\n\\nIn 2021, I migrated this project to Vite, TypeScript and Composition API to stay up-to-date. I also added a dark mode! And now in 2024, I add this projects section to show you stuff I'm proud of. Nevertheless, this site is becoming old and I begin seeing limitations.\"",
+			"fr": "\"En 2017, je développais avec AngularJS puis Angulkar depuis quatre ans et je voulais découvrir quelque chose d'autre. Je ne voulais pas utiliser React à cause du JSX (personne n'est parfait et j'ai changé d'avis depuis !) alors je me suis intéressé à Vue.js. Malheureusement, seuelemnt peu de sociétés l'utilisait mais ce fut vraiment gratifiant d'apprendre à utiliser un nouveau framework.\\n\\nEn 2021, j'ai migré le projet vers Vite, TypeScript et la Composition API pour rester à jour. J'ai également ajouter un thème sombre ! Et maintenant en 2024, j'ajoute cette section sur mes projets pour montrer de quoi je suis fier. Cependant, ce site devient de plus en plus vieux et je commence à voir des limitations.\""
+		},
+		"tags": [
+			"Vue.js",
+			"TypeScript",
+			"Pug",
+			"Stylus",
+			"Vite",
+			"Prettier",
+			"ESLint"
+		]
+	}
+]
