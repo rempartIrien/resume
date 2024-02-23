@@ -1,110 +1,120 @@
 {
-  "menu": {
-    "menu": "Menu",
-    "home": "Accueil",
-    "profile": "Profil",
-    "experience": "Carrière",
-    "hobbies": "Loisirs",
-    "faq": "FAQ"
-  },
-  "home": {
-    "title": "Pierre Martin-Henry",
-    "subtitle": "Ingénieur logiciel frontend senior intéressé par l'UX",
-    "text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour vous donner la chance de mieux me connaître. Profitez du voyage !",
-    "github": "logo GitHub",
+	"menu": {
+		"menu": "Menu",
+		"home": "Accueil",
+		"profile": "Profil",
+		"experience": "Carrière",
+		"hobbies": "Loisirs",
+		"faq": "FAQ",
+		"projects": "Projets"
+	},
+	"home": {
+		"title": "Pierre Martin-Henry",
+		"subtitle": "Ingénieur logiciel frontend senior intéressé par l'UX",
+		"text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour vous donner la chance de mieux me connaître. Profitez du voyage !",
+		"github": "logo GitHub",
 		"linkedin": "Logo LinkedIn",
-    "location": "Gignac-La-Nerthe, France",
-    "pdf": "[Voici](./resume.pdf) mon CV au format PDF.",
-    "photo": "Photo de votre serviteur"
-  },
-  "profile": {
-    "title": "Encore en évolution",
-    "intro": "Laissez-moi vous en dire plus sur moi et ce qui m'a conduit à être la personne que je suis.",
-    "engineer": {
-      "title": "Ingénieur",
-      "description": "J'ai choisi de faire ce métier et je l'aime. Même sans parler d'informatique, je voulais être un ingénieur pour réfléchir et créer des choses. Vers mes 20 ans, je voulais construire des téléphones, donc j'ai voulu aller dans une école de télécom. Et... en fait, quand on est jeune et naïf, informatique et éléctronique ne semblent pas si éloignés des télécom. Aujourd'hui, je peux clamer haut et fort que je suis heureux d'être un ingénieur en informatique !"
-    },
-    "javascript": {
-      "title": "JavaScript",
-      "description": "Comme beaucoup d'étudiants en informatique, j'ai commencé ma formation avec Java et seulement quelques lignes de PHP pour le web. J'ai intégré le monde du JavaScript par pur hasard un an après avoir obtenu mon diplôme et ce fut un tel choc ! Au début j'étais totalement perdu : il y avait le JS de base, Backbone.js, l'API pour faire des canvas... Puis j'ai découvert l'écosystème autour de ce langage et les concepts du web, avec les subtilités de l'HTML et du CSS. J'ai adoré ça !"
-    },
-    "ux": {
-      "title": "Expérience utilisateur",
+		"location": "Gignac-La-Nerthe, France",
+		"pdf": "[Voici](./resume.pdf) mon CV au format PDF.",
+		"photo": "Photo de votre serviteur"
+	},
+	"profile": {
+		"title": "Encore en évolution",
+		"intro": "Laissez-moi vous en dire plus sur moi et ce qui m'a conduit à être la personne que je suis.",
+		"engineer": {
+			"title": "Ingénieur",
+			"description": "J'ai choisi de faire ce métier et je l'aime. Même sans parler d'informatique, je voulais être un ingénieur pour réfléchir et créer des choses. Vers mes 20 ans, je voulais construire des téléphones, donc j'ai voulu aller dans une école de télécom. Et... en fait, quand on est jeune et naïf, informatique et éléctronique ne semblent pas si éloignés des télécom. Aujourd'hui, je peux clamer haut et fort que je suis heureux d'être un ingénieur en informatique !"
+		},
+		"javascript": {
+			"title": "JavaScript",
+			"description": "Comme beaucoup d'étudiants en informatique, j'ai commencé ma formation avec Java et seulement quelques lignes de PHP pour le web. J'ai intégré le monde du JavaScript par pur hasard un an après avoir obtenu mon diplôme et ce fut un tel choc ! Au début j'étais totalement perdu : il y avait le JS de base, Backbone.js, l'API pour faire des canvas... Puis j'ai découvert l'écosystème autour de ce langage et les concepts du web, avec les subtilités de l'HTML et du CSS. J'ai adoré ça !"
+		},
+		"ux": {
+			"title": "Expérience utilisateur",
 			"description": "Même si je suis un développeur frontend, je suis intéressé par Node.js et tout ce qui touche au JavaScript. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. C'est pourquoi j'ai commencé à participer à des conférences pour aller plus loin sur les sujets liés au web et à l'UX."
-    },
-    "education": {
-      "title": "Formation",
-      "ensisa": {
-        "title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
-        "date": "De 2009 à 2012",
+		},
+		"education": {
+			"title": "Formation",
+			"ensisa": {
+				"title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
+				"date": "De 2009 à 2012",
 				"degree": "Diplôme d'ingénieur en Informatique et Réseaux"
-      },
-      "polytechnique": {
-        "title": "École Polytechnique de Montréal",
-        "date": "De 2011 à 2012",
-        "degree": "Certificat en Génie Informatique"
-      }
-    },
-    "skills": {
-      "javascript": "JavaScript, TypeScript",
-      "angular": "Angular",
-      "vuejs": "Vue.js",
-      "solidjs": "SolidJS, SolidStart",
-      "react": "React, Remix",
-      "test": "Jasmine, Jest",
-      "html": "HTML, Pug",
-      "css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
-      "english": "Angiais",
-      "french": "Français",
-      "git": "Git",
-      "java": "Java, Spring",
+			},
+			"polytechnique": {
+				"title": "École Polytechnique de Montréal",
+				"date": "De 2011 à 2012",
+				"degree": "Certificat en Génie Informatique"
+			}
+		},
+		"skills": {
+			"javascript": "JavaScript, TypeScript",
+			"angular": "Angular",
+			"vuejs": "Vue.js",
+			"solidjs": "SolidJS, SolidStart",
+			"react": "React, Remix",
+			"test": "Jasmine, Jest",
+			"html": "HTML, Pug",
+			"css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
+			"english": "Angiais",
+			"french": "Français",
+			"git": "Git",
+			"java": "Java, Spring",
 			"scala": "Scala",
-      "agile": "Méthodologies agiles",
-      "uml": "UML"
-    },
-    "conferences": {
-      "dotjs": {
-        "logo": "logo dotJS",
-        "2017": "1er décembre 2017 - vue",
-        "2018": "9 novembre 2018 - vue"
-      },
-      "dotcss": {
-        "logo": "logo dotCSS",
-        "2017": "30 novembre 2017 - vue",
-        "2018": "8 novembre 2018 - vue"
-      }
-    }
-  },
-  "experience": {
-    "title": "Des lignes qui en disent long",
-    "summary": "Voici mes différentes expériences. Elles furent très différentes en raison de part leur contexte et leur équipe mais j'ai toujours eu quelque chose à en retirer et à apporter.",
-    "show_all": "Afficher toutes les expériences"
-  },
-  "hobbies": {
-    "title": "Mon autre moi",
-    "intro": "Pour ne pas perdre mon temps, j'ai quelques activités afin de le dépenser intelligemment.",
-    "music": {
-      "title": "Un monde de musique",
-      "description": "Alors que j'essayais d'écrire ces lignes, je me suis rendu compte à quel point il est difficile d'expliquer ce que le musique signifie pour moi. Je pourrais détailler pourquoi j'ai toujours écouté de la musique, pourquoi je n'aime pas les radios ou pourquoi j'écoute beaucoup de groupes de rock indépendant actuellement, mais même après cela je suis persuadé que mes mots ne seraient toujours pas assez forts. C'est exactement pour ça que j'aime la musique : c'est un puissant vecteur d'émotions. Parce que la musique est de l'art. Et il y a des dizaines et des dizaines d'émotions à ressentir, parce que la musique offre une infinité de possibilités !"
-    },
-    "travel": {
-      "title": "Un monde à découvrir",
-      "description": "Voyager est le meilleur moyen de découvrir de nouvelles choses et de rencontrer des gens différents. Vivre un an à Montréal fut une merveilleuse exprience qui m'a changé : je suis devenu quelqu'un de meilleur avec une plus grande ouverture d'esprit. C'est la même chose avec tous les voyages : au delà des attractions touristiques, il y a des coutumes différentes et c'est très enrichissant de les découvrir et d'apprendre d'où elles viennent. Et enfin : il y a la nourriture !",
-      "photos": {
-        "gundam": "Photo du précédent Gundam",
-        "matsumoto": "Photo du château de Matsumoto",
-        "miyajima": "Photo du sanctuaire de Miyajima",
-        "montreal": "Photo de Montréal",
-        "toronto": "Photo de Toronto"
-      }
-    },
-    "code": {
-      "title": "Un monde de code",
-      "description": "Coder est une de mes passions et j'ai réalisé quelques projets pour mon usage personnel. Bien sûr, ce CV en ligne en fait partie. Parfois ces projets sont très simples, cependant, il est important de continuer à toujours vouloir faire les choses bien et de ne pas copier-coller sans comprendre de quoi il retourne. De plus, cela me permet de m'améliorer et d'apprendre de nouvelles choses que je ne peux pas expérimenter à mon travail. Enfin, l'informatique est fantastique et permet de créer des choses géniales avec seulement un clavier et de l'imagination et c'est ça qui est incroyable !"
-    }
-  },
-  "faq": {
-    "title": "La connaissance, c'est le pouvoir",
-    "intro": "Quelques réponses pourraient s'être glissées ici..."
-  }
+			"agile": "Méthodologies agiles",
+			"uml": "UML"
+		},
+		"conferences": {
+			"dotjs": {
+				"logo": "logo dotJS",
+				"2017": "1er décembre 2017 - vue",
+				"2018": "9 novembre 2018 - vue"
+			},
+			"dotcss": {
+				"logo": "logo dotCSS",
+				"2017": "30 novembre 2017 - vue",
+				"2018": "8 novembre 2018 - vue"
+			}
+		}
+	},
+	"experience": {
+		"title": "Des lignes qui en disent long",
+		"summary": "Voici mes différentes expériences. Elles furent très différentes en raison de part leur contexte et leur équipe mais j'ai toujours eu quelque chose à en retirer et à apporter.",
+		"show_all": "Afficher toutes les expériences"
+	},
+	"hobbies": {
+		"title": "Mon autre moi",
+		"intro": "Pour ne pas perdre mon temps, j'ai quelques activités afin de le dépenser intelligemment.",
+		"music": {
+			"title": "Un monde de musique",
+			"description": "Alors que j'essayais d'écrire ces lignes, je me suis rendu compte à quel point il est difficile d'expliquer ce que le musique signifie pour moi. Je pourrais détailler pourquoi j'ai toujours écouté de la musique, pourquoi je n'aime pas les radios ou pourquoi j'écoute beaucoup de groupes de rock indépendant actuellement, mais même après cela je suis persuadé que mes mots ne seraient toujours pas assez forts. C'est exactement pour ça que j'aime la musique : c'est un puissant vecteur d'émotions. Parce que la musique est de l'art. Et il y a des dizaines et des dizaines d'émotions à ressentir, parce que la musique offre une infinité de possibilités !"
+		},
+		"travel": {
+			"title": "Un monde à découvrir",
+			"description": "Voyager est le meilleur moyen de découvrir de nouvelles choses et de rencontrer des gens différents. Vivre un an à Montréal fut une merveilleuse exprience qui m'a changé : je suis devenu quelqu'un de meilleur avec une plus grande ouverture d'esprit. C'est la même chose avec tous les voyages : au delà des attractions touristiques, il y a des coutumes différentes et c'est très enrichissant de les découvrir et d'apprendre d'où elles viennent. Et enfin : il y a la nourriture !",
+			"photos": {
+				"gundam": "Photo du précédent Gundam",
+				"matsumoto": "Photo du château de Matsumoto",
+				"miyajima": "Photo du sanctuaire de Miyajima",
+				"montreal": "Photo de Montréal",
+				"toronto": "Photo de Toronto"
+			}
+		},
+		"code": {
+			"title": "Un monde de code",
+			"description": "Coder est une de mes passions et j'ai réalisé quelques projets pour mon usage personnel. Bien sûr, ce CV en ligne en fait partie. Parfois ces projets sont très simples, cependant, il est important de continuer à toujours vouloir faire les choses bien et de ne pas copier-coller sans comprendre de quoi il retourne. De plus, cela me permet de m'améliorer et d'apprendre de nouvelles choses que je ne peux pas expérimenter à mon travail. Enfin, l'informatique est fantastique et permet de créer des choses géniales avec seulement un clavier et de l'imagination et c'est ça qui est incroyable !"
+		}
+	},
+	"projects": {
+		"title": "Projets",
+		"summary": "Voici quelques-uns de mes projets en ligne.",
+		"links": {
+			"project": "Aller au projet",
+			"repo": "Aller au dépôt"
+		},
+		"powered_by": "Je m'appuie sur {technos} pour ce projet."
+	},
+	"faq": {
+		"title": "La connaissance, c'est le pouvoir",
+		"intro": "Quelques réponses pourraient s'être glissées ici..."
+	}
 }

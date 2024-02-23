@@ -5,6 +5,7 @@ import FAQ from "./components/faq/FAQ.vue";
 import HobbyList from "./components/hobbies/HobbyList.vue";
 import AppHome from "./components/home/AppHome.vue";
 import AuthorProfile from "./components/profile/AuthorProfile.vue";
+import ProjectList from "./components/projects/ProjectList.vue";
 
 export type RealRoute = RouteRecordRaw & { meta: { translationKey: string } };
 
@@ -39,6 +40,14 @@ export const routes: RealRoute[] = [
 		component: HobbyList,
 		meta: {
 			translationKey: "menu.hobbies",
+		},
+	},
+	{
+		path: "/projects",
+		name: "projects",
+		component: ProjectList,
+		meta: {
+			translationKey: "menu.projects",
 		},
 	},
 	{

@@ -9,6 +9,7 @@ export enum Locale {
 }
 
 export type I18nString = Record<Locale, string>;
+export type I18nMarkdown = I18nString;
 
 export function createI18n(): I18n {
 	return _createI18n({

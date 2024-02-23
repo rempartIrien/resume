@@ -1,110 +1,120 @@
 {
-  "menu": {
-    "menu": "Menu",
-    "home": "Home",
-    "profile": "Profile",
-    "experience": "Experience",
-    "hobbies": "Hobbies",
-    "faq": "FAQ"
-  },
-  "home": {
-    "title": "Pierre Martin-Henry",
-    "subtitle": "Senior front-end software engineer interested in UX",
-    "text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
-    "github": "GitHub logo",
+	"menu": {
+		"menu": "Menu",
+		"home": "Home",
+		"profile": "Profile",
+		"experience": "Experience",
+		"hobbies": "Hobbies",
+		"faq": "FAQ",
+		"projects": "Projects"
+	},
+	"home": {
+		"title": "Pierre Martin-Henry",
+		"subtitle": "Senior front-end software engineer interested in UX",
+		"text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
+		"github": "GitHub logo",
 		"linkedin": "LinkedIn logo",
-    "location": "Gignac-La-Nerthe, France",
-    "pdf": "[Here](./resume.pdf) is my French résumé in PDF format.",
-    "photo": "Your host's photo"
-  },
-  "profile": {
-    "title": "Still in progress",
-    "intro": "Let me tell you more about me and why you can read this today.",
-    "engineer": {
-      "title": "Engineer",
-      "description": "I chose my job and I love my job. Even without speaking of software, I wanted to be an engineer to think and make things. Around 20, I wanted to build phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
-    },
-    "javascript": {
-      "title": "JavaScript",
-      "description": "I guess that like many students I first learnt Java and only PHP for the web. I integrated JavaScript world by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subtleties. I loved it."
-    },
-    "ux": {
-      "title": "User experience",
+		"location": "Gignac-La-Nerthe, France",
+		"pdf": "[Here](./resume.pdf) is my French résumé in PDF format.",
+		"photo": "Your host's photo"
+	},
+	"profile": {
+		"title": "Still in progress",
+		"intro": "Let me tell you more about me and why you can read this today.",
+		"engineer": {
+			"title": "Engineer",
+			"description": "I chose my job and I love my job. Even without speaking of software, I wanted to be an engineer to think and make things. Around 20, I wanted to build phones, so I had to choose a telecom engineering school. And... well, for naive and young people, software and electronics do not seem so far from telecom. Today, I can assure you, I am really happy to be a software engineer!"
+		},
+		"javascript": {
+			"title": "JavaScript",
+			"description": "I guess that like many students I first learnt Java and only PHP for the web. I integrated JavaScript world by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subtleties. I loved it."
+		},
+		"ux": {
+			"title": "User experience",
 			"description": "Although I am a front-end developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have begun to attend conferences to go deeper into web and UX subjects."
-    },
-    "education": {
-      "title": "Education",
-      "ensisa": {
-        "title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
-        "date": "2009 to 2012",
-        "degree": "Engineer's degree (French \"Grandes Écoles\") in Compter Science and Networks"
-      },
-      "polytechnique": {
-        "title": "École Polytechnique de Montréal",
-        "date": "2011 to 2012",
-        "degree": "Certificate in Computer Software Engineering"
-      }
-    },
-    "skills": {
-      "javascript": "JavaScript, TypeScript",
-      "angular": "Angular",
-      "vuejs": "Vue.js",
+		},
+		"education": {
+			"title": "Education",
+			"ensisa": {
+				"title": "École Nationale Supérieure d'Ingénieurs Sud Alsace (ENSISA)",
+				"date": "2009 to 2012",
+				"degree": "Engineer's degree (French \"Grandes Écoles\") in Compter Science and Networks"
+			},
+			"polytechnique": {
+				"title": "École Polytechnique de Montréal",
+				"date": "2011 to 2012",
+				"degree": "Certificate in Computer Software Engineering"
+			}
+		},
+		"skills": {
+			"javascript": "JavaScript, TypeScript",
+			"angular": "Angular",
+			"vuejs": "Vue.js",
 			"solidjs": "SolidJS, SolidStart",
-      "react": "React, Remix",
-      "test": "Jasmine, Jest",
-      "html": "HTML, Pug",
-      "css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
-      "english": "English",
-      "french": "French",
-      "git": "Git",
-      "java": "Java, Spring",
+			"react": "React, Remix",
+			"test": "Jasmine, Jest",
+			"html": "HTML, Pug",
+			"css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
+			"english": "English",
+			"french": "French",
+			"git": "Git",
+			"java": "Java, Spring",
 			"scala": "Scala",
-      "agile": "Agile methodologies",
-      "uml": "UML"
-    },
-    "conferences": {
-      "dotjs": {
-        "logo": "dotJS logo",
-        "2017": "December 1, 2017 - attended",
-        "2018": "November 9, 2018 - attended"
-      },
-      "dotcss": {
-        "logo": "dotCSS logo",
-        "2017": "November 30, 2017 - attended",
-        "2018": "November 8, 2018 - attended"
-      }
-    }
-  },
-  "experience": {
-    "title": "Long stories short",
-    "summary": "Here are all my experiences. They took place in different places, different situations with different people but for all of them, I always had something to learn and to bring.",
-    "show_all": "Show all experiences"
-  },
-  "hobbies": {
-    "title": "The other me",
-    "intro": "Not to waste time, I have some activities to spend it more cleverly.",
-    "music": {
-      "title": "Music everywhere",
-      "description": "When trying to write these lines, I realized how difficult it is to explain what music means to me. I could tell you why I have always listened to music, why I hate radios or why I listen to a lof of indie rock nowadays, but even with all of this I'm sure my words would not be strong enough. That's precisely why I love music: it's a powerful emotion vector. That's because music is art. And there are dozens and dozens of different emotions to feel, which makes music an endless field of possibilities!"
-    },
-    "travel": {
-      "title": "World and people",
-      "description": "Traveling is the best way to discover new things and meet different people. Living a whole year in Montreal was a wonderful experience and it changed me: I became a better man, more open-minded. That's the same for other travels: beyond touristic attractions, there are different customs and it's very interesting to discover them and learn why they exist. And last but not least: there is food!",
-      "photos": {
-        "gundam": "Previous Gundam photo",
-        "matsumoto": "Matsumoto Castle photo",
-        "miyajima": "Miyajima shrink photo",
-        "montreal": "Montreal photo",
-        "toronto": "Toronto photo"
-      }
-    },
-    "code": {
-      "title": "Endless work",
-      "description": "Coding is a passion of mine and I have made some little productions for my personal use. Of course, this résumé is one of them. Sometimes, such projects are very simple; however, this is important to keep thinking about how to make things right and not just to copy and paste without noticing what's inside. Also, it helps me improve myself and learn new things that I cannot experiment at work. At last, computer science is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
-    }
-  },
-  "faq": {
-    "title": "Knowledge is power",
-    "intro": "Some answers may lie here..."
-  }
+			"agile": "Agile methodologies",
+			"uml": "UML"
+		},
+		"conferences": {
+			"dotjs": {
+				"logo": "dotJS logo",
+				"2017": "December 1, 2017 - attended",
+				"2018": "November 9, 2018 - attended"
+			},
+			"dotcss": {
+				"logo": "dotCSS logo",
+				"2017": "November 30, 2017 - attended",
+				"2018": "November 8, 2018 - attended"
+			}
+		}
+	},
+	"experience": {
+		"title": "Long stories short",
+		"summary": "Here are all my experiences. They took place in different places, different situations with different people but for all of them, I always had something to learn and to bring.",
+		"show_all": "Show all experiences"
+	},
+	"hobbies": {
+		"title": "The other me",
+		"intro": "Not to waste time, I have some activities to spend it more cleverly.",
+		"music": {
+			"title": "Music everywhere",
+			"description": "When trying to write these lines, I realized how difficult it is to explain what music means to me. I could tell you why I have always listened to music, why I hate radios or why I listen to a lof of indie rock nowadays, but even with all of this I'm sure my words would not be strong enough. That's precisely why I love music: it's a powerful emotion vector. That's because music is art. And there are dozens and dozens of different emotions to feel, which makes music an endless field of possibilities!"
+		},
+		"travel": {
+			"title": "World and people",
+			"description": "Traveling is the best way to discover new things and meet different people. Living a whole year in Montreal was a wonderful experience and it changed me: I became a better man, more open-minded. That's the same for other travels: beyond touristic attractions, there are different customs and it's very interesting to discover them and learn why they exist. And last but not least: there is food!",
+			"photos": {
+				"gundam": "Previous Gundam photo",
+				"matsumoto": "Matsumoto Castle photo",
+				"miyajima": "Miyajima shrink photo",
+				"montreal": "Montreal photo",
+				"toronto": "Toronto photo"
+			}
+		},
+		"code": {
+			"title": "Endless work",
+			"description": "Coding is a passion of mine and I have made some little productions for my personal use. Of course, this résumé is one of them. Sometimes, such projects are very simple; however, this is important to keep thinking about how to make things right and not just to copy and paste without noticing what's inside. Also, it helps me improve myself and learn new things that I cannot experiment at work. At last, computer science is just wonderful and let people make unbelievable things with just a keyboard and imagination and that's the funny part!"
+		}
+	},
+	"projects": {
+		"title": "Projects",
+		"summary": "Here are some online projects of mine.",
+		"links": {
+			"project": "Go to project",
+			"repo": "Go to repository"
+		},
+		"powered_by": "I rely on {technos} for this project."
+	},
+	"faq": {
+		"title": "Knowledge is power",
+		"intro": "Some answers may lie here..."
+	}
 }
