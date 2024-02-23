@@ -20,17 +20,17 @@ export default defineComponent({
 		// toolbars are taken into account in the 100vh computation.
 		// So we need to dynamically recompute the screen size.
 		// See https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9
-		const appHeight: () => void = () => {
+		const setAppHeight: () => void = () => {
 			const doc: HTMLElement = document.documentElement;
 			doc.style.setProperty("--app-height", `${window.innerHeight}px`);
 		};
 
 		onMounted(() => {
-			window.addEventListener("resize", appHeight);
-			appHeight();
+			window.addEventListener("resize", setAppHeight);
+			setAppHeight();
 		});
 		onUnmounted(() => {
-			window.removeEventListener("resize", appHeight);
+			window.removeEventListener("resize", setAppHeight);
 		});
 	},
 });
