@@ -10,7 +10,7 @@
 	},
 	"home": {
 		"title": "Pierre Martin-Henry",
-		"subtitle": "Senior front-end software engineer interested in UX",
+		"subtitle": "Fullstack software engineer",
 		"text": "Welcome aboard! I am Pierre and I made this online résumé to make you know me a little more. Enjoy the trip!",
 		"github": "GitHub logo",
 		"linkedin": "LinkedIn logo",
@@ -30,8 +30,8 @@
 			"description": "I guess that like many students I first learnt Java and only PHP for the web. I integrated JavaScript world by sheer luck one year after my graduation and what a shock! At the beginning I was totally lost: there were vanilla JS, Backbone.js, canvas API... Then, I saw all the ecosystem built around this language and all the web concepts, including CSS and HTML subtleties. I loved it."
 		},
 		"ux": {
-			"title": "User experience",
-			"description": "Although I am a front-end developer, I am interested in Node.js and everything about JavaScript and web. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. That is why I have begun to attend conferences to go deeper into web and UX subjects."
+			"title": "Beyond",
+			"description": "I am interested in Node.js and everything about JavaScript and web, the ecosystem is particularly rich currently. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. Reading online articles and attending conferences help me go deeper into web and UX subjects."
 		},
 		"education": {
 			"title": "Education",

@@ -1,11 +1,11 @@
-import { I18nString, Locale } from "../../i18n";
+import { I18nMarkdown, I18nString, Locale } from "../../i18n";
 
 import questions from "./questions.json";
 
 interface I18nQuestion {
 	id: string;
 	question: I18nString;
-	answer: I18nString;
+	answer: I18nMarkdown;
 }
 
 export type Question = Omit<I18nQuestion, "question" | "answer"> & {
@@ -18,7 +18,7 @@ export function getQuestionList(locale: Locale): Question[] {
 		return {
 			...question,
 			question: question.question[locale],
-			answer: question.answer[locale],
+			answer: JSON.parse(question.answer[locale]),
 		};
 	});
 }

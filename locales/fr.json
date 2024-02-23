@@ -10,7 +10,7 @@
 	},
 	"home": {
 		"title": "Pierre Martin-Henry",
-		"subtitle": "Ingénieur logiciel frontend senior intéressé par l'UX",
+		"subtitle": "Ingénieur logiciel fullstack",
 		"text": "Bienvenue à bord ! Je suis Pierre et j'ai réalisé ce CV en ligne pour vous donner la chance de mieux me connaître. Profitez du voyage !",
 		"github": "logo GitHub",
 		"linkedin": "Logo LinkedIn",
@@ -31,7 +31,7 @@
 		},
 		"ux": {
 			"title": "Expérience utilisateur",
-			"description": "Même si je suis un développeur frontend, je suis intéressé par Node.js et tout ce qui touche au JavaScript. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. C'est pourquoi j'ai commencé à participer à des conférences pour aller plus loin sur les sujets liés au web et à l'UX."
+			"description": "Je suis intéressé par Node.js et tout ce qui touche au JavaScript, l'écosystème est particulièrement riche actuellement. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. Faire de la veille en ligne et participer à des conférences m'aident à aller plus loin sur les sujets liés au web et à l'UX."
 		},
 		"education": {
 			"title": "Formation",
