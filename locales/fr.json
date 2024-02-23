@@ -106,8 +106,8 @@
 		}
 	},
 	"projects": {
-		"title": "Projets",
-		"summary": "Voici quelques-uns de mes projets en ligne.",
+		"title": "Insignifiants mais significatifs",
+		"summary": "Presque personne ne les voit et pourtant ces projets m'ont tant apporté.",
 		"links": {
 			"project": "Aller au projet",
 			"repo": "Aller au dépôt"
