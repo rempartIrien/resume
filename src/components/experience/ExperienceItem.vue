@@ -79,7 +79,7 @@ $ri-arrow-width = 0.4rem
     flex 1
     text-align justify
     @media screen and (min-width: $ri-breakpoint-minMedium)
-      text-align left
+      text-align start
 
   &__showDetails
     ri-m-button(var(--color-background), var(--color-tertiary), $ri-fontSize, 400)
@@ -90,7 +90,7 @@ $ri-arrow-width = 0.4rem
 
   &__title
     ri-m-titleText()
-    text-align left
+    text-align start
     line-height $ri-fontSize--title
 
   &__role

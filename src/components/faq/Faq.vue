@@ -58,7 +58,7 @@ export default defineComponent({
     ri-m-text()
     text-align justify
     @media screen and (min-width: $ri-breakpoint-minMedium)
-      text-align left
+      text-align start
 
   .ri-questionList
     ri-m-unstyleList()

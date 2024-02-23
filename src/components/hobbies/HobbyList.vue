@@ -163,5 +163,5 @@ ri-m-vinyl($centerColor = var(--color-tertiary), $vinylColor = #232323)
       text-align right
 
     &:last-of-type
-      text-align left
+      text-align start
 </style>
