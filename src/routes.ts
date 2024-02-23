@@ -1,7 +1,7 @@
 import { RouteRecordRaw } from "vue-router";
 
 import ExperienceList from "./components/experience/ExperienceList.vue";
-import FAQ from "./components/faq/FAQ.vue";
+import FAQ from "./components/faq/Faq.vue";
 import HobbyList from "./components/hobbies/HobbyList.vue";
 import AppHome from "./components/home/AppHome.vue";
 import AuthorProfile from "./components/profile/AuthorProfile.vue";
