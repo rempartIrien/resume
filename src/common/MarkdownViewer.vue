@@ -39,12 +39,16 @@ export default defineComponent({
 </script>
 
 <style lang="stylus">
+@import '../style/variables'
 @import '../style/mixins'
+
 .ri-markdown
   &__link
     ri-m-link()
 
   &__paragraph
     // Remove default style in generated HTML by markdown tag
-    margin 0
+    margin 0;
+    & + &
+      margin-top $ri-baseMargin
 </style>
