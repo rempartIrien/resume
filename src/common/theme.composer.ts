@@ -1,4 +1,4 @@
-import { Ref, ref } from "vue";
+import { Ref, onMounted, onUnmounted, ref } from "vue";
 
 import { Theme, darkTheme, lightTheme } from "./theme.util";
 
@@ -13,18 +13,31 @@ function setTheme(isDarkMode: Ref<boolean>): void {
 	doc.style.setProperty("--color-background", theme.backgroundColor);
 }
 
-const darkThemeMq: MediaQueryList = window.matchMedia(
-	"(prefers-color-scheme: dark)",
-);
-
-const isDarkMode: Ref<boolean> = ref(darkThemeMq.matches);
-setTheme(isDarkMode);
-
 export function useTheme(): { isDarkMode: Ref<boolean>; toggle: () => void } {
 	const toggle: () => void = () => {
 		isDarkMode.value = !isDarkMode.value;
 		setTheme(isDarkMode);
 	};
+
+	const darkThemeMq: MediaQueryList = window.matchMedia(
+		"(prefers-color-scheme: dark)",
+	);
+
+	const isDarkMode: Ref<boolean> = ref(darkThemeMq.matches);
+
+	const onChange: (event: MediaQueryListEvent) => void = (event) => {
+		isDarkMode.value = event.matches;
+		setTheme(isDarkMode);
+	};
+
+	onMounted(() => {
+		setTheme(isDarkMode);
+		darkThemeMq.addEventListener("change", onChange);
+	});
+
+	onUnmounted(() => {
+		darkThemeMq.removeEventListener("change", onChange);
+	});
 
 	return { toggle, isDarkMode };
 }
