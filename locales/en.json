@@ -8,6 +8,9 @@
 		"faq": "Q&A",
 		"projects": "Projects"
 	},
+	"theme": {
+		"switch_theme": "Switch theme"
+	},
 	"home": {
 		"title": "Pierre Martin-Henry",
 		"subtitle": "Fullstack software engineer",

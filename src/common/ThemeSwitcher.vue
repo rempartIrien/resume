@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  button.ri-themeSwitcher(@click="() => toggle()")
+  button.ri-themeSwitcher(@click="() => toggle()", :title="t('theme.switch_theme')")
     span.ri-themeSwitcher__icon(:class="{ 'ri-s-active': !isDarkMode }")
       span.ri-themeSwitcher__sun
     span.ri-themeSwitcher__icon(:class="{ 'ri-s-active': isDarkMode }")
@@ -9,6 +9,7 @@ div
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 
 import { useTheme } from "./theme.composer";
 
@@ -16,8 +17,9 @@ export default defineComponent({
 	name: "ThemeSwitcher",
 	setup() {
 		const { isDarkMode, toggle } = useTheme();
+		const { t } = useI18n();
 
-		return { toggle, isDarkMode };
+		return { t, toggle, isDarkMode };
 	},
 });
 </script>
