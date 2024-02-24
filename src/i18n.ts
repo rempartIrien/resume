@@ -11,9 +11,17 @@ export enum Locale {
 export type I18nString = Record<Locale, string>;
 export type I18nMarkdown = I18nString;
 
+function getLocale(): Locale {
+	const hasFrench: boolean = navigator.languages.some((l) =>
+		l.startsWith(Locale.French),
+	);
+	return hasFrench ? Locale.French : Locale.English;
+}
+
 export function createI18n(): I18n {
 	return _createI18n({
-		locale: "en",
+		legacy: false,
+		locale: getLocale(),
 		fallbackLocale: "en",
 		messages: {
 			[Locale.English]: en,
