@@ -1,7 +1,7 @@
 <template lang="pug">
 ul.ri-localeSwitcher__list
   li.ri-localeSwitcher__item
-    button.ri-localeSwitcher__locale(@click="() => setLocale(locales.English)", title="Switch to English") 🇬🇧
+    button.ri-localeSwitcher__locale(@click="() => setLocale(locales.English)", title="Switch to English") 🇺🇸
   li.ri-localeSwitcher__item
     button.ri-localeSwitcher__locale(@click="() => setLocale(locales.French)", title="Passer en français") 🇫🇷
 </template>
