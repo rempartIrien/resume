@@ -9,15 +9,55 @@ div
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { onMounted } from "vue";
+import { onUnmounted } from "vue";
 import { useI18n } from "vue-i18n";
 
-import { useTheme } from "./theme.composer";
+import { darkThemeMq, useIsDarkMode } from "./isDarkMode.composer";
+import { Theme, darkTheme, lightTheme } from "./theme.util";
+
+function setTheme(isDarkMode: boolean): void {
+	const theme: Theme = isDarkMode ? darkTheme : lightTheme;
+
+	const doc: HTMLElement = document.documentElement;
+	doc.style.setProperty("--color-primary", theme.primaryColor);
+	doc.style.setProperty("--color-secondary", theme.secondaryColor);
+	doc.style.setProperty("--color-tertiary", theme.tertiaryColor);
+	doc.style.setProperty("--color-text", theme.textColor);
+	doc.style.setProperty("--color-background", theme.backgroundColor);
+}
 
 export default defineComponent({
 	name: "ThemeSwitcher",
 	setup() {
-		const { isDarkMode, toggle } = useTheme();
+		const { isDarkMode } = useIsDarkMode();
 		const { t } = useI18n();
+
+		const onColorSchemeChange: (event: MediaQueryListEvent) => void = (e) => {
+			isDarkMode.value = e.matches;
+			setTheme(isDarkMode.value);
+		};
+
+		const removeEventHandler: () => void = () => {
+			darkThemeMq.removeEventListener("change", onColorSchemeChange);
+		};
+
+		onMounted(() => {
+			setTheme(isDarkMode.value);
+			darkThemeMq.addEventListener("change", onColorSchemeChange);
+		});
+
+		onUnmounted(() => {
+			removeEventHandler();
+		});
+
+		const toggle: () => void = () => {
+			isDarkMode.value = !isDarkMode.value;
+			setTheme(isDarkMode.value);
+			// Once we toggle the button, we don't want the system to override
+			// the setting.
+			removeEventHandler();
+		};
 
 		return { t, toggle, isDarkMode };
 	},

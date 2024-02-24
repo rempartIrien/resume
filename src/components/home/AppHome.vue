@@ -27,8 +27,8 @@
 import { ComputedRef, computed, defineComponent } from "vue";
 import { useI18n } from "vue-i18n";
 
+import { useIsDarkMode } from "../../common/isDarkMode.composer";
 import MarkdownViewer from "../../common/MarkdownViewer.vue";
-import { useTheme } from "../../common/theme.composer";
 
 export default defineComponent({
 	name: "AppHome",
@@ -37,7 +37,7 @@ export default defineComponent({
 	},
 	setup() {
 		const { t } = useI18n();
-		const { isDarkMode } = useTheme();
+		const { isDarkMode } = useIsDarkMode();
 		const githubLogoUrl: ComputedRef<string> = computed(() =>
 			isDarkMode.value
 				? "/assets/logos/logo-github-dark.png"

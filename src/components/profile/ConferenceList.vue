@@ -19,13 +19,13 @@
 import { ComputedRef, computed, defineComponent } from "vue";
 import { useI18n } from "vue-i18n";
 
-import { useTheme } from "../../common/theme.composer";
+import { useIsDarkMode } from "../../common/isDarkMode.composer";
 
 export default defineComponent({
 	name: "ConferenceList",
 	setup() {
 		const { t } = useI18n();
-		const { isDarkMode } = useTheme();
+		const { isDarkMode } = useIsDarkMode();
 		const dotCssLogoUrl: ComputedRef<string> = computed(() =>
 			isDarkMode.value
 				? "/assets/logos/logo-dotcss-dark.png"

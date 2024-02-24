@@ -28,9 +28,9 @@ import { computed } from "vue";
 import { ComputedRef } from "vue";
 import { useI18n } from "vue-i18n";
 
+import { useIsDarkMode } from "../../common/isDarkMode.composer";
 import MarkdownViewer from "../../common/MarkdownViewer.vue";
 import TagList from "../../common/TagList.vue";
-import { useTheme } from "../../common/theme.composer";
 
 import { Project } from "./project.data";
 
@@ -45,7 +45,7 @@ export default defineComponent({
 	},
 	setup(props) {
 		const { t } = useI18n();
-		const { isDarkMode } = useTheme();
+		const { isDarkMode } = useIsDarkMode();
 		const imageUrl: ComputedRef<string> = computed(() => {
 			return isDarkMode.value
 				? props.project.imageUrl.dark
