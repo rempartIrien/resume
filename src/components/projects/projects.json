@@ -51,7 +51,7 @@
 		},
 		"challenges": {
 			"en": "\"In 2017, I had been developing with AngularJS and then Angular for four years and I wanted to discover something else. I didn't want to use React because of JSX (nobody's perfect and I have changed my mind since this time!) so I got interested in Vue.js. Unfortunately, only a few companies were using it but it was very rewarding to learn a new framework.\\n\\nIn 2021, I migrated this project to Vite, TypeScript and Composition API to stay up-to-date. I also added a dark mode! And now in 2024, I add this projects section to show you stuff I'm proud of. Nevertheless, this site is becoming old and I begin seeing limitations.\"",
-			"fr": "\"En 2017, je développais avec AngularJS puis Angulkar depuis quatre ans et je voulais découvrir quelque chose d'autre. Je ne voulais pas utiliser React à cause du JSX (personne n'est parfait et j'ai changé d'avis depuis !) alors je me suis intéressé à Vue.js. Malheureusement, seuelemnt peu de sociétés l'utilisait mais ce fut vraiment gratifiant d'apprendre à utiliser un nouveau framework.\\n\\nEn 2021, j'ai migré le projet vers Vite, TypeScript et la Composition API pour rester à jour. J'ai également ajouter un thème sombre ! Et maintenant en 2024, j'ajoute cette section sur mes projets pour montrer de quoi je suis fier. Cependant, ce site devient de plus en plus vieux et je commence à voir des limitations.\""
+			"fr": "\"En 2017, je développais avec AngularJS puis Angular depuis quatre ans et je voulais découvrir quelque chose d'autre. Je ne voulais pas utiliser React à cause du JSX (personne n'est parfait et j'ai changé d'avis depuis !) alors je me suis intéressé à Vue.js. Malheureusement, seuelemnt peu de sociétés l'utilisait mais ce fut vraiment gratifiant d'apprendre à utiliser un nouveau framework.\\n\\nEn 2021, j'ai migré le projet vers Vite, TypeScript et la Composition API pour rester à jour. J'ai également ajouter un thème sombre ! Et maintenant en 2024, j'ajoute cette section sur mes projets pour montrer de quoi je suis fier. Cependant, ce site devient de plus en plus vieux et je commence à voir des limitations.\""
 		},
 		"tags": [
 			"Vue.js",
@@ -78,7 +78,7 @@
 		},
 		"challenges": {
 			"en": "\"In 2021, I wanted to switch from Angular to React and after reading all React documentation, I decided to create small projects. First I made a UI for a [public API](https://restcountries.com/) and then a bingo card generator.\\n\\nThe project is ugly, I did not spend much time on UI. The real point was about reactivity in this URL-driven project.\"",
-			"fr": "\"En 2021, J'ai voulu passer d'Angular à React et après avoir lu toute la documentation de React, j'ai  décidé de créer des petits projets. J'ai d'abord fait une UI pour une [API publique](https://restcountries.com/) puis un générateur de grille de bingo\\n\\nLe project n'est pas très beau, je n'ai pas passé beaucoup de temps sur la UI. J'ai préféré expérimenté sur la réactivité dans ce projet piloté par URL.\""
+			"fr": "\"En 2021, j'ai voulu passer d'Angular à React et après avoir lu toute la documentation de React, j'ai  décidé de créer des petits projets. J'ai d'abord fait une UI pour une [API publique](https://restcountries.com/) puis un générateur de grille de bingo\\n\\nLe project n'est pas très beau, je n'ai pas passé beaucoup de temps sur la UI. J'ai préféré expérimenté sur la réactivité dans ce projet piloté par URL.\""
 		},
 		"tags": [
 			"React",
