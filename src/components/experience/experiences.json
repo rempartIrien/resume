@@ -25,6 +25,7 @@
 			"Node.js",
 			"Express",
 			"Storybook",
+			"Playwright",
 			"ESLint",
 			"Prettier",
 			"Vite",
