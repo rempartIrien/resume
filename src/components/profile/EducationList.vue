@@ -11,33 +11,33 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
-  import { useI18n } from 'vue-i18n';
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 
-  export default defineComponent({
-    name: 'Education',
-    setup() {
-      const { t } = useI18n();
-      return { t };
-    }
-  });
+export default defineComponent({
+	name: "EducationList",
+	setup() {
+		const { t } = useI18n();
+		return { t };
+	},
+});
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../style/variables'
-  @import '../../style/mixins'
+@import '../../style/variables'
+@import '../../style/mixins'
 
-  .ri-school
-    & + &
-      margin-top 2 * $ri-baseMargin
+.ri-school
+  & + &
+    margin-top 2 * $ri-baseMargin
 
-    &__name
-      ri-m-subtitleText(var(--color-tertiary))
-      padding 0.5 * $ri-baseMargin 0
+  &__name
+    ri-m-subtitleText(var(--color-tertiary))
+    padding 0.5 * $ri-baseMargin 0
 
-    &__date
-      ri-m-text(var(--color-tertiary))
+  &__date
+    ri-m-text(var(--color-tertiary))
 
-    &__degree
-      ri-m-text()
+  &__degree
+    ri-m-text()
 </style>

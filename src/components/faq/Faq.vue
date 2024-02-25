@@ -9,60 +9,60 @@
 </template>
 
 <script lang="ts">
-  import { ComputedRef, computed, defineComponent } from 'vue';
-  import { useI18n } from 'vue-i18n';
+import { ComputedRef, computed, defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 
-  import MarkdownViewer from '../../common/MarkdownViewer.vue';
-  import { Locale } from '../../i18n';
+import MarkdownViewer from "../../common/MarkdownViewer.vue";
+import { Locale } from "../../i18n";
 
-  import { Question, getQuestionList } from './question.data';
+import { Question, getQuestionList } from "./question.data";
 
-  export default defineComponent({
-    name: 'Faq',
-    components: {
-      MarkdownViewer
-    },
-    setup() {
-      const { t, locale } = useI18n();
+export default defineComponent({
+	name: "FAQ",
+	components: {
+		MarkdownViewer,
+	},
+	setup() {
+		const { t, locale } = useI18n();
 
-      const questions: ComputedRef<Question[]> = computed(() =>
-        getQuestionList(locale.value as Locale)
-      );
+		const questions: ComputedRef<Question[]> = computed(() =>
+			getQuestionList(locale.value as Locale),
+		);
 
-      return { t, questions };
-    }
-  });
+		return { t, questions };
+	},
+});
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../style/variables'
-  @import '../../style/mixins'
+@import '../../style/variables'
+@import '../../style/mixins'
 
-  .ri-faq
-    ri-m-bodyMaxWidth()
+.ri-faq
+  ri-m-bodyMaxWidth()
 
-    &__title
-      ri-m-pageTitle()
-      padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
+  &__title
+    ri-m-pageTitle()
+    padding 2 * $ri-baseMargin 0 $ri-baseMargin 0
 
-    &__intro
-      ri-m-pageSubtitle()
-      padding 0
+  &__intro
+    ri-m-pageSubtitle()
+    padding 0
+    padding-bottom 4 * $ri-baseMargin
+
+  &__question
+    ri-m-subtitleText(var(--color-secondary))
+    padding-bottom $ri-baseMargin
+
+  &__answer
+    ri-m-text()
+    text-align justify
+    @media screen and (min-width: $ri-breakpoint-minMedium)
+      text-align start
+
+  .ri-questionList
+    ri-m-unstyleList()
+
+    &__item
       padding-bottom 4 * $ri-baseMargin
-
-    &__question
-      ri-m-subtitleText(var(--color-primary))
-      padding-bottom $ri-baseMargin
-
-    &__answer
-      ri-m-text()
-      text-align justify
-      @media screen and (min-width: $ri-breakpoint-minMedium)
-        text-align left
-
-    .ri-questionList
-      ri-m-unstyleList()
-
-      &__item
-        padding-bottom 4 * $ri-baseMargin
 </style>

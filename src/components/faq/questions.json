@@ -1,97 +1,90 @@
 [
-  {
-    "question": {
-      "en": "Why did I choose to make an online résumé?",
-      "fr": "Pourquoi avoir choisi de faire ce CV en ligne ?"
-    },
-    "answer": {
-      "en": "Back in 2018, I wanted to show a glimpse of what I could do: I thought a website was more relevant than a piece of paper to show my work and I still do. That's why I decided to use it one more time in 2021. By the way, the code is on [Github](https://github.com/rempartIrien/resume).",
-      "fr": "En 2018, je voulais montrer de quoi j'étais capable&nbsp;: j'ai alors pensé qu'il serait plus pertinent de montrer mes compétences plutôt que de présenter une feuille de papier et je le pense encore. C'est purquoi j'ai décidé de mettre ce site à jour une fois de plus en 2021. Par ailleurs le code est disponible sur [Github](https://github.com/rempartIrien/resume)."
-    }
-  },
-  {
-    "question": {
-      "en": "What did I use to make this website?",
-      "fr": "Quels moyens ont été utilisés pour faire ce CV en ligne ?"
-    },
-    "answer": {
-      "en": "I used Vue.js, Pug and Stylus as technologies and VS Codium as text editor. Today if I had to make it from scratch, I would use React with a CSS-in-JS library.",
-      "fr": "J'ai utilisé Vue.js, Pug et Stylus comme technologies et VS Codium comme éditeur de texte. Aujourd'hui, je partirais sur React et une solution de CSS-in-JS si je devais recommencer le site de zéro."
-    }
-  },
-  {
-    "question": {
-      "en": "Why have I been to Montreal?",
-      "fr": "Pourquoi avoir été à Montréal ?"
-    },
-    "answer": {
-      "en": "After I finished my first year at ENSISA, I felt that there might be something else, something more: I wanted to experiment something new. So, I looked for an alternative to ENSISA scholarship and found the CREPUQ program (now named BCI) which let me apply to École Polytechnique de Montréal. Montreal was a wonderful experience with new methods of working, new pace, new people.",
-      "fr": "Après avoir terminé ma première année à l'ENSISA, j'ai senti qu'il y avait quelque chose d'autre, quelque chose ailleurs&nbsp;: je voulais vivre quelque chose de nouveau. J'ai alors regardé quelles options s'offraient à moi et trouvé le programme CREPUQ (aujourd'hui BCI) qui m'a permis de postuler à l'École Polytechnique de Montréal. Montréal fut une expérience formidable avec des méthodes de travail différentes, un rythme différent et des personnes différentes."
-    }
-  },
-  {
-    "question": {
-      "en": "Why do I want to do more UX and UI?",
-      "fr": "Pourquoi vouloir faire plus d'UX et d'UI ?"
-    },
-    "answer": {
-      "en": "As a front-end developer, I have implemented many interfaces. I always feel like I just implement someone else's drafts. It's both frustrating and interesting: I can see quality work but I cannot do it by myself. I want to learn how to make drafts too!",
-      "fr": "En tant que développeur frontend, j'ai créé et continue de créer de nombreuses interfaces. Cependant, j'implémente toujours le travail d'un autre. C'est à la fois frustrant et intéressant&nbsp;: d'un côté je perçois la qualité d'une interface mais d'un autre côté je ne peux pas la concevoir de A à Z. Je veux être capable d'imaginer les interfaces, et pas seulement de les implémenter &nbsp;!"
-    }
-  },
-  {
-    "question": {
-      "en": "What was my best work experience?",
-      "fr": "Quelle a été ma meilleure expérience professionnelle ?"
-    },
-    "answer": {
-      "en": "Undoubtedly, it was Elis. For the first time in my life, I was in charge of all the front-end project: I started the project, I created its architecture (component-based apporach, quite new in 2015), I chose tools, I set the build chain and I developed a graphical framework with AngularJS directives. It was the first time I could do more than code and I loved it.",
-      "fr": "Elis, sans l'ombre d'un doute. Pour la première fois de ma vie,  j'étais responsable de toute la partie frontend d'un projet&nbsp;: j'ai initié le projet, je l'ai architecturé (approche par composant, assez nouveau en 2015), j'ai choisi les outils, j'ai mis en place les chaines de bulld et de déploiement et j'ai créé tout un framework graphique avec des directives AngularJS. C'était la première fois que je pouvais faire plus que du code et j'ai adoré ça."
-    }
-  },
-  {
-    "question": {
-      "en": "TypeScript or JavaScript?",
-      "fr": "TypeScript ou JavaScript ?"
-    },
-    "answer": {
-      "en": "Although I coded this website with JavaScript in 2018, I migrated it in 2021: indeed, nowadays I set TypeScript up when beginning new projets. It helps a lot to write consistent and error-proof code.",
-      "fr": "Bien que j'aie codé ce site en JavaScript en 2018, je l'ai migré en 2021&nbsp;: en effet, je mets TypeScript dans tous mes nouveaux projets maintenant. Cela m'aide à écrire du code cohérent et sans erreur."
-    }
-  },
-  {
-    "question": {
-      "en": "What is my favorite sport?",
-      "fr": "Quel est mon sport préféré ?"
-    },
-    "answer": {
-      "en": "I like football (soccer) and tennis.",
-      "fr": "J'aime le football et le tennis."
-    }
-  },
-  {
-    "question": {
-      "en": "What artist have I most seen so far?",
-      "fr": "Quel.le artiste ai-je vu le plus de fois ?"
-    },
-    "answer": {
-      "en": "[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), six times.",
-      "fr": "[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), six fois."
-    }
-  },
-  {
-    "question": {
-      "en": "In which Hogwarts House should the Sorting Hat send me?",
-      "fr": "Dans quelle maison de Poudlard le Choixpeau devrait m'envoyer ?"
-    },
-    "answer": { "en": "Ravenclaw, I think.", "fr": "Serdaigle, je pense." }
-  },
-  {
-    "question": { "en": "Tabs or spaces?", "fr": "Espaces ou tabulations ?" },
-    "answer": { "en": "Spaces.", "fr": "Espaces." }
-  },
-  {
-    "question": { "en": "Dog or cat?", "fr": "Chien ou chat ?" },
-    "answer": { "en": "Definitely cat.", "fr": "Chat, sans hésiter." }
-  }
+	{
+		"id": "0",
+		"question": {
+			"en": "What am I looing for?",
+			"fr": "Qu'est-ce que je cherche ?"
+		},
+		"answer": {
+			"en": "\"I'm looking for a place where I can be proud of my work. I want people to move forward and build the best product ever made.\"",
+			"fr": "\"Je rechercle un endroit où je serai fier de mon travail. Je veux une équipe qui va de l'avant avec pour but le meilleur produit possible.\""
+		}
+	},
+	{
+		"id": "1",
+		"question": {
+			"en": "What are my values?",
+			"fr": "Quelles sont mes valeurs ?"
+		},
+		"answer": {
+			"en": "\"- A bird in the hand is worth two in the bush.\\n\\n- Doubt is the beginning of wisdom. — Aristotle\\n\\n- [If you run, you gain one. If you move forward, you gain two.](https://www.youtube.com/watch?v=ApO5gTjtfcQ)\"",
+			"fr": "\"- Un tiens vaut mieux que deux tu l'auras.\\n\\n- Le doute est le commencement de la sagesse. — Aristote\\n\\n- [Fuir permet de gagner, mais toujours moins qu'avancer.](https://www.youtube.com/watch?v=e0zcxYf-25c)\""
+		}
+	},
+	{
+		"id": "2",
+		"question": {
+			"en": "Why have I been to Montreal?",
+			"fr": "Pourquoi avoir été à Montréal ?"
+		},
+		"answer": {
+			"en": "\"After I finished my first year at ENSISA, I felt that there might be something else, something more: I wanted to experiment something new. So, I looked for an alternative to ENSISA scholarship and found the CREPUQ program (now named BCI) which let me apply to École Polytechnique de Montréal. Montreal was a wonderful experience with new methods of working, new pace, new people.\"",
+			"fr": "\"Après avoir terminé ma première année à l'ENSISA, j'ai senti qu'il y avait quelque chose d'autre, quelque chose ailleurs&nbsp;: je voulais vivre quelque chose de nouveau. J'ai alors regardé quelles options s'offraient à moi et trouvé le programme CREPUQ (aujourd'hui BCI) qui m'a permis de postuler à l'École Polytechnique de Montréal. Montréal fut une expérience formidable avec des méthodes de travail différentes, un rythme différent et des personnes différentes.\""
+		}
+	},
+	{
+		"id": "3",
+		"question": {
+			"en": "What was my best work experience?",
+			"fr": "Quelle a été ma meilleure expérience professionnelle ?"
+		},
+		"answer": {
+			"en": "\"Undoubtedly, it was Elis. For the first time in my life, I was in charge of all the front-end project: I started the project, I created its architecture (component-based apporach, quite new in 2015), I chose tools, I set the build chain and I developed a graphical framework with AngularJS directives. It was the first time I could do more than code and I loved it.\"",
+			"fr": "\"Elis, sans l'ombre d'un doute. Pour la première fois de ma vie, j'étais responsable de toute la partie frontend d'un projet&nbsp;: j'ai initié le projet, je l'ai architecturé (approche par composant, assez nouveau en 2015), j'ai choisi les outils, j'ai mis en place les chaines de bulld et de déploiement et j'ai créé tout un framework graphique avec des directives AngularJS. C'était la première fois que je pouvais faire plus que du code et j'ai adoré ça.\""
+		}
+	},
+	{
+		"id": "4",
+		"question": {
+			"en": "Which artist have I seen the most times?",
+			"fr": "Quel·le artiste ai-je vu·e le plus de fois ?"
+		},
+		"answer": {
+			"en": "\"[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), six times.\"",
+			"fr": "\"[The National](https://www.youtube.com/watch?v=S97xQKZDV_4), six fois.\""
+		}
+	},
+	{
+		"id": "5",
+		"question": {
+			"en": "In which Hogwarts House should the Sorting Hat send me?",
+			"fr": "Dans quelle maison de Poudlard le Choixpeau devrait m'envoyer ?"
+		},
+		"answer": {
+			"en": "\"Ravenclaw, I think.\"",
+			"fr": "\"Serdaigle, je pense.\""
+		}
+	},
+	{
+		"id": "6",
+		"question": {
+			"en": "Tabs or spaces?",
+			"fr": "Espaces ou tabulations ?"
+		},
+		"answer": {
+			"en": "\"I was a space enthusiast but I recently learned that tabs are better for accessibility.\"",
+			"fr": "\"J'étais un adepte des espaces mais j'ai récemment appris que les tabulations étaient mieux pour l'accessibilité.\""
+		}
+	},
+	{
+		"id": "7",
+		"question": {
+			"en": "Dog or cat?",
+			"fr": "Chien ou chat ?"
+		},
+		"answer": {
+			"en": "\"Definitely cat.\"",
+			"fr": "\"Chat, sans hésiter.\""
+		}
+	}
 ]

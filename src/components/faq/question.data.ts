@@ -1,25 +1,24 @@
-import { I18nString, Locale } from '../../i18n';
+import { I18nMarkdown, I18nString, Locale } from "../../i18n";
 
-import questions from './questions.json';
+import questions from "./questions.json";
 
-export interface I18nQuestion {
-  id: string;
-  question: I18nString;
-  answer: I18nString;
+interface I18nQuestion {
+	id: string;
+	question: I18nString;
+	answer: I18nMarkdown;
 }
 
-export interface Question {
-  id: string;
-  question: string;
-  answer: string;
-}
+export type Question = Omit<I18nQuestion, "question" | "answer"> & {
+	question: string;
+	answer: string;
+};
 
 export function getQuestionList(locale: Locale): Question[] {
-  return (questions as I18nQuestion[]).map((question) => {
-    return {
-      ...question,
-      question: question.question[locale],
-      answer: question.answer[locale]
-    };
-  });
+	return (questions satisfies I18nQuestion[]).map((question) => {
+		return {
+			...question,
+			question: question.question[locale],
+			answer: JSON.parse(question.answer[locale]),
+		};
+	});
 }
