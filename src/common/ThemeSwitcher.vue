@@ -8,9 +8,7 @@ div
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import { onMounted } from "vue";
-import { onUnmounted } from "vue";
+import { defineComponent, onMounted, onUnmounted } from "vue";
 import { useI18n } from "vue-i18n";
 
 import { darkThemeMq, useIsDarkMode } from "./isDarkMode.composer";

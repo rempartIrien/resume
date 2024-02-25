@@ -20,12 +20,10 @@
 		MarkdownViewer(:input="project.challenges")
 		i18n-t(keypath="projects.powered_by", tag="p")
 			template(v-slot:technos)
-				TagList.ri-project__tags(:tags="project.tags")
+				span.ri-project__tags {{ projectTags }}
 </template>
 <script lang="ts">
-import { PropType, defineComponent } from "vue";
-import { computed } from "vue";
-import { ComputedRef } from "vue";
+import { ComputedRef, PropType, computed, defineComponent } from "vue";
 import { useI18n } from "vue-i18n";
 
 import { useIsDarkMode } from "../../common/isDarkMode.composer";
@@ -51,7 +49,10 @@ export default defineComponent({
 				? props.project.imageUrl.dark
 				: props.project.imageUrl.light;
 		});
-		return { t, imageUrl };
+		const projectTags: ComputedRef<string> = computed(() =>
+			props.project.tags.join(", "),
+		);
+		return { t, imageUrl, projectTags };
 	},
 });
 </script>
@@ -135,4 +136,5 @@ export default defineComponent({
 
 	&__tags
 		display inline
+		color var(--color-secondary)
 </style>

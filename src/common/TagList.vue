@@ -4,8 +4,7 @@ ol.ri-tagList
 </template>
 
 <script lang="ts">
-import { PropType } from "vue";
-import { defineComponent } from "vue";
+import { PropType, defineComponent } from "vue";
 
 export default defineComponent({
 	name: "TagList",
@@ -23,14 +22,15 @@ export default defineComponent({
 @import '../style/mixins'
 
 .ri-tagList
-  ri-m-unstyleList()
-  ri-m-regularText(var(--color-secondary))
+	ri-m-unstyleList()
+	ri-m-regularText(var(--color-secondary))
+	display inline-flex
+	flex-wrap wrap
+	gap 1 * $ri-baseMargin
 
-  &__item
-    display inline-block
-
-    &:not(:last-child):after
-      content ','
-      display inline-block
-      padding-right 0.5rem
+	&__item
+		display inline-block
+		border-radius 4px
+		border 1px solid var(--color-tertiary)
+		padding 0.25 * $ri-baseMargin 0.5 * $ri-baseMargin
 </style>
