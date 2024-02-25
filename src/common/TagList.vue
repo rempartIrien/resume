@@ -30,7 +30,7 @@ export default defineComponent({
 
 	&__item
 		display inline-block
-		border-radius 4px
+		border-radius $ri-borderRadius
 		border 1px solid var(--color-tertiary)
 		padding 0.25 * $ri-baseMargin 0.5 * $ri-baseMargin
 </style>
