@@ -37,7 +37,7 @@
 		]
 	},
 	{
-		"id": "0",
+		"id": "1",
 		"name": "Résumé",
 		"projectUrl": "https://pierremartinhenry.fr/",
 		"imageUrl": {
@@ -58,6 +58,33 @@
 			"TypeScript",
 			"Pug",
 			"Stylus",
+			"Vite",
+			"Prettier",
+			"ESLint"
+		]
+	},
+	{
+		"id": "2",
+		"name": "Bingo Generator",
+		"projectUrl": "https://rempartirien.fr",
+		"imageUrl": {
+			"light": "/assets/icons/bingo-light.svg",
+			"dark": "/assets/icons/bingo-dark.svg"
+		},
+		"repoUrl": "https://github.com/rempartIrien/bingo-generator",
+		"description": {
+			"en": "\"This is one of my first React projetcs. It let me experiment technologies from the React ecosystem.\"",
+			"fr": "\"Ceci est l'un de mes premiers projet en React. Il m'a permis d'expérimenter certaines techonologies liées à React.\""
+		},
+		"challenges": {
+			"en": "\"In 2021, I wanted to switch from Angular to React and after reading all React documentation, I decided to create small projects. First I made a UI for a [public API](https://restcountries.com/) and then a bingo card generator.\\n\\nThe project is ugly, I did not spend much time on UI. The real point was about reactivity in this URL-driven project.\"",
+			"fr": "\"En 2021, J'ai voulu passer d'Angular à React et après avoir lu toute la documentation de React, j'ai  décidé de créer des petits projets. J'ai d'abord fait une UI pour une [API publique](https://restcountries.com/) puis un générateur de grille de bingo\\n\\nLe project n'est pas très beau, je n'ai pas passé beaucoup de temps sur la UI. J'ai préféré expérimenté sur la réactivité dans ce projet piloté par URL.\""
+		},
+		"tags": [
+			"React",
+			"TypeScript",
+			"Linaria",
+			"Jest",
 			"Vite",
 			"Prettier",
 			"ESLint"
