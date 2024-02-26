@@ -1,21 +1,24 @@
 <template lang="pug">
 ul.ri-skills
-  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.javascript') }}
-  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.react') }}
-  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.vuejs') }}
-  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.solidjs') }}
-  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.angular') }}
-  li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.nodejs') }}
-  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.test') }}
-  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.html') }}
-  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.css') }}
-  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.english') }}
-  li.ri-skills__item.ri-skills__item--100 {{ t('profile.skills.french') }}
-  li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.git') }}
-  li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.java') }}
-  li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.scala') }}
-  li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.agile') }}
-  li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.uml') }}
+	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.javascript') }}
+	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.react') }}
+	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.vuejs') }}
+	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.solidjs') }}
+	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.angular') }}
+	li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.nodejs') }}
+	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.test') }}
+	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.html') }}
+	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.css') }}
+	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.java') }}
+	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.scala') }}
+	li.ri-skills__item.ri-skills__item--40 {{ t('profile.skills.db') }}
+	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.git') }}
+	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.docker') }}
+	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.cicd') }}
+	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.english') }}
+	li.ri-skills__item.ri-skills__item--100 {{ t('profile.skills.french') }}
+	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.agile') }}
+	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.uml') }}
 </template>
 
 <script lang="ts">

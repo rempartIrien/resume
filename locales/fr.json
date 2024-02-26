@@ -33,8 +33,8 @@
 			"description": "Comme beaucoup d'étudiants en informatique, j'ai commencé ma formation avec Java et seulement quelques lignes de PHP pour le web. J'ai intégré le monde du JavaScript par pur hasard un an après avoir obtenu mon diplôme et ce fut un tel choc ! Au début j'étais totalement perdu : il y avait le JS de base, Backbone.js, l'API pour faire des canvas... Puis j'ai découvert l'écosystème autour de ce langage et les concepts du web, avec les subtilités de l'HTML et du CSS. J'ai adoré ça !"
 		},
 		"ux": {
-			"title": "Expérience utilisateur",
-			"description": "Je suis intéressé par Node.js et tout ce qui touche au JavaScript, l'écosystème est particulièrement riche actuellement. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Aujourd'hui, je suis capable d'implémenter des interfaces et c'est bien mais pas suffisant. Demain, je veux pouvoir en imaginer et conseiller les gens sur comment obtenir la meilleure expérience. Faire de la veille en ligne et participer à des conférences m'aident à aller plus loin sur les sujets liés au web et à l'UX."
+			"title": "Au delà",
+			"description": "Je suis intéressé par Node.js et tout ce qui touche au JavaScript, l'écosystème est particulièrement riche actuellement. Par ailleurs, un autre sujet me fascine : l'expérience utilisateur. Ne pas avoir une bonne UX veut dire ne pas avoir pas d'utilisateur. Aussi, avoir de bons processus est important et repose souvent sur une bonne CI/CD (j'ai même mes propres Gitea et Drone CI en conteneurs Docker). Faire de la veille en ligne et participer à des conférences m'aident à aller plus loin sur tous ces sujets."
 		},
 		"education": {
 			"title": "Formation",
@@ -58,12 +58,15 @@
 			"nodejs": "Node.js, Express",
 			"test": "Jasmine, Jest, Vitest",
 			"html": "HTML, Pug",
-			"css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
+			"css": "CSS, CSS-in-JS, SCSS, Vanilla-extract",
 			"english": "Angiais",
 			"french": "Français",
 			"git": "Git",
 			"java": "Java, Spring",
 			"scala": "Scala",
+			"cicd": "Jenkins, Drone CI",
+			"db": "PostgreSQL, ElasticSearch",
+			"docker": "Docker",
 			"agile": "Méthodologies agiles",
 			"uml": "UML"
 		},

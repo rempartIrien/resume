@@ -34,7 +34,7 @@
 		},
 		"ux": {
 			"title": "Beyond",
-			"description": "I am interested in Node.js and everything about JavaScript and web, the ecosystem is particularly rich currently. Besides, another topic keeps fascinating me: user experience. Today, I can implement interfaces and that is good but not enough. Tomorrow, I want to imagine them and be able to advise people about how to reach the best experience. Reading online articles and attending conferences help me go deeper into web and UX subjects."
+			"description": "I am interested in Node.js and everything about JavaScript and web, the ecosystem is particularly rich currently. Besides, another topic keeps fascinating me: user experience because no UX means no user. Also, having good processes are important and they often rely on good CI/CD (I even have my own Gitea and Drone CI in Docker containers). Reading online articles and attending conferences help me go deeper into all these topics."
 		},
 		"education": {
 			"title": "Education",
@@ -58,12 +58,15 @@
 			"nodejs": "Node.js, Express",
 			"test": "Jasmine, Jest, Vitest",
 			"html": "HTML, Pug",
-			"css": "CSS, CSS-in-JS, Vanilla-extract, Stylus, Sass, SCSS",
+			"css": "CSS, CSS-in-JS, SCSS, Vanilla-extract",
 			"english": "English",
 			"french": "French",
 			"git": "Git",
 			"java": "Java, Spring",
 			"scala": "Scala",
+			"cicd": "Jenkins, Drone CI",
+			"db": "PostgreSQL, ElasticSearch",
+			"docker": "Docker",
 			"agile": "Agile methodologies",
 			"uml": "UML"
 		},
