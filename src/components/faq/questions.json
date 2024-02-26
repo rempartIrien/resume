@@ -2,7 +2,7 @@
 	{
 		"id": "0",
 		"question": {
-			"en": "What am I looing for?",
+			"en": "What am I looking for?",
 			"fr": "Qu'est-ce que je cherche ?"
 		},
 		"answer": {
@@ -17,7 +17,7 @@
 			"fr": "Quelles sont mes valeurs ?"
 		},
 		"answer": {
-			"en": "\"- A bird in the hand is worth two in the bush.\\n\\n- Doubt is the beginning of wisdom. — Aristotle\\n\\n- [If you run, you gain one. If you move forward, you gain two.](https://www.youtube.com/watch?v=ApO5gTjtfcQ)\"",
+			"en": "\"- A bird in the hand is worth two in the bush.\\n\\n- Doubt is the beginning of wisdom. — Aristotle\\n\\n- [If you run, you gain one, but if you move forward, you gain two.](https://www.youtube.com/watch?v=ApO5gTjtfcQ)\"",
 			"fr": "\"- Un tiens vaut mieux que deux tu l'auras.\\n\\n- Le doute est le commencement de la sagesse. — Aristote\\n\\n- [Fuir permet de gagner, mais toujours moins qu'avancer.](https://www.youtube.com/watch?v=e0zcxYf-25c)\""
 		}
 	},
