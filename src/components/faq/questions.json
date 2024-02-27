@@ -6,8 +6,8 @@
 			"fr": "Qu'est-ce que je cherche ?"
 		},
 		"answer": {
-			"en": "\"I'm looking for a place where I can be proud of my work. I want people to move forward and build the best product ever made.\"",
-			"fr": "\"Je rechercle un endroit où je serai fier de mon travail. Je veux une équipe qui va de l'avant avec pour but le meilleur produit possible.\""
+			"en": "\"I'm looking for a place where I can be proud of my work and where I have the means to fulfill my objectives. Also, I want people to move toward the same goal and build the best product ever made. Besides, I think transparency and honesty are very important to achieve this. Last but not least, I am convinced good processes are necessary because organization is important.\"",
+			"fr": "\"Je recherche un endroit où je serai fier de mon travail et où j'aurai les moyens de remplir mes objectifs. Je veux une équipe qui va de l'avant vers le même but afin de construire le meilleur produit possible. Par ailleurs, je pense qu'il est nécessaire d'être transparent et honnête pour y parvenir. Enfin, je suis convaincu que de bons processus sont nécessaires pour être bien organisé.\""
 		}
 	},
 	{
@@ -39,7 +39,7 @@
 			"fr": "Quelle a été ma meilleure expérience professionnelle ?"
 		},
 		"answer": {
-			"en": "\"Undoubtedly, it was Elis. For the first time in my life, I was in charge of all the front-end project: I started the project, I created its architecture (component-based apporach, quite new in 2015), I chose tools, I set the build chain and I developed a graphical framework with AngularJS directives. It was the first time I could do more than code and I loved it.\"",
+			"en": "\"Undoubtedly, it was Elis. For the first time in my life, I was in charge of all the front-end project: I started the project, I created its architecture (component-based apporach, quite new in 2015), I chose tools, I set the build chain and I developed a UI framework with AngularJS directives. It was the first time I could do more than code and I loved it.\"",
 			"fr": "\"Elis, sans l'ombre d'un doute. Pour la première fois de ma vie, j'étais responsable de toute la partie frontend d'un projet&nbsp;: j'ai initié le projet, je l'ai architecturé (approche par composant, assez nouveau en 2015), j'ai choisi les outils, j'ai mis en place les chaines de bulld et de déploiement et j'ai créé tout un framework graphique avec des directives AngularJS. C'était la première fois que je pouvais faire plus que du code et j'ai adoré ça.\""
 		}
 	},
