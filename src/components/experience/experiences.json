@@ -1,21 +1,62 @@
 [
 	{
-		"id": "13",
+		"id": "14",
 		"dateString": {
-			"en": "03/2022 to today",
-			"fr": "De 03/2022 à aujourd'hui"
+			"en": "03/2024 to today",
+			"fr": "De 03/2024 à aujourd'hui"
 		},
 		"title": {
-			"en": "Linxo - D8",
-			"fr": "Linxo - D8"
+			"en": "Linxo (Crédit Agricole subsidiary) - AIS",
+			"fr": "Linxo (filière de Crédit Agricole) - AIS"
 		},
 		"role": {
 			"en": "Front-end developer",
 			"fr": "Développeur front-end"
 		},
 		"content": {
-			"en": "D8 is a digital vault that stores users' documents and can also collect them from different providers. I work on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
-			"fr": "D8 est une coffrefort numérique qui stocke les documents des utilisateurs et sait aussi les collecter depuis différents organismes. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), je travaille sur les interfaces web."
+			"en": "AIS (for Account Information Service) is a widget that lets users gather their bank accounts from different financial establishments at the same place. I created interfaces and called Linxo's APIs.",
+			"fr": "AIS (pour Account Information Service) est un widget permettant aux utilisateurs d'agréger leurs comptes provenant de banques différentes au même endroit. Mon travail consistait à créer les interfaces et appeler les API de Linxo."
+		},
+		"tags": [
+			"React",
+			"TypeScript",
+			"MaterialUI",
+			"styled-components",
+			"Jest",
+			"Node.js",
+			"Express",
+			"Playwright",
+			"ESLint",
+			"Prettier",
+			"Vite",
+			"Create React App",
+			"Git",
+			"Jenkins",
+			"Helm",
+			"Docker",
+			"Kubernetes",
+			"Scrum"
+		],
+		"inProgress": true,
+		"collapsed": false
+	},
+	{
+		"id": "13",
+		"dateString": {
+			"en": "03/2022 to 03/2024",
+			"fr": "De 03/2022 à 03/2024"
+		},
+		"title": {
+			"en": "Linxo (Crédit Agricole subsidiary) - Mon Sécuricoffre+",
+			"fr": "Linxo (filière de Crédit Agricole) - Mon Sécuricoffre+"
+		},
+		"role": {
+			"en": "Front-end developer",
+			"fr": "Développeur front-end"
+		},
+		"content": {
+			"en": "Mon Sécuricoffre+ is a digital vault that stores users' documents and can also collect them from different providers. I worked on web interfaces as part of an heterogeneous team (front-end, back-end, QA, UI).",
+			"fr": "Mon Sécuricoffre+ est un coffrefort numérique qui stocke les documents des utilisateurs et sait aussi les collecter depuis différents organismes. Au sein d'une équipe hétérogène (back-end, front-end, QA, UI), j'ai travaillé sur les interfaces web."
 		},
 		"tags": [
 			"React",
@@ -38,7 +79,7 @@
 			"Kubernetes",
 			"Scrum"
 		],
-		"inProgress": true,
+		"inProgress": false,
 		"collapsed": false
 	},
 	{
