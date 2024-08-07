@@ -19,7 +19,7 @@
           a(href="https://github.com/rempartIrien", target="_blank" rel="noopener noreferrer nofollow")
             img.ri-home__linkImage(:src="githubLogoUrl", :alt="t('home.github')")
         li
-          a(href="https://www.linkedin.com/in/pierremartin2", target="_blank" rel="noopener noreferrer nofollow")
+          a(href="https://www.linkedin.com/in/pierremartinhenry", target="_blank" rel="noopener noreferrer nofollow")
             img.ri-home__linkImage(src="/assets/logos/logo-linkedin.png", :alt="t('home.linkedin')")
 </template>
 
