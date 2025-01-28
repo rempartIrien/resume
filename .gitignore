@@ -5,5 +5,5 @@ www
 dist-ssr
 *.local
 .vscode
-public/Resume_Pierre_Martin-Henry.pdf
-public/CV_Pierre_Martin-Henry.pdf
+public/files/*
+
