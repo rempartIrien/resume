@@ -1,9 +1,49 @@
 [
 	{
+		"id": "15",
+		"dateString": {
+			"en": "11/2024 to today",
+			"fr": "De 11/2024 à aujourd'hui"
+		},
+		"title": {
+			"en": "iWE - iWE Platform",
+			"fr": "iWE - Plateforme iWE"
+		},
+		"role": {
+			"en": "Fullstack developer",
+			"fr": "Développeur fullstack"
+		},
+		"content": {
+			"en": "iWE develops a low-code solution to create tailor-made applications very quickly for each of its customers.",
+			"fr": "iWE développe une solution low-code afin de pouvoir créer des applications sur-mesure très rapidement pour chacun de ses clients."
+		},
+		"tags": [
+			"React",
+			"TypeScript",
+			"MaterialUI",
+			"JSS",
+			"Node.js",
+			"Express",
+			"AngularJS",
+			"Cypress",
+			"ESLint",
+			"Prettier",
+			"Webpack",
+			"Git",
+			"Jenkins",
+			"Helm",
+			"Docker",
+			"Kubernetes",
+			"Kanban"
+		],
+		"inProgress": true,
+		"collapsed": false
+	},
+	{
 		"id": "14",
 		"dateString": {
-			"en": "03/2024 to today",
-			"fr": "De 03/2024 à aujourd'hui"
+			"en": "03/2024 to 07/2024",
+			"fr": "De 03/2024 à 07/2024"
 		},
 		"title": {
 			"en": "Linxo (Crédit Agricole subsidiary) - AIS",
@@ -37,8 +77,8 @@
 			"Kubernetes",
 			"Scrum"
 		],
-		"inProgress": true,
-		"collapsed": false
+		"inProgress": false,
+		"collapsed": true
 	},
 	{
 		"id": "13",
@@ -94,7 +134,7 @@
 		},
 		"role": {
 			"en": "Fullstack developer, tech lead on front end",
-			"fr": "Fullstack developer, tech lead sur la partie frontend"
+			"fr": "Développeur fullstack, tech lead sur la partie frontend"
 		},
 		"content": {
 			"en": "Homiwoo provides real estate data to its clients through interfaces, PDF reports and APIs. I mainly work on front-end aspects but also on Scala and Elasticsearch parts sometimes.",
