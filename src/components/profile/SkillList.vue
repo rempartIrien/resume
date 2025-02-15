@@ -1,35 +1,31 @@
 <template lang="pug">
 ul.ri-skills
-	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.javascript') }}
-	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.react') }}
-	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.vuejs') }}
-	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.solidjs') }}
-	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.angular') }}
-	li.ri-skills__item.ri-skills__item--60 {{ t('profile.skills.nodejs') }}
-	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.test') }}
-	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.html') }}
-	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.css') }}
-	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.java') }}
-	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.scala') }}
-	li.ri-skills__item.ri-skills__item--40 {{ t('profile.skills.db') }}
-	li.ri-skills__item.ri-skills__item--90 {{ t('profile.skills.git') }}
-	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.docker') }}
-	li.ri-skills__item.ri-skills__item--50 {{ t('profile.skills.cicd') }}
-	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.english') }}
-	li.ri-skills__item.ri-skills__item--100 {{ t('profile.skills.french') }}
-	li.ri-skills__item.ri-skills__item--80 {{ t('profile.skills.agile') }}
-	li.ri-skills__item.ri-skills__item--70 {{ t('profile.skills.uml') }}
+  li.ri-skills__item
+    h2.ri-skills__useType.ri-skills__useType--dailyUse {{ t("profile.skills.daily_use") }}
+    TagList(:tags="skillMap.dailyUse")
+  li.ri-skills__item
+    h2.ri-skills__useType.ri-skills__useType--occasionalUse {{ t("profile.skills.occasional_use") }}
+    TagList(:tags="skillMap.occasionalUse")
+  li.ri-skills__item
+    h2.ri-skills__useType.ri-skills__useType--hobbies {{ t("profile.skills.hobbies") }}
+    TagList(:tags="skillMap.hobbies")
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import { useI18n } from "vue-i18n";
 
+import TagList from "../../common/TagList.vue";
+
+import { SkillMap, getSkillMap } from "./skill.data";
+
 export default defineComponent({
 	name: "SkillList",
+	components: { TagList },
 	setup() {
 		const { t } = useI18n();
-		return { t };
+		const skillMap: SkillMap = getSkillMap();
+		return { t, skillMap };
 	},
 });
 </script>
@@ -41,44 +37,26 @@ export default defineComponent({
 $ri-pointWidth = 0.25 * $ri-baseMargin
 
 .ri-skills
-  ri-m-unstyleList()
-  padding $ri-baseMargin 0
-  display grid
-  grid-column-gap 2 * $ri-baseMargin
-  grid-template-columns repeat(2, 1fr)
-  @media screen and (min-width: $ri-breakpoint-minLarge)
-    grid-template-columns repeat(3, 1fr)
+	ri-m-unstyleList()
+	padding $ri-baseMargin 0
 
-  &__item
-    position relative
-    display block
-    align-self end
-    padding 0.5 * $ri-baseMargin
-    padding-top 1.5 * $ri-baseMargin
-    border-bottom $ri-pointWidth solid var(--color-tertiary)
+	&__item
+		& + &
+			margin-top $ri-baseMargin
 
-    &::after
-      position absolute
-      content ''
-      height $ri-baseMargin
-      width $ri-baseMargin
-      bottom - 0.5 * ($ri-baseMargin + $ri-pointWidth)
-      left 50%
-      border-radius 50%
-      background-color var(--color-tertiary)
+	&__useType
+		ri-m-subtitleText(var(--color-tertiary))
+		padding 0.5 * $ri-baseMargin 0
 
-    &--30::after
-      left 30%
-    &--40::after
-      left 40%
-    &--60::after
-      left 60%
-    &--70::after
-      left 70%
-    &--80::after
-      left 80%
-    &--90::after
-      left 90%
-    &--100::after
-      left "calc(100% - %s)" % (2 * $ri-pointWidth)
+		&::before
+			padding-right: $ri-baseMargin
+
+		&--dailyUse::before
+			content: '✅'
+
+		&--occasionalUse::before
+			content: '✨'
+
+		&--hobbies::before
+			content: '🌈'
 </style>

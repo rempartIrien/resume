@@ -1,0 +1,39 @@
+{
+	"dailyUse": [
+		"JavaScript",
+		"TypeScript",
+		"React",
+		"Node.js",
+		"Express",
+		"Jest",
+		"HTML",
+		"CSS",
+		"CSS-in-JS",
+		"Git",
+		"Docker",
+		"Kanban"
+	],
+	"occasionalUse": [
+		"Angular",
+		"Jasmine",
+		"SCSS",
+		"Java",
+		"Spring",
+		"Scala",
+		"PostgreSQL",
+		"ElasticSearch",
+		"Scrum"
+	],
+	"hobbies": [
+		"Vue.js",
+		"SolidJS",
+		"SolidStart",
+		"Remix",
+		"Vitest",
+		"Pug",
+		"Tailwind CSS",
+		"Vanilla-extract",
+		"Ansible",
+		"DroneCI"
+	]
+}
