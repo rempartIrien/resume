@@ -23,7 +23,7 @@ export default defineComponent({
 
 .ri-tagList
 	ri-m-unstyleList()
-	ri-m-regularText(var(--color-secondary))
+	ri-m-regularText(var(--color-primary))
 	display inline-flex
 	flex-wrap wrap
 	gap 1 * $ri-baseMargin
